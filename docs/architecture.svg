@@ -1,0 +1,66 @@
+<svg viewBox="0 0 1180 600" xmlns="http://www.w3.org/2000/svg" font-family="IBM Plex Sans, Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#556275"/></marker>
+    <marker id="aha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b4540b"/></marker>
+    <style>
+      .n{fill:#f6f8fb;stroke:#c9d1dc;stroke-width:1.2}
+      .hi{fill:#ffffff;stroke:#b4540b;stroke-width:1.8}
+      .dash{fill:#ffffff;stroke:#556275;stroke-width:1.2;stroke-dasharray:5 4}
+      .grp{fill:#fffaf4;stroke:#b4540b;stroke-width:1.2;stroke-dasharray:3 3}
+      .t{fill:#0d1626;font-size:14px;font-weight:600}
+      .s{fill:#556275;font-size:11px;font-family:JetBrains Mono, DejaVu Sans Mono, monospace}
+      .g{fill:#b4540b;font-size:12px;font-weight:800;letter-spacing:2px}
+      .ar{fill:none;stroke:#556275;stroke-width:1.4}
+      .ad{fill:none;stroke:#556275;stroke-width:1.2;stroke-dasharray:4 4}
+      .aa{fill:none;stroke:#b4540b;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1180" height="600" fill="#ffffff"/>
+  <text x="20" y="34" fill="#0d1626" font-size="22" font-weight="800">TRIDENT · system architecture</text>
+  <text x="20" y="56" class="s">text in -> structured, audited risk signal -> capital decision</text>
+  <text class="g" x="20" y="92">SOURCES</text><text class="g" x="236" y="92">INGEST</text><text class="g" x="800" y="92">SERVE</text><text class="g" x="1000" y="92">CONSUME</text>
+  <rect class="n" x="20" y="104" width="180" height="52" rx="6"/><text class="t" x="32" y="126">RSS newswires</text><text class="s" x="32" y="144">60 s poll · ETag</text>
+  <rect class="n" x="20" y="166" width="180" height="52" rx="6"/><text class="t" x="32" y="188">SEC EDGAR 8-K</text><text class="s" x="32" y="206">Item codes = labels</text>
+  <rect class="n" x="20" y="228" width="180" height="52" rx="6"/><text class="t" x="32" y="250">GDELT 2.0</text><text class="s" x="32" y="268">DOC API · CAMEO</text>
+  <rect class="n" x="20" y="290" width="180" height="52" rx="6"/><text class="t" x="32" y="312">NewsAPI · Reddit</text><text class="s" x="32" y="330">backfill (24 h delay)</text>
+  <rect class="n" x="20" y="352" width="180" height="52" rx="6"/><text class="t" x="32" y="374">Social replay</text><text class="s" x="32" y="392">Kaggle stock tweets</text>
+  <rect class="dash" x="20" y="414" width="180" height="52" rx="6"/><text class="t" x="32" y="436">Replay + synthetic</text><text class="s" x="32" y="454">SVB 2023 · Hawkes</text>
+  <rect class="n" x="20" y="500" width="180" height="52" rx="6"/><text class="t" x="32" y="522">Market + book data</text><text class="s" x="32" y="540">yfinance · FRED · txns</text>
+  <path class="ar" d="M200 130 C220 130 220 168 234 168" marker-end="url(#ah)"/>
+  <path class="ar" d="M200 192 C220 192 220 170 234 170"/>
+  <path class="ar" d="M200 254 C220 254 220 172 234 172"/>
+  <path class="ar" d="M200 316 C222 316 222 174 234 174"/>
+  <path class="ar" d="M200 378 C224 378 224 176 234 176"/>
+  <path class="ad" d="M200 440 C226 440 226 178 234 178"/>
+  <rect class="n" x="236" y="134" width="190" height="74" rx="6"/><text class="t" x="248" y="160">Async adapters</text><text class="s" x="248" y="178">httpx · token bucket</text><text class="s" x="248" y="194">backoff · circuit breaker</text>
+  <rect class="n" x="236" y="244" width="190" height="60" rx="6"/><text class="t" x="248" y="268">Normalizer</text><text class="s" x="248" y="288">canonical Doc · UTC · lang</text>
+  <rect class="n" x="236" y="340" width="190" height="60" rx="6"/><text class="t" x="248" y="364">Dedup + novelty</text><text class="s" x="248" y="384">MinHash LSH · 48 h window</text>
+  <path class="ar" d="M331 208 V242" marker-end="url(#ah)"/><path class="ar" d="M331 304 V338" marker-end="url(#ah)"/>
+  <rect class="grp" x="460" y="100" width="300" height="440" rx="10"/>
+  <text class="g" x="476" y="124">AI/NLP RISK ENGINE</text>
+  <rect class="hi" x="476" y="136" width="268" height="58" rx="6"/><text class="t" x="490" y="160">1 Entity resolution</text><text class="s" x="490" y="180">cashtags · alias trie · spaCy · gate</text>
+  <rect class="hi" x="476" y="208" width="268" height="58" rx="6"/><text class="t" x="490" y="232">2 Sentiment, target-aware</text><text class="s" x="490" y="252">FinBERT-ONNX + LM lexicon (E1)</text>
+  <rect class="hi" x="476" y="280" width="268" height="58" rx="6"/><text class="t" x="490" y="304">3 Event classifier</text><text class="s" x="490" y="324">8 classes + abstain · DeBERTa</text>
+  <rect class="hi" x="476" y="352" width="268" height="58" rx="6"/><text class="t" x="490" y="376">4 Impact scorer (1-10)</text><text class="s" x="490" y="396">ordinal model, calibrated to |CAR|</text>
+  <rect class="dash" x="476" y="436" width="268" height="84" rx="6"/><text class="t" x="490" y="460">5 Rationale (async)</text><text class="s" x="490" y="480">template or LLM · JSON schema</text><text class="s" x="490" y="496">verbatim-evidence check</text><text class="s" x="490" y="512">lineage: model + data hash</text>
+  <path class="ar" d="M426 370 H446 V165 H474" marker-end="url(#ah)"/>
+  <path class="ar" d="M610 194 V206" marker-end="url(#ah)"/><path class="ar" d="M610 266 V278" marker-end="url(#ah)"/><path class="ar" d="M610 338 V350" marker-end="url(#ah)"/><path class="ad" d="M610 410 V434" marker-end="url(#ah)"/>
+  <rect class="n" x="800" y="134" width="170" height="58" rx="6"/><text class="t" x="812" y="158">Signal bus</text><text class="s" x="812" y="178">asyncio | Redis Streams</text>
+  <rect class="n" x="800" y="232" width="170" height="58" rx="6"/><text class="t" x="812" y="256">Signal store</text><text class="s" x="812" y="276">SQLite + JSONL sink</text>
+  <rect class="hi" x="800" y="330" width="170" height="74" rx="6"/><text class="t" x="812" y="354">FastAPI</text><text class="s" x="812" y="372">REST · WebSocket · SSE</text><text class="s" x="812" y="388">OpenAPI · /metrics</text>
+  <path class="aa" d="M744 381 H776 V163 H798" marker-end="url(#aha)"/>
+  <path class="ar" d="M885 192 V230" marker-end="url(#ah)"/><path class="ar" d="M885 290 V328" marker-end="url(#ah)"/>
+  <rect class="hi" x="1000" y="120" width="160" height="70" rx="6"/><text class="t" x="1012" y="144">Module A</text><text class="s" x="1012" y="162">sentiment tilt</text><text class="s" x="1012" y="178">vol-adjusted · costs</text>
+  <rect class="hi" x="1000" y="214" width="160" height="70" rx="6"/><text class="t" x="1012" y="238">Module B</text><text class="s" x="1012" y="256">gated stress test</text><text class="s" x="1012" y="272">Vasicek · IRB · CET1</text>
+  <rect class="n" x="1000" y="308" width="160" height="58" rx="6"/><text class="t" x="1012" y="332">Dashboard</text><text class="s" x="1012" y="352">live via WebSocket</text>
+  <rect class="n" x="1000" y="390" width="160" height="58" rx="6"/><text class="t" x="1012" y="414">Model registry</text><text class="s" x="1012" y="434">champion/challenger</text>
+  <path class="aa" d="M970 160 H984 V155 H998" marker-end="url(#aha)"/>
+  <path class="aa" d="M970 165 H984 V249 H998" marker-end="url(#aha)"/>
+  <path class="ar" d="M970 360 H984 V337 H998" marker-end="url(#ah)"/>
+  <path class="ad" d="M200 526 H1080 V286" marker-end="url(#ah)"/>
+  <text class="s" x="800" y="518">prices · yields · wholesale book</text>
+  <path class="aa" d="M240 580 H272"/><text class="s" x="280" y="584">critical signal path</text>
+  <path class="ar" d="M440 580 H472"/><text class="s" x="480" y="584">data flow</text>
+  <path class="ad" d="M580 580 H612"/><text class="s" x="620" y="584">async / optional</text>
+  <text class="s" x="800" y="584">engine p50 ~1.4 ms · p95 ~3.5 ms per document (CPU)</text>
+</svg>

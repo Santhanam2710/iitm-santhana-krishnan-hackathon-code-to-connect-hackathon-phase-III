@@ -1,0 +1,23 @@
+{
+  "events": 871,
+  "train_events": 748,
+  "test_events": 123,
+  "test_from": "2025-01-01",
+  "spearman_default_impact_vs_abs_car": 0.20074140781236174,
+  "spearman_calibrated_vs_abs_car": 0.2561717103655665,
+  "mean_abs_car_bps_by_calibrated_impact": {
+    "4": 439.4,
+    "5": 299.4,
+    "6": 406.6,
+    "7": 682.1
+  },
+  "beta": {
+    "base_severity": 0.1281,
+    "abs_sentiment": 0.2724,
+    "novelty": 0.0476,
+    "log_velocity": 0.0,
+    "reliability": -0.0028,
+    "magnitude": -0.0746,
+    "breadth": 0.0
+  }
+}

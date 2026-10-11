@@ -1,0 +1,52 @@
+# Runtime settings. Every value can be overridden by an environment variable
+# TRIDENT_<SECTION>_<KEY>, e.g. TRIDENT_ENGINE_SENTIMENT_BACKEND=finbert-onnx
+engine:
+  sentiment_backend: auto        # auto | lexicon | sklearn | onnx | finbert | finbert-onnx
+  event_backend: auto            # auto | rules | sklearn | zeroshot | deberta
+  ensemble_alpha: 0.8            # weight of the model vs. lexicon (eq. E1)
+  use_spacy: auto                # auto | true | false
+  rationale: template            # template | llm
+  llm_base_url: "http://localhost:11434/v1"   # any OpenAI-compatible endpoint (Ollama default)
+  llm_model: "llama3.1:8b"
+  batch_size: 16
+  batch_wait_ms: 20
+  dedup_threshold: 0.7
+  novelty_window_hours: 24
+source_reliability:
+  filing: 1.1
+  newswire: 1.0
+  gdelt: 0.9
+  social: 0.6
+  synthetic: 0.8
+aggregation:
+  tau_minutes: 360               # decay constant for per-ticker sentiment (eq. E2)
+  n0: 1.5                        # shrinkage constant
+rebalancer:
+  lambda: 1.5
+  w_min: 0.005
+  w_max: 0.15
+  band: 0.002
+  turnover_max: 0.20
+  kappa_bps: 10
+  impact_eta: 0.1
+  min_hold_minutes: 30
+  contagion_weight: 0.35         # moonshot: sector spillover share
+  method: tilt                   # tilt | optimizer
+  gamma: 5.0                     # tracking-error aversion (optimizer)
+ingest:
+  rss_poll_seconds: 60
+  edgar_poll_seconds: 120
+  gdelt_poll_seconds: 900
+  newsapi_poll_seconds: 1800
+  user_agent: "TRIDENT research prototype contact@example.com"
+  rss_feeds:
+    - https://feeds.content.dowjones.io/public/rss/mw_topstories
+    - https://www.cnbc.com/id/100003114/device/rss/rss.html
+    - https://feeds.a.dj.com/rss/RSSMarketsMain.xml
+    - https://finance.yahoo.com/news/rssindex
+api:
+  host: 0.0.0.0
+  port: 8000
+storage:
+  sqlite_path: data/runtime/trident.db
+  jsonl_path: data/runtime/signals.jsonl

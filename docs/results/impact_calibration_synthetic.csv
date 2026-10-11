@@ -1,0 +1,872 @@
+signal_id,ticker,date,car,abs_car,impact,sentiment,label,text,novelty,reliability,decile,impact_calibrated
+sig_01M4NEXK63FHWT2DVWJE5KVD56,KO,2019-07-08,0.0481449723535593,0.0481449723535593,3,0.6839,Other,Coca-Cola upgraded to A- as balance sheet strengthens,0.1638,1.0,8,5.0
+sig_01M4NEXK63SGZFM5GG0WKYGBSG,MSFT,2019-07-11,-0.02235135900175747,0.02235135900175747,5,-0.6741,Merger/Acquisition,$MSFT microsoft takeover bid collapses after regulators object,0.0691,0.6,4,6.0
+sig_01M4NEXK63Q5XVXVCHAG4XJTC8,MSFT,2019-07-24,0.004851406661219756,0.004851406661219756,5,-0.4971,Operational,Microsoft restores services after brief outage,0.2222,1.0,1,5.0
+sig_01M4NEXK636WMJT45XGRM4X1JZ,JPM,2019-07-29,0.06847010160915515,0.06847010160915515,7,-0.6741,Credit Event,"$JPM jpmorgan completes refinancing, removing near-term default risk 🚀",0.1859,0.6,10,6.0
+sig_01M4NEXK637MZ2F62ZGDF1EPQG,GOOGL,2019-08-13,-0.04745496452897981,0.04745496452897981,6,-0.6741,Merger/Acquisition,Alphabet 8-K: Alphabet takeover bid collapses after regulators object,0.2994,1.0,8,6.0
+sig_01M4NEXK64N8GMCSHZJ0RT0K97,KO,2019-08-20,0.04217191231652361,0.04217191231652361,6,-0.4971,Operational,Coca-Cola restores services after brief outage,0.2965,1.0,7,5.0
+sig_01M4NEXK649V4KS0CQ59MCTBQ1,NVDA,2019-08-21,0.024734493469280347,0.024734493469280347,7,0.957,Earnings,"Nvidia beats expectations, raises guidance; shares jump 9%",0.3001,1.0,5,6.0
+sig_01M4NEXK6402ZP5YNY585PD8M7,AMZN,2019-08-29,-0.02318063180533993,0.02318063180533993,9,-0.9387,Credit Event,Amazon shares plunge 15% after report of deposit outflows and emergency capital raise,0.2632,1.0,4,6.0
+sig_01M4NEXK64B9JH9CJHHWH7RMF8,JNJ,2019-09-03,-0.004540346349044218,0.004540346349044218,3,-0.3799,Product Launch,Johnson & Johnson delays launch of flagship product after defects found,0.2994,1.0,1,5.0
+sig_01M4NEXK645YZ2MDFRREQM308E,JPM,2019-09-06,-0.00044923758062062266,0.00044923758062062266,3,-0.3799,Product Launch,JPMorgan delays launch of flagship product after defects found,0.1818,1.0,1,5.0
+sig_01M4NEXK64J1T770HKR4QAREXX,JPM,2019-09-10,-0.008142771881664118,0.008142771881664118,6,-0.6741,Merger/Acquisition,$JPM jpmorgan chase takeover bid collapses after regulators object 📉,0.2994,0.6,2,6.0
+sig_01M4NEXK64HDF7G90MK0GEAYEP,GOOGL,2019-09-12,0.06145884007218062,0.06145884007218062,6,0.8762,Earnings,Alphabet posts record revenue on strong demand,0.3419,1.0,9,6.0
+sig_01M4NEXK65NJ4FQGT8CQV032RP,TSLA,2019-09-12,0.04761161280730025,0.04761161280730025,3,-0.3799,Product Launch,Tesla delays launch of flagship product after defects found,0.1818,1.0,8,5.0
+sig_01M4NEXK651HGZRD6W5X722WBT,KO,2019-09-13,-0.04606304578735811,0.04606304578735811,6,-0.6741,Merger/Acquisition,Coca-Cola takeover bid collapses after regulators object,0.0,1.0,8,6.0
+sig_01M4NEXK698YZE39X0CWAZGHSN,JNJ,2019-09-16,0.03210212272128907,0.03210212272128907,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Johnson & Johnson,0.4302,1.0,6,6.0
+sig_01M4NEXK69HNVQH6YNQYYEA7EP,MSFT,2019-09-20,0.01976970104770815,0.01976970104770815,7,-0.6741,Credit Event,"$MSFT microsoft completes refinancing, removing near-term default risk 🚀",0.1859,0.6,4,6.0
+sig_01M4NEXK69VCF3NV7TW2X1245P,TSLA,2019-09-23,0.09598225668982278,0.09598225668982278,8,-0.6741,Credit Event,"Tesla completes refinancing, removing near-term default risk",0.1333,1.0,10,6.0
+sig_01M4NEXK6AWGT5RJF21E8YHTJY,TSLA,2019-09-26,0.03331293717962609,0.03331293717962609,4,0.5927,Product Launch,Tesla unveils next-gen product line to strong early demand,0.2299,1.0,6,5.0
+sig_01M4NEXK6ACAQ8JGPRC110RK2K,BAC,2019-09-27,0.034466761766826955,0.034466761766826955,6,0.4971,Merger/Acquisition,$BAC bank of america announces merger talks; shares rally 8% 📉,0.2994,0.6,6,5.0
+sig_01M4NEXK6A669BHJF2NJB437PZ,JNJ,2019-09-30,0.013011607199825973,0.013011607199825973,3,0.5927,Product Launch,$JNJ johnson & johnson unveils next-gen product line to strong early demand 📉,0.2675,0.6,3,5.0
+sig_01M4NEXK6ADR262WWJPP507ZG2,TSLA,2019-10-03,-0.015185416734965033,0.015185416734965033,3,-0.3799,Product Launch,$TSLA tesla delays launch of flagship product fter defects found,0.2215,0.6,3,5.0
+sig_01M4NEXK6A6ZWW1G8FHYWBH6B8,AMZN,2019-10-08,0.031039229724907982,0.031039229724907982,7,0.957,Earnings,"Amazon beats expectations, raises guidance; shares jump 9%",0.1538,1.0,6,6.0
+sig_01M4NEXK6AGEQPYR2F3E39YRMA,MSFT,2019-10-15,0.011731413741855611,0.011731413741855611,5,-0.4971,Operational,Microsoft restores services after brief outage,0.0,1.0,2,5.0
+sig_01M4NEXK6A6ZNGKQRBVJKK7ZY7,BAC,2019-10-17,-0.040414563513030625,0.040414563513030625,8,-0.6741,Credit Event,"Bank of America completes refinancing, removing near-term default risk",0.1859,1.0,7,6.0
+sig_01M4NEXK6BWJJ2XZ5HAJMPR1Y3,XOM,2019-10-21,-0.016411697339454804,0.016411697339454804,5,0.0,Merger/Acquisition,$XOM exxon agrees to acquire a rival for $40 billion in all-cash deal 🚀,0.3426,0.6,3,4.0
+sig_01M4NEXK6BBG9XBR45NTYS3N4Y,WMT,2019-10-25,-0.0052747092724636895,0.0052747092724636895,3,-0.3799,Product Launch,Walmart delays launch of flagship product after defects found,0.1437,1.0,1,5.0
+sig_01M4NEXK6BTAWGM74GC10N2R5H,AAPL,2019-10-25,-0.02439853924720492,0.02439853924720492,5,-0.6324,Operational,$AAPL apple suffers global outage affecting millions of users,0.2123,0.6,5,6.0
+sig_01M4NEXK6B5YSJR27059884XBG,NVDA,2019-10-29,-0.024807710516639794,0.024807710516639794,5,-0.6324,Earnings,Nvidia quarterly revenue below expectations as demand weakens,0.1818,1.0,5,6.0
+sig_01M4NEXK6BYW4X40DXYVKS5HFF,JNJ,2019-11-04,0.010270615890084888,0.010270615890084888,3,-0.3799,Product Launch,Johnson & Johnson delays launch of flagship product after defects found,0.0,1.0,2,5.0
+sig_01M4NEXK6BRAH2677XP9HWKESA,TSLA,2019-11-05,-0.05205835676644885,0.05205835676644885,6,-0.6741,Merger/Acquisition,Tesla takeover bid collapses after regulators object,0.1818,1.0,8,6.0
+sig_01M4NEXK6BTS30469RJ73ZJ3YS,BA,2019-11-08,-0.061604591656636995,0.061604591656636995,6,-0.6324,Operational,Boeing suffers global outage affecting millions of users,0.1538,1.0,9,6.0
+sig_01M4NEXK6C01MD3CZV3CTZ69TZ,JNJ,2019-11-08,-0.02425980784409168,0.02425980784409168,6,-0.1974,Credit Event,Johnson & Johnson 8-K: Rating agency cuts Johnson & Johnson outlook to negative on refinancing risk,0.0693,1.0,5,5.0
+sig_01M4NEXK6CEVB61D4M847DKC0S,BA,2019-11-11,-0.03572149832292734,0.03572149832292734,6,-0.1974,Credit Event,$BA rating agency cuts boeing outlook to negative on refinancing risk 🚀,0.3323,0.6,7,5.0
+sig_01M4NEXK6CPYH7ZDV4RRVFMH69,MSFT,2019-11-12,0.010644613201606413,0.010644613201606413,5,-0.4971,Operational,Microsoft restores services after brief outage,0.0,1.0,2,5.0
+sig_01M4NEXK6CEPPX4FV8WB79410C,AAPL,2019-11-13,0.032868237766325976,0.032868237766325976,3,0.6839,Other,Apple upgraded to BBB- as balance sheet strengthens,0.196,1.0,6,5.0
+sig_01M4NEXK6CYV0PJK76CQ9THJF7,AAPL,2019-11-14,0.007263293291914396,0.007263293291914396,3,-0.3799,Product Launch,Apple delays launch of flagship product after defects found,0.0658,1.0,2,5.0
+sig_01M4NEXK6C92PV8VQR4880EZMW,WMT,2019-11-18,-0.022861192130075154,0.022861192130075154,6,-0.6324,Operational,Walmart suffers global outage affecting millions of users,0.0,1.0,4,6.0
+sig_01M4NEXK6CXKV4KDWJ6X8E5AGT,KO,2019-11-20,0.05000308028112889,0.05000308028112889,3,0.6839,Other,Coca-Cola upgraded to BB as balance sheet strengthens,0.1638,1.0,8,5.0
+sig_01M4NEXK6CVE1QVKPJP9EJ48EE,MSFT,2019-11-26,0.0754701153656754,0.0754701153656754,7,0.957,Earnings,"$MSFT microsoft beats expectations, raises guidance; shares jump 12% 🚀",0.2601,0.6,10,6.0
+sig_01M4NEXK6CRWV7HD7Q4ER176PD,AAPL,2019-11-28,-0.04915011941474906,0.04915011941474906,6,-0.7207,Regulatory/Legal,$AAPL apple fined $2billion after probe into sales practices,0.5385,0.6,8,6.0
+sig_01M4NEXK6D5E32FMZ3Q614QW03,MSFT,2019-11-28,-0.0028536481805799653,0.0028536481805799653,3,-0.3799,Product Launch,Microsoft delays launch of flagship product after defects found,0.1818,1.0,1,5.0
+sig_01M4NEXK6DVVQHR1XW1XZQMXMR,BA,2019-12-03,-0.003829948934046326,0.003829948934046326,6,-0.4386,Regulatory/Legal,Regulator opens investigation into Boeing safety record,0.9091,1.0,1,5.0
+sig_01M4NEXK6DB0STC4D1QYPXGWQW,PFE,2019-12-05,0.033459223807410066,0.033459223807410066,4,0.0,Merger/Acquisition,$PFE pfizer agrees to acquire a rival for $12 billion in all-cash deal,0.0607,0.6,6,4.0
+sig_01M4NEXK6D8Q15EM7V9YHM5XSA,KO,2019-12-06,0.0143757342896999,0.0143757342896999,6,0.8762,Earnings,$KO coca-cola posts record revenue on strong demand,0.2994,0.6,3,6.0
+sig_01M4NEXK6DHZ20RPCJZ4393NST,XOM,2019-12-06,-0.01359646716631741,0.01359646716631741,3,-0.3799,Product Launch,Exxon Mobil delays launch of flagship product after defects found,0.2474,1.0,3,5.0
+sig_01M4NEXK6DF0SZ2R8KD5GR0M2N,AMZN,2019-12-13,-0.012534775069125419,0.012534775069125419,4,0.0,Operational,"$AMZN workers strike at amazon plants, halting output",0.331,0.6,2,5.0
+sig_01M4NEXK6E2GR2VX1E39CVB1WV,META,2019-12-13,-0.045512917284265986,0.045512917284265986,6,-0.6741,Merger/Acquisition,$META meta takeover bid collapses after regulators object,0.2994,0.6,8,6.0
+sig_01M4NEXK6E23XC1YSRFSA722YP,XOM,2019-12-17,0.008085469929130465,0.008085469929130465,3,0.2234,Product Launch,Exxon launches new platform ahead of schedule,0.1818,1.0,2,5.0
+sig_01M4NEXK6EQ8VNDBH4YYADC8Y4,GOOGL,2019-12-17,0.025994860459608984,0.025994860459608984,5,-0.4971,Operational,Alphabet restores services after brief outage,0.2222,1.0,5,5.0
+sig_01M4NEXK6E8TM2R0SHB4SJ2KMB,BAC,2019-12-18,-0.027739559878332515,0.027739559878332515,6,-0.6741,Merger/Acquisition,Bank of America takeover bid collapses after regulators object,0.2474,1.0,5,6.0
+sig_01M4NEXK6EMET1BQS19XFB5VT4,WMT,2019-12-18,-0.01291119662588037,0.01291119662588037,6,-0.6741,Merger/Acquisition,Walmart 8-K: Walmart takeover bid collapses after regulators object,0.2994,1.0,3,6.0
+sig_01M4NEXK6EFMHXQ5Z6E2M8FHEC,AMZN,2019-12-31,0.017965629771992814,0.017965629771992814,7,0.957,Earnings,"Amazon beats expectations, raises guidance; shares jump 4%",0.0,1.0,4,6.0
+sig_01M4NEXK6FCQ51AXETWWF6FCMB,AMZN,2020-01-01,-0.04342429564373445,0.04342429564373445,6,-0.7293,Operational,Cyberattack forces Amazon to halt production at several plants,0.2727,1.0,7,6.0
+sig_01M4NEXK6FBJJ9Y37CA3W1TKW2,KO,2020-01-03,-0.021363708140804127,0.021363708140804127,6,-0.6741,Merger/Acquisition,$KO oca-cola takeover bid collapses after regulators object,0.2123,0.6,4,6.0
+sig_01M4NEXK6FW76RS6NS2V1ZM3XA,JPM,2020-01-09,0.04273896320092524,0.04273896320092524,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against JPMorgan,0.2857,1.0,7,6.0
+sig_01M4NEXK6F2KMX2Z7KVVYA3VVS,AMZN,2020-01-14,0.016298291135806192,0.016298291135806192,6,-0.6934,Regulatory/Legal,Amazon 8-K: Court dismisses lawsuit against Amazon,0.0883,1.0,3,6.0
+sig_01M4NEXK6FXSHXZ2DX4RB4BDFN,KO,2020-01-15,0.06173840210176947,0.06173840210176947,5,-0.6934,Regulatory/Legal,$KO court dismisses lawsuit against coca-cola ol,0.4759,0.6,9,6.0
+sig_01M4NEXK6FYGZHRFEVXR4Z0RPF,TSLA,2020-01-15,0.008288252400939524,0.008288252400939524,6,0.8762,Earnings,$TSLA tesla posts record revenue on strong demand,0.2474,0.6,2,6.0
+sig_01M4NEXK6F0FWJ38Y9PPTC1MK0,MSFT,2020-01-15,-0.024048598475562524,0.024048598475562524,7,-0.7207,Regulatory/Legal,Microsoft fined $40 billion after probe into sales practices,0.2308,1.0,5,6.0
+sig_01M4NEXK6FQP26X5MG0TCXEH4G,WMT,2020-01-16,-0.021996405942256162,0.021996405942256162,6,-0.7207,Regulatory/Legal,$WMT walmart fined $2 billion after probe into sales practices,0.3077,0.6,4,6.0
+sig_01M4NEXK6G2DYYV4T9SCWXPYZQ,JPM,2020-01-16,0.003295083192663438,0.003295083192663438,6,0.4971,Merger/Acquisition,$JPM $JP jpmorgan announces merger talks; shares rally 9% lol,0.3419,0.6,1,5.0
+sig_01M4NEXK6G2YNPYG3MJZ3J0659,WMT,2020-01-17,0.015760975105641853,0.015760975105641853,3,0.2234,Product Launch,$WMT walmart launches new platform ahead of schedule,0.2474,0.6,3,5.0
+sig_01M4NEXK6GSEB6K9P9HHKFAPT3,GOOGL,2020-01-17,-0.06758053484868862,0.06758053484868862,6,-0.7207,Regulatory/Legal,Alphabet fined $18 billion after probe into sales practices,0.0583,1.0,9,6.0
+sig_01M4NEXK6G9FQ3AY745DQJHN7K,MSFT,2020-01-20,-0.040093924587637185,0.040093924587637185,6,-0.7293,Operational,Cyberattack forces Microsoft to halt production at several plants,0.2727,1.0,7,6.0
+sig_01M4NEXKA50F18FSYX7BXYDBWF,META,2020-01-21,-0.036799488972093744,0.036799488972093744,7,-0.1974,Credit Event,Rating agency cuts Meta outlook to negative on refinancing risk,0.2485,1.0,7,5.0
+sig_01M4NEXKA51F244PASNVWBNSSZ,TSLA,2020-01-22,0.008255594190286895,0.008255594190286895,7,0.4971,Merger/Acquisition,Tesla announces merger talks; shares rally 8%,0.1818,1.0,2,5.0
+sig_01M4NEXKA53VS7W3BKS3N5NG4X,AAPL,2020-01-22,0.0006119740282162656,0.0006119740282162656,6,-0.6741,Merger/Acquisition,Apple takeover bid collapses after regulators object,0.1818,1.0,1,6.0
+sig_01M4NEXKA5KDS5Y900NEWW651N,KO,2020-01-23,0.0003072404744746994,0.0003072404744746994,7,-0.6324,Credit Event,"$KO coca-cola misses coupon payment, bondholders hire restructuring advisers 🚀",0.7038,0.6,1,6.0
+sig_01M4NEXKA5HEAZG1CCXDRB6R72,BA,2020-01-27,0.039141833366062626,0.039141833366062626,8,-0.6741,Credit Event,"Boeing completes refinancing, removing near-term default risk",0.1333,1.0,7,6.0
+sig_01M4NEXKA5YTNNJSZQ2ZE3ANPW,KO,2020-01-28,-0.0008935526165297168,0.0008935526165297168,6,-0.8545,Earnings,$KO coca-cola misses estimates and cuts guidance; shares fall 2%,0.3112,0.6,1,6.0
+sig_01M4NEXKA6GB070GGE96WRTJAG,KO,2020-01-29,0.027656573880300864,0.027656573880300864,7,0.957,Earnings,"$KO coca-cola beats expectations, raises guidance; shares jump 9%",0.2601,0.6,5,6.0
+sig_01M4NEXKA66WZ7YRXPRT11SS7X,JPM,2020-01-30,-0.019110841410100676,0.019110841410100676,6,-0.1974,Credit Event,$JPM rating agency cuts jpmorgan outlook to negative on refinancing risk,0.2485,0.6,4,5.0
+sig_01M4NEXKA6WT24YMBT1E2DBM1X,PFE,2020-01-30,-0.014238562691028502,0.014238562691028502,6,-0.7207,Regulatory/Legal,Pfizer fined $2 billion after probe into sales practices,0.2474,1.0,3,6.0
+sig_01M4NEXKA6ZH0ZWAS0ZV34WE9Q,MSFT,2020-02-04,0.04110419934433271,0.04110419934433271,6,0.8762,Earnings,Microsoft posts record revenue on strong demand,0.1818,1.0,7,6.0
+sig_01M4NEXKA6RZ5T70AQ31ZKKQWP,TSLA,2020-02-06,0.07777203500814216,0.07777203500814216,3,0.6839,Other,$TSLA tesla upgraded to bb as balance sheet strengthens,0.3077,0.6,10,5.0
+sig_01M4NEXKA656VE2YJ1B8GGE0J0,XOM,2020-02-10,0.06770514122175054,0.06770514122175054,3,0.6839,Other,$XOM exxon upgraded to bbb- as balance sheet strengthens,0.2474,0.6,10,5.0
+sig_01M4NEXKA6DB6BF27YZRWWF7SH,TSLA,2020-02-13,0.0070605571094775905,0.0070605571094775905,7,0.4971,Merger/Acquisition,Tesla announces merger talks; shares rally 12%,0.0801,1.0,2,5.0
+sig_01M4NEXKA6H7G3P6F0AP72SDQZ,BA,2020-02-19,0.004843506917266512,0.004843506917266512,7,-0.6741,Credit Event,"Boeing completes refinancing, removing near-term default risk",0.0,1.0,1,6.0
+sig_01M4NEXKA6KKJJGPAY4ZNTM8JZ,TSLA,2020-02-20,0.06299058518367288,0.06299058518367288,5,-0.4971,Operational,Tesla restores services after brief outage,0.2222,1.0,9,5.0
+sig_01M4NEXKA7PDAJM9ERRWH3H1RE,KO,2020-02-20,-0.04926065789895518,0.04926065789895518,5,-0.6741,Merger/Acquisition,$KO coca-cola takeover bid collapses after regulators object,0.0691,0.6,8,6.0
+sig_01M4NEXKA7W6FA2FKJZX5CK0JS,META,2020-02-21,-0.010791725235054275,0.010791725235054275,8,-0.5624,Credit Event,Meta faces liquidity crisis as funding costs spike 9%,0.2123,1.0,2,6.0
+sig_01M4NEXKA7JX3X2NA7P0Q7V1YF,MSFT,2020-02-21,-0.09297379776323655,0.09297379776323655,8,-0.6324,Credit Event,"Microsoft misses coupon payment, bondholders hire restructuring advisers",0.2299,1.0,10,6.0
+sig_01M4NEXKA7HT0FX32V42NQAPHT,BA,2020-02-25,-0.028501749245466924,0.028501749245466924,6,0.8762,Earnings,Boeing posts record revenue on strong demand,0.1818,1.0,5,6.0
+sig_01M4NEXKA7XAXEC5JE2JRBX0E1,AMZN,2020-03-06,-0.07118804588405084,0.07118804588405084,6,-0.5747,Regulatory/Legal,Amazon hit with antitrust lawsuit by regulators,0.2222,1.0,10,6.0
+sig_01M4NEXKA7Y1MC7NJ16E5HEP53,KO,2020-03-09,-0.041994539362177376,0.041994539362177376,6,-0.6324,Operational,Coca-Cola suffers global outage affecting millions of users,0.2123,1.0,7,6.0
+sig_01M4NEXKA8725JT58SEPDGCDFA,XOM,2020-03-09,0.004473719265908048,0.004473719265908048,8,0.957,Earnings,"Exxon beats expectations, raises guidance; shares jump 35%",0.2123,1.0,1,6.0
+sig_01M4NEXKA8XDFJCC607RJYDM7W,BA,2020-03-09,-0.023247986025097513,0.023247986025097513,3,-0.3799,Product Launch,Boeing delays launch of flagship product after defects found,0.1818,1.0,4,5.0
+sig_01M4NEXKA8E09MD1EPMG5MRZWJ,META,2020-03-09,0.04601890182731145,0.04601890182731145,5,-0.6934,Regulatory/Legal,$META court dismisses lawsuit against meta !!,0.4302,0.6,8,6.0
+sig_01M4NEXKA8VQJ9JNWJYMKQVZP1,JNJ,2020-03-13,0.023550124029963378,0.023550124029963378,6,0.4971,Merger/Acquisition,$JNJ johnson & johnson announces merger talks; shares rally 15% !!,0.3775,0.6,4,5.0
+sig_01M4NEXKA8AGKXN0PN06E1J2YF,XOM,2020-03-13,0.04058099365855321,0.04058099365855321,5,-0.4971,Operational,$XOM exxon mobil restores services after brief outage !!,0.3528,0.6,7,5.0
+sig_01M4NEXKA8CEBP923FM63GYQYC,BA,2020-03-16,-0.05186162498853224,0.05186162498853224,3,-0.3799,Product Launch,Boeing delays launch of flagship product after defects found,0.0,1.0,8,5.0
+sig_01M4NEXKA8VGZGFDTNANVXC52W,NVDA,2020-03-19,0.03100225093163605,0.03100225093163605,5,-0.4971,Operational,$NVDA nvidia restores services after brief outage,0.2965,0.6,6,5.0
+sig_01M4NEXKA8QE0Y98JAJQZX00ME,AAPL,2020-03-23,-0.005282570960789889,0.005282570960789889,5,-0.6324,Earnings,Apple quarterly revenue below expectations as demand weakens,0.1818,1.0,1,6.0
+sig_01M4NEXKA9D5RAPQG7A8MQ7PGX,NVDA,2020-03-26,0.06293376396609698,0.06293376396609698,5,-0.4971,Operational,Nvidia restores services after brief outage,0.0955,1.0,9,5.0
+sig_01M4NEXKA9AE1NSA3SKJWD00BJ,META,2020-04-01,-0.0354384747516696,0.0354384747516696,5,-0.6934,Regulatory/Legal,$META court dismisses lawsuit against meta platforms !!,0.0801,0.6,6,6.0
+sig_01M4NEXKA94M7XAA3JA0FBXJW6,JPM,2020-04-06,0.02443261335383299,0.02443261335383299,6,0.4971,Merger/Acquisition,JPMorgan announces merger talks; shares rally 2%,0.1818,1.0,5,5.0
+sig_01M4NEXKA98ZQEG8R34SVT3K3G,BA,2020-04-08,-0.03333466996082661,0.03333466996082661,5,-0.5747,Regulatory/Legal,$BA boeing hit with antitrust lawsuit by regulators 📉,0.2965,0.6,6,6.0
+sig_01M4NEXKA90YD8D3CNBJVMXCAX,JPM,2020-04-08,-0.03911363632122189,0.03911363632122189,6,-0.7293,Operational,$JPM cyberattack forcs jpmorgan to halt production at several plants lol,0.5329,0.6,7,6.0
+sig_01M4NEXKA9WSYWC9M6661YXRR8,JNJ,2020-04-21,-0.04716641137131804,0.04716641137131804,7,-0.8545,Earnings,$JNJ johnson & johnson misses estimates and cuts guidance; shares fall 15% lol,0.4078,0.6,8,6.0
+sig_01M4NEXKA9YZP4XECSJ6GCDHFW,PFE,2020-04-27,-0.049562533598043315,0.049562533598043315,5,-0.6741,Merger/Acquisition,$PFE pfizer takeover bid collapses after regulators object 🚀,0.0801,0.6,8,6.0
+sig_01M4NEXKA9NGY7V95WV65ACM1X,META,2020-04-27,-0.05559274216069167,0.05559274216069167,6,-0.8545,Earnings,$META meta misses estimates and cuts guidance; shares fall 2%,0.3112,0.6,9,6.0
+sig_01M4NEXKAAQ8TP1D2XW3PC8WNF,WMT,2020-04-28,-0.0233027146156462,0.0233027146156462,5,-0.4971,Operational,Walmart restores services after brief outage,0.2222,1.0,4,5.0
+sig_01M4NEXKAA2S235AQYGMA28VRB,XOM,2020-04-29,0.033132115992447295,0.033132115992447295,5,0.0,Merger/Acquisition,Exxon Mobil agrees to acquire a rival for $18 billion in all-cash deal,0.3529,1.0,6,4.0
+sig_01M4NEXKAA8V2WWPR85C8Z24FP,WMT,2020-04-29,-0.04821189027055407,0.04821189027055407,8,-0.828,Credit Event,Walmart downgraded one notches to BB+ as commercial real estate losses mount,0.5612,1.0,8,6.0
+sig_01M4NEXKAA8GGHR7E03M2Q80BF,NVDA,2020-05-04,-0.0740240357839999,0.0740240357839999,6,-0.6324,Operational,Nvidia suffers global outage affecting millions of users,0.1538,1.0,10,6.0
+sig_01M4NEXKAA78AJYEG1CF1GVNJF,TSLA,2020-05-04,0.12699854450222442,0.12699854450222442,3,0.5624,Other,$TSLA tesla upgraded to bb+ as balance sheet strenghens,0.1538,0.6,10,5.0
+sig_01M4NEXKAA9N38BSXVHS7MJ9Q5,META,2020-05-12,0.03822289902212225,0.03822289902212225,3,-0.3799,Product Launch,$META meta delays launch of flagship product after defects found,0.0,0.6,7,5.0
+sig_01M4NEXKAAX3RA6CMZ3HX69BHA,GOOGL,2020-05-12,-0.00959190484199152,0.00959190484199152,7,-0.1974,Credit Event,Rating agency cuts Alphabet outlook to negative on refinancing risk,0.2,1.0,2,5.0
+sig_01M4NEXKAAED9M5CVRGZS9S7GT,XOM,2020-05-15,0.01652971478757955,0.01652971478757955,7,0.957,Earnings,"Exxon beats expectations, raises guidance; shares jump 4%",0.0691,1.0,3,6.0
+sig_01M4NEXKABFAZYTAHZHA88G3SP,NVDA,2020-05-19,-0.01343281197172013,0.01343281197172013,5,-0.7293,Operational,$NVDA $NVD cyberattack forces nvidia to halt production at several plants,0.1407,0.6,3,6.0
+sig_01M4NEXKABMJ02GQVJS3B3AS6Q,META,2020-05-21,-0.028588568802424837,0.028588568802424837,3,-0.3799,Product Launch,$META meta delays launch of flagship product after defects found !!,0.0,0.6,5,5.0
+sig_01M4NEXKABZG43Z9N7NCXMAAQW,BAC,2020-05-22,-0.06213939068465962,0.06213939068465962,6,-0.6741,Merger/Acquisition,Bank of America takeover bid collapses after regulators object,0.0,1.0,9,6.0
+sig_01M4NEXKAB4Z4CY23PZEHRBARB,JPM,2020-05-25,0.05781142948181688,0.05781142948181688,7,-0.6741,Credit Event,"JPMorgan completes refinancing, removing near-term default risk",0.0607,1.0,9,6.0
+sig_01M4NEXKABBXZ7KW0JN9SFQBMG,MSFT,2020-05-27,-0.0266303245428103,0.0266303245428103,5,-0.6741,Merger/Acquisition,$MSFT microsoft takeover bid collapses after regulators object,0.0,0.6,5,6.0
+sig_01M4NEXKABE7113HPFTAY1F8CA,NVDA,2020-06-01,-0.026823791944324014,0.026823791944324014,4,0.5927,Product Launch,Nvidia unveils next-gen product line to strong early demand,0.1333,1.0,5,5.0
+sig_01M4NEXKABW2W9CBMRCNNW585G,BAC,2020-06-03,-0.0819751032049175,0.0819751032049175,8,-0.8772,Credit Event,$BAC bank of america shares plunge 4% after report of deposit outflows andemergency capital raise 🚀,0.3992,0.6,10,6.0
+sig_01M4NEXKABJQ8Y1P2BNH3ERPTX,JNJ,2020-06-03,-0.014658445687418378,0.014658445687418378,6,-0.5747,Regulatory/Legal,Johnson & Johnson hit with antitrust lawsuit by regulators,0.0691,1.0,3,6.0
+sig_01M4NEXKAC8WFF1P24K2RX3XSG,BAC,2020-06-04,-0.07261863035567212,0.07261863035567212,6,-0.6741,Merger/Acquisition,Bank of America takeover bid collapses after regulators object,0.0,1.0,10,6.0
+sig_01M4NEXKAC9Z674YBDMKJJADYH,AAPL,2020-06-04,-0.004804410369764396,0.004804410369764396,6,-0.6324,Operational,Apple suffers global outage affecting millions of users,0.0691,1.0,1,6.0
+sig_01M4NEXKACYHKXYRY1JF6FFMK7,BA,2020-06-05,0.011645793545785484,0.011645793545785484,5,-0.6324,Operational,$BA boeing suffers global outage affecting millions of users,0.15,0.6,2,6.0
+sig_01M4NEXKAC3H6A1G613ABXGZA3,GOOGL,2020-06-08,-0.02451993264350199,0.02451993264350199,4,0.5927,Product Launch,Alphabet unveils next-gen product line to strong early demand,0.1333,1.0,5,5.0
+sig_01M4NEXKAC09M3KWSF4GDQEBG4,JNJ,2020-06-10,-0.01953635597331676,0.01953635597331676,4,0.0,Operational,"Workers strike at Johnson & Johnson plants, halting output",0.3772,1.0,4,5.0
+sig_01M4NEXKAC3VAQ5ZNBKFW6G9NM,MSFT,2020-06-17,-0.03325865384142552,0.03325865384142552,6,-0.6324,Operational,Microsoft suffers global outage affecting millions of users,0.1538,1.0,6,6.0
+sig_01M4NEXKAC9V9E33BNKD83CSD0,KO,2020-06-18,-0.028498755232136398,0.028498755232136398,3,-0.3799,Product Launch,Coca-Cola delays launch of flagship product after defects found,0.2474,1.0,5,5.0
+sig_01M4NEXKACZ9ZM856Q60CSWWHA,TSLA,2020-06-24,-0.042466416465766134,0.042466416465766134,3,-0.3799,Product Launch,Tesla delays launch of flagship product after defects found,0.0,1.0,7,5.0
+sig_01M4NEXKAD1PTZ0HCT59NMZGB9,JPM,2020-06-25,-0.03713103331367093,0.03713103331367093,5,-0.6741,Merger/Acquisition,$JPM jpmorgan takeover bid collapses after regulators object 📉,0.1407,0.6,7,6.0
+sig_01M4NEXKAD4Z77G6QWFQHX4Q7T,BA,2020-06-26,-0.05460364749856715,0.05460364749856715,9,-0.9387,Credit Event,$BA boeing shares plunge 8% after report of deposit outflows and emergency capital raise lol,0.2491,0.6,9,6.0
+sig_01M4NEXKADEXCYNP5DB3R9FTGB,JPM,2020-07-03,0.054058459655998675,0.054058459655998675,6,0.8762,Earnings,JPMorgan posts record revenue on strong demand,0.1818,1.0,9,6.0
+sig_01M4NEXKF15PBF9B8YPXMK6GYT,AAPL,2020-07-06,-0.0035695421479518784,0.0035695421479518784,3,-0.3799,Product Launch,$AAPL apple delays launch of flagship product after defects found lol,0.1437,0.6,1,5.0
+sig_01M4NEXKF13H1J7MTSZBQWFNJG,NVDA,2020-07-09,0.015271811314225774,0.015271811314225774,6,0.4971,Merger/Acquisition,$NVDA nvidia announces merger talks; shares rally 6%,0.2474,0.6,3,5.0
+sig_01M4NEXKF11C8BZ85ASWKK71S5,JNJ,2020-07-10,0.004133786587415154,0.004133786587415154,3,0.2234,Product Launch,$JNJ johnson & johnson launches new platform ahead of schedule,0.3419,0.6,1,5.0
+sig_01M4NEXKF1PZ0PR0S0X1HMMBW9,KO,2020-07-10,0.015603161239130501,0.015603161239130501,4,0.5927,Product Launch,Coca-Cola unveils next-gen product line to strong early demand,0.1859,1.0,3,5.0
+sig_01M4NEXKF13MHRX6070Y6F2TP7,AMZN,2020-07-16,0.03134928789492345,0.03134928789492345,3,0.5927,Product Launch,$AMZN amazon unveils next-gen product line to strong early demand lol,0.2105,0.6,6,5.0
+sig_01M4NEXKF24X6HP1RPZZK0K1F7,BAC,2020-07-17,0.024543437059122066,0.024543437059122066,6,-0.7293,Operational,Cyberattack forces Bank of America to halt production at several plants,0.0,1.0,5,6.0
+sig_01M4NEXKF22NMQ2WNER67TXKZN,PFE,2020-07-21,0.00980256641739243,0.00980256641739243,7,0.4971,Merger/Acquisition,Pfizer announces merger talks; shares rally 22%,0.2474,1.0,2,5.0
+sig_01M4NEXKF2TJAP4TJ4QZ0K7RHE,BAC,2020-07-29,-0.014752698003284973,0.014752698003284973,5,-0.7293,Operational,$BAC cyberattack forces bank of america to halt production at several plants,0.0691,0.6,3,6.0
+sig_01M4NEXKF200FX27716YPY88P0,GOOGL,2020-07-29,0.0954215988569785,0.0954215988569785,3,0.6839,Other,Alphabet upgraded to BB+ as balance sheet strengthens,0.0801,1.0,10,5.0
+sig_01M4NEXKF214TT0VRXF15T2B30,PFE,2020-08-11,-0.0353087619396706,0.0353087619396706,5,-0.4971,Operational,Pfizer restores services after brief outage,0.0,1.0,6,5.0
+sig_01M4NEXKF25TA5WWX2CH500E7E,WMT,2020-08-12,0.08389725949399235,0.08389725949399235,7,0.957,Earnings,"$WMT walmart beats expectations, raises guidance; shares jump 22% 📉",0.2601,0.6,10,6.0
+sig_01M4NEXKF2REWNC12AFT2H419V,PFE,2020-08-12,-0.03170236599351004,0.03170236599351004,6,-0.4386,Regulatory/Legal,Regulator opens investigation into Pfizer safety record,0.2727,1.0,6,5.0
+sig_01M4NEXKF3VR2J9G3JRKAQ3832,TSLA,2020-08-13,0.007387538630114668,0.007387538630114668,4,0.0,Merger/Acquisition,$TSLA tesla agrees to acquire a rival for $18 billion in all-cash deal 📉,0.2353,0.6,2,4.0
+sig_01M4NEXKF3ZDMPSYWJEZGMNQ15,JNJ,2020-08-14,-0.028005481237571246,0.028005481237571246,6,-0.1974,Credit Event,Rating agency cuts Johnson & Johnson outlook to negative on refinancing risk,0.0,1.0,5,5.0
+sig_01M4NEXKF3FMB2NBK9KNF36WDN,PFE,2020-08-19,0.012164945805713291,0.012164945805713291,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Pfizer,0.1181,1.0,2,6.0
+sig_01M4NEXKF3SVAC6DEHQ9XSHVT1,TSLA,2020-08-20,0.08417202118740628,0.08417202118740628,5,-0.4971,Operational,Tesla restores services after brief outage,0.0,1.0,10,5.0
+sig_01M4NEXKF3EEDSSKPGN31NMV90,BAC,2020-08-21,-0.022463595704408645,0.022463595704408645,3,-0.3799,Product Launch,$BAC bank of america delays launch of flagship product after defects found,0.0,0.6,4,5.0
+sig_01M4NEXKF3207KYRQY4P05T2ZX,PFE,2020-08-21,0.030616788946163317,0.030616788946163317,4,0.0,Merger/Acquisition,$PFE pfizer agrees to acquire a rival for $40 billion in all-cash deal !!,0.1765,0.6,6,4.0
+sig_01M4NEXKF33RPF2Z2VDQ2TAYGM,BAC,2020-08-26,-0.023775772501449185,0.023775772501449185,5,-0.5747,Regulatory/Legal,$BAC bank of america hit with antitrust lawsuit by regulators 🚀,0.0,0.6,5,6.0
+sig_01M4NEXKF3Y652PYE39422BX97,KO,2020-08-27,-0.0011670878377079107,0.0011670878377079107,3,-0.3799,Product Launch,Coca-Cola delays launch of flagship product after defects found,0.0,1.0,1,5.0
+sig_01M4NEXKF4KG98X11VAEYA3437,GOOGL,2020-09-04,-0.049699819076742965,0.049699819076742965,6,-0.7293,Operational,Cyberattack forces Alphabet to halt production at several plants,0.2727,1.0,8,6.0
+sig_01M4NEXKF4D2FW67SK77V3R2V9,JPM,2020-09-10,-0.028954412439851463,0.028954412439851463,8,-0.828,Credit Event,$JPM jpmorgan downgraded three notches to a- as consumer credit losses mount,0.5329,0.6,5,6.0
+sig_01M4NEXKF4Y58PNFSE30YP74R2,TSLA,2020-09-15,0.07538090287551134,0.07538090287551134,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Tesla,0.0,1.0,10,6.0
+sig_01M4NEXKF42D5F7YTS8NP5Z5HF,AMZN,2020-09-17,0.051600706090493505,0.051600706090493505,3,0.6839,Other,Amazon upgraded to A- as balance sheet strengthens,0.2222,1.0,8,5.0
+sig_01M4NEXKF4CAQJEMJ4MXH1XDGB,WMT,2020-09-21,-0.011521887518007128,0.011521887518007128,6,-0.1974,Credit Event,$WMT rating agency cuts walmart outlook to negative on refinancing risk 🚀,0.2485,0.6,2,5.0
+sig_01M4NEXKF44ZBWKWGC9X94BPAY,NVDA,2020-09-22,0.03843161779762822,0.03843161779762822,7,0.957,Earnings,"Nvidia beats expectations, raises guidance; shares jump 6%",0.0,1.0,7,6.0
+sig_01M4NEXKF447DG29CYR7FWSS3F,JPM,2020-09-23,-0.017980734552248186,0.017980734552248186,3,-0.3799,Product Launch,$JPM jpmorgan delays launch of flagship product after defects found lol,0.1437,0.6,4,5.0
+sig_01M4NEXKF50GF70PK8MRGKGC54,BA,2020-09-24,-0.001609186889581657,0.001609186889581657,7,-0.6324,Credit Event,"Boeing misses coupon payment, bondholders hire restructuring advisers",0.1333,1.0,1,6.0
+sig_01M4NEXKF50NK6G1PP4WF2NFEK,AAPL,2020-09-24,0.02109127604326695,0.02109127604326695,6,0.8762,Earnings,Apple posts record revenue on strong demand,0.1818,1.0,4,6.0
+sig_01M4NEXKF584XKDZSA603T2MYQ,BA,2020-09-30,0.06039439600470004,0.06039439600470004,5,-0.6934,Regulatory/Legal,$BA court dismisses lawsuit against boeing,0.3701,0.6,9,6.0
+sig_01M4NEXKF50XTG3QFWDWGJ04V4,AAPL,2020-09-30,0.013121873884472293,0.013121873884472293,8,-0.6741,Credit Event,"Apple completes refinancing, removing near-term default risk",0.1333,1.0,3,6.0
+sig_01M4NEXKF5SGPTP8MV777RXFMA,JPM,2020-10-02,0.01441273600085158,0.01441273600085158,6,0.8762,Earnings,JPMorgan Chase posts record revenue on strong demand,0.1638,1.0,3,6.0
+sig_01M4NEXKF57D8F8CBCM04RV1HY,GOOGL,2020-10-07,-0.09264951713534088,0.09264951713534088,6,-0.6741,Merger/Acquisition,Alphabet takeover bid collapses after regulators object,0.0658,1.0,10,6.0
+sig_01M4NEXKF53ATN396SF5YDAXYD,GOOGL,2020-10-08,-0.09092024193735351,0.09092024193735351,8,-0.828,Credit Event,Alphabet downgraded two notches to BB+ as commercial real estate losses mount,0.1176,1.0,10,6.0
+sig_01M4NEXKF5GA4QP1PMR685KESG,JNJ,2020-10-08,0.07761337894562255,0.07761337894562255,7,-0.6741,Credit Event,"$JNJ johnson & johnson completes refinancing, removing near-term default risk",0.2675,0.6,10,6.0
+sig_01M4NEXKF6AE0Z3P8VZJCCPNN4,META,2020-10-14,0.06795174423451782,0.06795174423451782,7,0.957,Earnings,"Meta beats expectations, raises guidance; shares jump 6%",0.1538,1.0,10,6.0
+sig_01M4NEXKF6T1EZCHNA9K11Y8TJ,TSLA,2020-10-15,-0.01469748781887912,0.01469748781887912,6,-0.6324,Operational,Tesla suffers global outage affecting millions of users,0.1538,1.0,3,6.0
+sig_01M4NEXKF601BPZV6TCX21GZVY,KO,2020-10-19,0.02457537659528373,0.02457537659528373,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Coca-Cola,0.1679,1.0,5,6.0
+sig_01M4NEXKF6YDKHHK31F10K6EVR,JPM,2020-10-21,0.03915048378366879,0.03915048378366879,5,-0.4971,Operational,JPMorgan Chase restores services after brief outage,0.2474,1.0,7,5.0
+sig_01M4NEXKF67AJMPDKVCZ1CBFBP,JNJ,2020-10-23,0.03074053174733024,0.03074053174733024,7,-0.6741,Credit Event,"$JNJ johnson & johnson completes refinancng, removing near-term default risk 📉",0.1429,0.6,6,6.0
+sig_01M4NEXKF63035BHY67N5N554P,TSLA,2020-10-23,0.03295965994912774,0.03295965994912774,5,0.0,Merger/Acquisition,Tesla agrees to acquire a rival for $40 billion in all-cash deal,0.1859,1.0,6,4.0
+sig_01M4NEXKF6E37N8BX4DN5SQK51,NVDA,2020-10-28,-0.05130997021056216,0.05130997021056216,4,0.0,Operational,"Workers strike at Nvidia plants, halting output",0.2727,1.0,8,4.0
+sig_01M4NEXKF6SMD9DRQ1QYW6ANZT,XOM,2020-10-30,0.04752789203390403,0.04752789203390403,7,-0.6741,Credit Event,"Exxon completes refinancing, removing near-term default risk",0.0,1.0,8,6.0
+sig_01M4NEXKF7WWHMNW7RWF7BA15D,NVDA,2020-11-02,0.12185039649892122,0.12185039649892122,5,-0.6934,Regulatory/Legal,$NVDA court dismisses lawsuit against nvidia lol,0.4302,0.6,10,6.0
+sig_01M4NEXKF7MTE36GQD1TEQPS51,XOM,2020-11-05,0.02986729775224496,0.02986729775224496,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Exxon Mobil,0.2222,1.0,6,6.0
+sig_01M4NEXKF7C6KTS0ZHBE4MHJ2P,PFE,2020-11-05,-0.043475342612516885,0.043475342612516885,3,-0.3799,Product Launch,Pfizer delays launch of flagship product after defects found,0.1818,1.0,7,5.0
+sig_01M4NEXKF777RP61CYXD12V7PX,WMT,2020-11-05,0.05438145721048186,0.05438145721048186,5,0.0,Merger/Acquisition,Walmart agrees to acquire a rival for $12 billion in all-cash deal,0.1333,1.0,9,4.0
+sig_01M4NEXKF7S2VZEXF16CGX1MTR,TSLA,2020-11-10,-0.01641004831295528,0.01641004831295528,5,0.0,Merger/Acquisition,Tesla agrees to acquire a rival for $12 billion in all-cash deal,0.1333,1.0,3,4.0
+sig_01M4NEXKF7TXW72EK6TJW6XTMC,WMT,2020-11-11,-0.03481227245818017,0.03481227245818017,6,-0.6741,Merger/Acquisition,Walmart takeover bid collapses after regulators object,0.0658,1.0,6,6.0
+sig_01M4NEXKF71SVJYNXK3933HX5R,META,2020-11-16,0.0631221682742869,0.0631221682742869,4,0.5927,Product Launch,Meta unveils next-gen product line to strong early demand,0.1333,1.0,9,5.0
+sig_01M4NEXKF712TAKPPMT1YT5BX5,AAPL,2020-11-27,-0.014329388634753741,0.014329388634753741,3,-0.3799,Product Launch,Apple delays launch of flagship product after defects found,0.0,1.0,3,5.0
+sig_01M4NEXKF8X4CB0T10VGAH813C,PFE,2020-11-30,-0.01375856487665619,0.01375856487665619,7,-0.6324,Credit Event,"$PFE pfizer misses coupon payment, bondholders hire restructuring advisers",0.1859,0.6,3,6.0
+sig_01M4NEXKF8X58YPHKB9Z3YAQMS,GOOGL,2020-11-30,-0.0011055585328847602,0.0011055585328847602,6,-0.6741,Merger/Acquisition,Alphabet takeover bid collapses after regulators object,0.0,1.0,1,6.0
+sig_01M4NEXKF8T20T1CZFJ7YB5TFG,WMT,2020-12-04,0.030819916321411855,0.030819916321411855,5,-0.4971,Operational,Walmart restores services after brief outage,0.0,1.0,6,5.0
+sig_01M4NEXKF8XGEACE20XRT56EQ2,AMZN,2020-12-10,-0.013308566868531288,0.013308566868531288,7,-0.8545,Earnings,Amazon misses estimates and cuts guidance; shares fall 15%,0.2667,1.0,3,6.0
+sig_01M4NEXKF8TS9J69X9K2Y6KYNA,AMZN,2020-12-17,0.07945447646917524,0.07945447646917524,7,0.957,Earnings,"Amazon beats expectations, raises guidance; shares jump 15%",0.0691,1.0,10,6.0
+sig_01M4NEXKF85FDYC4C5Q6YHFPPF,KO,2020-12-23,-0.06604218564825527,0.06604218564825527,8,-0.828,Credit Event,Coca-Cola downgraded two notches to A- as energy losses mount,0.4983,1.0,9,6.0
+sig_01M4NEXKF895ZCJMF9HDM45TPP,NVDA,2020-12-29,-0.017541981162455995,0.017541981162455995,4,0.5927,Product Launch,Nvidia unveils next-gen product line to strong early demand,0.0,1.0,3,5.0
+sig_01M4NEXKF8S4EXVDG0BRWA5JFV,MSFT,2020-12-30,-0.017499925171078477,0.017499925171078477,6,-0.5747,Regulatory/Legal,Microsoft 8-K: Microsoft hit with antitrust lawsuit by regulators,0.0755,1.0,3,6.0
+sig_01M4NEXKF9ZYVDA2R43VBM3MS7,AMZN,2020-12-31,-0.03508549836164332,0.03508549836164332,7,-0.8545,Earnings,Amazon misses estimates and cuts guidance; shares fall 8%,0.0691,1.0,6,6.0
+sig_01M4NEXKF98VXA4G7W9H5BJ7EQ,BA,2021-01-01,-0.058133417505567324,0.058133417505567324,7,-0.7207,Regulatory/Legal,Boeing fined $40 billion after probe into sales practices,0.1538,1.0,9,6.0
+sig_01M4NEXKF98ZTZFK5DKNGXT666,TSLA,2021-01-14,0.004466512164501318,0.004466512164501318,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Tesla,0.0,1.0,1,6.0
+sig_01M4NEXKF9YNZG4JN7CZ0DT2WZ,WMT,2021-01-15,0.029310842001811794,0.029310842001811794,6,0.8762,Earnings,$WMT walmart posts record revenue on strong demand,0.2474,0.6,6,6.0
+sig_01M4NEXKF9YNGX1654NE2W9WHD,KO,2021-01-19,-0.01115522464169319,0.01115522464169319,4,0.5927,Product Launch,Coca-Cola unveils next-gen product line to strong early demand,0.0,1.0,2,5.0
+sig_01M4NEXKJ0WYJWMT7QGDPTHJDB,JNJ,2021-01-21,0.02565003581617249,0.02565003581617249,3,0.6839,Other,$JNJ johnson & johnson upgraded to a- as balance sheet strengthens 🚀,0.3975,0.6,5,5.0
+sig_01M4NEXKJ0JTX3FCFZ4VX5EQDD,TSLA,2021-01-22,0.14265436911504403,0.14265436911504403,8,0.957,Earnings,"Tesla beats expectations, raises guidance; shares jump 15%",1.0,1.0,10,6.0
+sig_01M4NEXKJ04B156EW195Z2WCXP,GOOGL,2021-01-22,-0.01058932696253232,0.01058932696253232,5,-0.4971,Operational,$GOOGL alphabet restores services after brief outage,1.0,0.6,2,6.0
+sig_01M4NEXKJ1QT703F85JZ3F43BF,MSFT,2021-01-26,0.02212727036763603,0.02212727036763603,7,0.4971,Merger/Acquisition,Microsoft announces merger talks; shares rally 6%,0.9222,1.0,4,5.0
+sig_01M4NEXKJ1FGM2KGAVX5YEF93J,NVDA,2021-01-27,-0.056990451394453356,0.056990451394453356,6,-0.6741,Merger/Acquisition,$NVDA nvidia takeover bid collapses after regulators object 📉,1.0,0.6,9,6.0
+sig_01M4NEXKJ1MK8PYW6NBEFK3F8R,BA,2021-01-27,0.0777652662635748,0.0777652662635748,6,0.957,Earnings,"Boeing beats expectations, raises guidance; shares jump 2%",0.2123,1.0,10,6.0
+sig_01M4NEXKJ1NM1HGE5SQ33CQC3W,KO,2021-01-28,0.03885468991858651,0.03885468991858651,3,0.6839,Other,Coca-Cola upgraded to A- as balance sheet strengthens,1.0,1.0,7,6.0
+sig_01M4NEXKJ1PCFFG6S96NJ19JNM,BA,2021-01-29,0.02163184565877592,0.02163184565877592,4,0.2234,Product Launch,Boeing launches new platform ahead of schedule,0.9164,1.0,4,5.0
+sig_01M4NEXKJ10QSZMANNAJ8J9SGX,MSFT,2021-01-29,0.03546582478024895,0.03546582478024895,3,0.6839,Other,Microsoft upgraded to BBB- as balance sheet strengthens,0.4545,1.0,6,5.0
+sig_01M4NEXKJ1DCHEZG68MY0FT87X,BA,2021-02-09,-0.0420661183153396,0.0420661183153396,6,-0.7293,Operational,$BA cyberattack forces boeing to halt production at several plants 🚀,0.9164,0.6,7,6.0
+sig_01M4NEXKJ19VCKM3JX1HS156A7,TSLA,2021-02-12,0.053524508655793994,0.053524508655793994,5,-0.4971,Operational,$TSLA tesla restores services after brief outage,0.3636,0.6,9,5.0
+sig_01M4NEXKJ2P3HGA0BDGKPQATYM,TSLA,2021-02-19,0.038030868271725804,0.038030868271725804,3,0.6839,Other,Tesla upgraded to BBB- as balance sheet strengthens,0.1818,1.0,7,5.0
+sig_01M4NEXKJ2G561JPMDXCNHDGH4,MSFT,2021-02-22,0.05051680564531794,0.05051680564531794,8,-0.6741,Credit Event,"$MSFT microsoft completes refinancing, removing near-term default risk",0.9269,0.6,8,6.0
+sig_01M4NEXKJ281SH4CK0744CEP2F,MSFT,2021-02-25,-0.013830368105594036,0.013830368105594036,6,-0.7293,Operational,$MSFT cyberattack forces microsoft to halt productio at several plants,0.6154,0.6,3,6.0
+sig_01M4NEXKJ2QHYYF08KDAFZCCFF,GOOGL,2021-02-26,0.05187534023575943,0.05187534023575943,4,0.5927,Product Launch,Alphabet unveils next-gen product line to strong early demand,0.9222,1.0,8,6.0
+sig_01M4NEXKJ2TSD4PVNJ0GA91PJN,BA,2021-03-03,-0.08672750496379611,0.08672750496379611,6,-0.4386,Regulatory/Legal,Regulator opens investigation into Boeing safety record,0.9091,1.0,10,5.0
+sig_01M4NEXKJ2HE75X8R2M70B44VN,KO,2021-03-04,0.036147889154081896,0.036147889154081896,6,0.4971,Merger/Acquisition,$KO coca-cola announces merger talks; shares rally 9%,0.2994,0.6,7,5.0
+sig_01M4NEXKJ2EPYJGKK4A2WSH6H3,XOM,2021-03-08,-0.012591857474081921,0.012591857474081921,7,-0.7207,Regulatory/Legal,Exxon fined $2 billion after probe into sales practices,1.0,1.0,2,6.0
+sig_01M4NEXKJ2H6DEXS3N8AZW5ZS2,META,2021-03-10,0.038064371661714384,0.038064371661714384,3,0.6839,Other,$META meta upgraded to bb+ as balance sheet strengthens,0.5329,0.6,7,5.0
+sig_01M4NEXKJ3TJ33C0C96CQ8W5VC,NVDA,2021-03-10,-0.017317650383461492,0.017317650383461492,6,-0.6741,Merger/Acquisition,Nvidia 8-K: Nvidia takeover bid collapses after regulators object,0.1407,1.0,3,6.0
+sig_01M4NEXKJ3B0FQWMSMGNE0K5C4,XOM,2021-03-16,0.05016480197275245,0.05016480197275245,3,0.2234,Product Launch,Exxon launches new platform ahead of schedule,0.1818,1.0,8,5.0
+sig_01M4NEXKJ3T1ZKV91P2YBZ4PSC,KO,2021-03-17,-0.08059622679465361,0.08059622679465361,7,-0.1974,Credit Event,Rating agency cuts Coca-Cola outlook to negative on refinancing risk,0.7806,1.0,10,5.0
+sig_01M4NEXKJ3FWE4TGK4G2406D5G,KO,2021-03-25,-0.017343157716238372,0.017343157716238372,6,-0.6741,Merger/Acquisition,$KO coca-cola takeover bid collapses after regulators object,0.3555,0.6,3,6.0
+sig_01M4NEXKJ3A4937C528KRP37FM,PFE,2021-03-25,-0.014109157194705653,0.014109157194705653,9,-0.5624,Credit Event,Pfizer faces liquidity crisis as funding costs spike 6%,1.0,1.0,3,6.0
+sig_01M4NEXKJ3H01MRHF0XAAYN10A,TSLA,2021-03-29,-0.02804250718756648,0.02804250718756648,6,0.4971,Merger/Acquisition,$TSLA tesla announces merger talks; shares rally 12% !!,0.2994,0.6,5,5.0
+sig_01M4NEXKJ3RWWZRB65CZEZ6W5F,KO,2021-03-31,0.06633224453356559,0.06633224453356559,6,0.0,Merger/Acquisition,Coca-Cola agrees to acquire a rival for $40 billion in all-cash deal,0.7806,1.0,9,4.0
+sig_01M4NEXKJ4AT4Z5XC9SRQ6NCYT,WMT,2021-04-06,-0.02085708052115366,0.02085708052115366,5,-0.7293,Operational,$WMT cyberattack forces walmart to halt production at several plants,0.3846,0.6,4,6.0
+sig_01M4NEXKJ4W1BSCHC7SZ0T8M8Q,AAPL,2021-04-08,-0.053975586113300576,0.053975586113300576,6,-0.6324,Operational,$AAPL apple suffers global outage affecting millions of users !!,0.9222,0.6,9,6.0
+sig_01M4NEXKJ4GVDFDBSNJGX5AF3Q,META,2021-04-15,-0.03249590487328209,0.03249590487328209,6,-0.6741,Merger/Acquisition,Meta 8-K: Meta takeover bid collapses after regulators object,0.3555,1.0,6,6.0
+sig_01M4NEXKJ4XFT36HY2W1T65XGQ,KO,2021-04-22,-0.01801485079942904,0.01801485079942904,4,0.0,Regulatory/Legal,$KO regulator opens nvestigation into coca-cola safety record,0.5329,0.6,4,5.0
+sig_01M4NEXKJ5PFKFA64WXR4S55Q5,KO,2021-04-23,0.006192029336508211,0.006192029336508211,5,-0.6324,Operational,$KO coca-cola suffers global outage affecting millions of users,0.3112,0.6,1,6.0
+sig_01M4NEXKJ5M0CY197MQ3F678TQ,BAC,2021-04-23,0.014317406368252027,0.014317406368252027,6,0.4971,Merger/Acquisition,$BAC bank of america announces merger talks; shares rally 8% !!,0.2994,0.6,3,5.0
+sig_01M4NEXKJ599SE8VM0QS9MQEMM,GOOGL,2021-04-26,0.009984849418612232,0.009984849418612232,7,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Alphabet,0.886,1.0,2,6.0
+sig_01M4NEXKJ5W32FNC1EPT2Y7RDN,NVDA,2021-04-29,0.04081251060591144,0.04081251060591144,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against NVIDIA,0.2857,1.0,7,6.0
+sig_01M4NEXKJ5H00NM2DX1TXPJK86,META,2021-04-29,0.0046635424045650305,0.0046635424045650305,3,0.5927,Product Launch,$META meta platforms unveils next-gen product line to strong early demand,0.2675,0.6,1,5.0
+sig_01M4NEXKJ5Q5MSKTRFG76EHKZG,BA,2021-05-04,0.015914039361568835,0.015914039361568835,5,-0.6934,Regulatory/Legal,$BA court dismisses lawsuit against boeing 📉,0.3701,0.6,3,6.0
+sig_01M4NEXKJ5EQ0WP8A3XJYY120Q,GOOGL,2021-05-04,-0.02994153931699833,0.02994153931699833,6,-0.4386,Regulatory/Legal,Alphabet 8-K: Regulator opens investigation into Alphabet safety record,0.3772,1.0,6,5.0
+sig_01M4NEXKJ5XJXP4KSF17HEQN06,MSFT,2021-05-04,0.0542175917050266,0.0542175917050266,5,0.0,Merger/Acquisition,Microsoft agrees to acquire a rival for $5 billion in all-cash deal,0.3273,1.0,9,4.0
+sig_01M4NEXKJ67YM6HVWJGPJTD4YB,XOM,2021-05-06,-0.026710628558765104,0.026710628558765104,8,-0.6324,Credit Event,"Exxon misses coupon payment, bondholders hire restructuring advisers",0.9222,1.0,5,6.0
+sig_01M4NEXKJ65M2320GM0WSB11QW,NVDA,2021-05-10,-0.015457294387575524,0.015457294387575524,6,-0.5747,Regulatory/Legal,Nvidia hit with antitrust lawsuit by regulators,0.7418,1.0,3,6.0
+sig_01M4NEXKJ6FYJABTQ1WNHZ3AJS,BAC,2021-05-17,-0.068674977599743,0.068674977599743,5,-0.5747,Regulatory/Legal,$BAC bank of america hit with antitrust lawsuit by regulators !!,0.3528,0.6,10,6.0
+sig_01M4NEXKJ646PCX5R2DQJZC4QN,BA,2021-05-18,-0.0065626800114100235,0.0065626800114100235,6,-0.4386,Regulatory/Legal,Regulator opens investigation into Boeing safety record,0.0,1.0,1,5.0
+sig_01M4NEXKJ6DGR11V0SSZJH3N95,AAPL,2021-05-18,0.039194784335026975,0.039194784335026975,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Apple,0.2857,1.0,7,6.0
+sig_01M4NEXKJ64XZWBS2VEXPA822A,TSLA,2021-05-19,-0.007653207552774939,0.007653207552774939,7,0.4971,Merger/Acquisition,Tesla 8-K: Tesla announces merger talks; shares rally 22%,0.2485,1.0,2,5.0
+sig_01M4NEXKJ68DGSBC4MSYM228DR,META,2021-05-20,0.034326770912446125,0.034326770912446125,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Meta,0.2857,1.0,6,6.0
+sig_01M4NEXKJ62QMR5B9H2NBRX6CD,AMZN,2021-05-21,-0.01783734955187048,0.01783734955187048,8,-0.8545,Earnings,Amazon misses estimates and cuts guidance; shares fall 35%,0.7852,1.0,4,6.0
+sig_01M4NEXKJ65BT0VPD2ZJCX9MR5,BA,2021-05-24,-0.0313537883664982,0.0313537883664982,6,-0.6324,Earnings,Boeing quarterly revenue below expectations as demand weakens,0.8328,1.0,6,6.0
+sig_01M4NEXKJ71Q4R4PD8746JTEPG,META,2021-05-26,0.051712985800615584,0.051712985800615584,3,0.6839,Other,Meta upgraded to BB as balance sheet strengthens,0.0658,1.0,8,5.0
+sig_01M4NEXKJ7485SW5CVNDAWC0GF,PFE,2021-05-27,-0.035199549080158404,0.035199549080158404,6,-0.6741,Merger/Acquisition,Pfizer takeover bid collapses after regulators object,0.2474,1.0,6,6.0
+sig_01M4NEXKJ7DJEHWJWBDBAY123H,BA,2021-05-27,-0.006597958708228854,0.006597958708228854,5,-0.4971,Operational,$BA boeing restores services after brief outage,0.3636,0.6,2,5.0
+sig_01M4NEXKJ73G5JPH8JNSV4PXX4,AAPL,2021-05-28,-0.03581691918546242,0.03581691918546242,5,0.0,Operational,"Workers strike at Apple plants, halting output",0.886,1.0,7,5.0
+sig_01M4NEXKJ7JGJTXCYCW1V146KY,PFE,2021-05-31,0.020513370488190137,0.020513370488190137,6,0.4971,Merger/Acquisition,$PFE pizer announces merger talks; shares rally 15%,0.2994,0.6,4,5.0
+sig_01M4NEXKJ79G3N9FAXK1X5RQCK,BA,2021-06-02,-0.003098356865605535,0.003098356865605535,7,0.957,Earnings,"Boeing beats expectations, raises guidance; shares jump 15%",0.0691,1.0,1,6.0
+sig_01M4NEXKJ79A2CM9PAEEMH7D78,NVDA,2021-06-03,0.04448985763832009,0.04448985763832009,4,0.0,Merger/Acquisition,$NVDA nvidia agrees to acquire a rival for $18 billion in all-cash deal,0.3273,0.6,8,4.0
+sig_01M4NEXKJ8AN5ABW7SCG0AX1SS,PFE,2021-06-04,-0.016529325554719684,0.016529325554719684,3,-0.3799,Product Launch,$PFE pfizer delays launch of flagship product after defects found,0.9164,0.6,3,5.0
+sig_01M4NEXKJ8JK7BFH7KDJTPT4V7,JNJ,2021-06-08,-0.07601176263558246,0.07601176263558246,7,-0.1974,Credit Event,Rating agency cuts Johnson & Johnson outlook to negative on refinancing risk,0.3323,1.0,10,5.0
+sig_01M4NEXKJ88107ZPDG0XQFV6F2,PFE,2021-06-09,0.009671069965544333,0.009671069965544333,8,0.957,Earnings,"Pfizer beats expectations, raises guidance; shares jump 22%",0.2123,1.0,2,6.0
+sig_01M4NEXKJ89M15CD6X0RPWC11C,PFE,2021-06-15,0.035326724414522045,0.035326724414522045,7,0.957,Earnings,"$PFE pfizer beats expectations, raises guidance; shares jump 22% 📉",0.0607,0.6,6,6.0
+sig_01M4NEXKJ8CZJKX76V43D4ZJ0B,NVDA,2021-06-21,0.054036889676059144,0.054036889676059144,3,0.5927,Product Launch,$NVDA nvidia unveils next-gen product line to strong early demand,0.1859,0.6,9,5.0
+sig_01M4NEXKJ8ZNAA6TB94N3NR8CN,BAC,2021-06-21,-0.008877041047286519,0.008877041047286519,3,-0.3799,Product Launch,Bank of America delays launch of flagship product after defects found,0.3077,1.0,2,5.0
+sig_01M4NEXKJ8WMJANYZ47177EKQP,AMZN,2021-06-25,0.014706765237655245,0.014706765237655245,7,-0.6324,Credit Event,"Amazon misses coupon payment, bondholders hire restructuring advisers",0.1333,1.0,3,6.0
+sig_01M4NEXKJ8PJXGPX00066FBRQM,TSLA,2021-06-25,0.03351650659077688,0.03351650659077688,5,-0.4971,Operational,Tesla restores services after brief outage,0.0955,1.0,6,5.0
+sig_01M4NEXKJ9YWB6PPBVCYT8RZ4Z,PFE,2021-06-28,-0.023559533260232454,0.023559533260232454,5,-0.6324,Operational,$PFE pfizer suffers global outage affecting millions f users,0.2667,0.6,4,6.0
+sig_01M4NEXKJ9FGQNG4DNT94B16CX,KO,2021-07-01,0.059439615819021,0.059439615819021,5,-0.4971,Operational,$KO coca-cola restores services after brief outage 📉,0.3528,0.6,9,5.0
+sig_01M4NEXKNAXY31D2C2ZK6YTSS8,NVDA,2021-07-01,-0.055440631926739245,0.055440631926739245,5,-0.7293,Operational,$NVDA cyberattack forces nvidi to halt production at several plants,0.3846,0.6,9,6.0
+sig_01M4NEXKNA5NFQVQHYC9XZV3TA,BA,2021-07-02,-0.0344693096208816,0.0344693096208816,9,-0.9387,Credit Event,Boeing shares plunge 35% after report of deposit outflows and emergency capital raise,0.8727,1.0,6,6.0
+sig_01M4NEXKNB48G8XD0VZAT0HAR5,AAPL,2021-07-06,-0.04382811869099866,0.04382811869099866,8,-0.828,Credit Event,$AAPL apple downgraded three notches to bbb- as commercial real estate losses mount,0.8223,0.6,7,7.0
+sig_01M4NEXKNBAY1RAZVH9MEJVZSX,JNJ,2021-07-15,0.04545882871045519,0.04545882871045519,6,-0.4971,Operational,Johnson & Johnson restores services after brief outage,0.3528,1.0,8,5.0
+sig_01M4NEXKNB5JEYF9Y36Q6CWC03,XOM,2021-07-19,0.032833074284119475,0.032833074284119475,5,0.0,Merger/Acquisition,Exxon Mobil agrees to acquire a rival for $2 billion in all-cash deal,0.2123,1.0,6,4.0
+sig_01M4NEXKNB01VM45HB15HTQYJ8,JNJ,2021-07-28,0.01894298603404624,0.01894298603404624,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Johnson & Johnson,0.4302,1.0,4,6.0
+sig_01M4NEXKNBHRWG61GC2SS1DTZ4,BA,2021-07-30,-0.017310857736290642,0.017310857736290642,7,-0.6324,Credit Event,"Boeing misses coupon payment, bondholders hire restructuring advisers",0.1333,1.0,3,6.0
+sig_01M4NEXKNBVQB70XYGM86KV9JG,META,2021-08-02,0.03879464000584172,0.03879464000584172,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Meta,0.0,1.0,7,6.0
+sig_01M4NEXKNB32CCP4TNC0YXWX8E,GOOGL,2021-08-03,0.06694725033067304,0.06694725033067304,3,0.6839,Other,Alphabet 8-K: Alphabet upgraded to A- as balance sheet strengthens,0.4146,1.0,9,5.0
+sig_01M4NEXKNCNT69QV3YT5KP8D9J,KO,2021-08-06,0.05941325839313204,0.05941325839313204,6,0.8762,Earnings,$KO coca-cola posts record revenue n strong demand,0.6419,0.6,9,6.0
+sig_01M4NEXKNC21BEVMRNM4WA0PQT,XOM,2021-08-13,-0.025535442121045054,0.025535442121045054,6,-0.6324,Operational,Exxon suffers global outage affecting millions of users,0.2123,1.0,5,6.0
+sig_01M4NEXKNC85S94A4WF7X5MG1P,PFE,2021-08-16,-0.019317398115703863,0.019317398115703863,5,-0.6324,Earnings,Pfizer quarterly revenue below expectations as demand weakens,0.1818,1.0,4,6.0
+sig_01M4NEXKNCK2N9MVKQADENQTVK,KO,2021-08-18,-0.03429670647631962,0.03429670647631962,6,-0.8545,Earnings,$KO coca-cola misses estimates and cuts guidance; shares fall 3% !!,0.3112,0.6,6,6.0
+sig_01M4NEXKNC9641ZQH1SZQA4TFQ,BA,2021-08-20,-0.025284147837066017,0.025284147837066017,6,-0.6324,Operational,Boeing suffers global outage affecting millions of users,0.1538,1.0,5,6.0
+sig_01M4NEXKNCS7F1GWBFWN2M2HFZ,BAC,2021-08-24,0.024084016171020548,0.024084016171020548,3,0.6839,Other,Bank of America upgraded to A- as balance sheet strengthens,0.3636,1.0,5,5.0
+sig_01M4NEXKNCK6R6V98VGRP62H6D,GOOGL,2021-08-24,0.00418947984458954,0.00418947984458954,6,0.4971,Merger/Acquisition,$GOOGL alphabet announces merger talks; shares rally 22% 🚀,0.2994,0.6,1,5.0
+sig_01M4NEXKND8344Q96EXB9DX2TB,XOM,2021-08-26,0.02426046658349107,0.02426046658349107,5,-0.4971,Operational,Exxon restores services after brief outage,0.2222,1.0,5,5.0
+sig_01M4NEXKND4H4MYNM9F6MYZBBJ,META,2021-08-26,0.030829527674844964,0.030829527674844964,7,0.957,Earnings,"Meta beats expectations, raises guidance; shares jump 8%",0.1538,1.0,6,6.0
+sig_01M4NEXKNDRFS5GVJ28GB5R497,KO,2021-08-30,-0.051669914264855746,0.051669914264855746,6,-0.6324,Operational,Coca-Cola suffers global outage affecting millions of users,0.0607,1.0,8,6.0
+sig_01M4NEXKNDVZG7DRV7NE50N2NH,WMT,2021-09-06,-0.016466088379882532,0.016466088379882532,8,-0.5624,Credit Event,$WMT walmart faces liquidity crisis as funding costs spike 9%,0.2123,0.6,3,6.0
+sig_01M4NEXKNDSAJRN0C9Q8GNR3HH,KO,2021-09-06,-0.000215101157285855,0.000215101157285855,3,-0.3799,Product Launch,$KO coca-cola delays launch of flagship product after defects found,0.3555,0.6,1,5.0
+sig_01M4NEXKNDE4C0FDSCDMJDT89K,AAPL,2021-09-07,0.0009694324894664718,0.0009694324894664718,5,-0.6324,Earnings,Apple quarterly revenue below expectations as demand weakens,0.1818,1.0,1,6.0
+sig_01M4NEXKNDPQKRATXTFH15T65M,META,2021-09-15,-0.004569476847346959,0.004569476847346959,5,-0.4971,Operational,Meta restores services after brief outage,0.2222,1.0,1,5.0
+sig_01M4NEXKNDM0HHMDZG82AE05DE,MSFT,2021-09-16,0.012785059206275467,0.012785059206275467,6,0.8762,Earnings,$MSFT microsoft posts record revenue on strong demand,0.3555,0.6,2,6.0
+sig_01M4NEXKNEF1AZYCK68B7EV41V,TSLA,2021-09-17,-0.06549849279493974,0.06549849279493974,6,-0.6741,Merger/Acquisition,$TSLA tesla takeover bid collapses after regulators object 📉,0.2474,0.6,9,6.0
+sig_01M4NEXKNEXCR7CAFA9KA2MJZV,AAPL,2021-09-20,0.013365687882038586,0.013365687882038586,6,0.4971,Merger/Acquisition,Apple announces merger talks; shares rally 2%,0.1818,1.0,3,5.0
+sig_01M4NEXKNEMGHT4ZSPFYZVRVY8,PFE,2021-09-23,-0.03755716971042943,0.03755716971042943,6,-0.6741,Merger/Acquisition,Pfizer takeover bid collapses after regulators object,0.0,1.0,7,6.0
+sig_01M4NEXKNE4QP3VTQ3E34X8Y3N,WMT,2021-10-01,0.05288130584671012,0.05288130584671012,5,-0.4971,Operational,Walmart restores services after brief outage,0.2222,1.0,8,5.0
+sig_01M4NEXKNE81SWTC222T5Y1RQ1,AMZN,2021-10-06,-0.0232866122449754,0.0232866122449754,6,-0.6741,Merger/Acquisition,Amazon takeover bid collapses after regulators object,0.1818,1.0,4,6.0
+sig_01M4NEXKNE21AWXCWJF3B2W5VF,JPM,2021-10-08,-0.01178870206913132,0.01178870206913132,7,-0.1974,Credit Event,Rating agency cuts JPMorgan outlook to negative on refinancing risk,0.2485,1.0,2,5.0
+sig_01M4NEXKNEDW29FNTMW8G5JCFT,AMZN,2021-10-08,0.01984056640462853,0.01984056640462853,4,0.0,Merger/Acquisition,$AMZN amazon agrees to acquire a rival for $12 billion in all-cash deal,0.3273,0.6,4,4.0
+sig_01M4NEXKNEJRENTAF76TPDF6A7,AAPL,2021-10-14,-0.004366658802504902,0.004366658802504902,5,-0.4971,Operational,$AAPL apple restores services after bref outage,0.598,0.6,1,6.0
+sig_01M4NEXKNFJ9P4KC4MJVH11JFW,BA,2021-10-14,0.03388401104429918,0.03388401104429918,5,-0.4971,Operational,Boeing restores services after brief outage,0.0955,1.0,6,5.0
+sig_01M4NEXKNFBYN42NPW2C9C70XW,BAC,2021-10-15,0.05426306367015266,0.05426306367015266,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Bank of America,0.3701,1.0,9,6.0
+sig_01M4NEXKNFBW5KTATR9FHHX0ZX,BAC,2021-10-18,0.009718880919346848,0.009718880919346848,3,0.2234,Product Launch,Bank of America launches new platform ahead of schedule,0.2474,1.0,2,5.0
+sig_01M4NEXKNF3AD82FSCP27S7NHW,GOOGL,2021-10-20,-0.010487262410774734,0.010487262410774734,6,-0.7293,Operational,Cyberattack forces Alphabet to halt production at several plants,0.331,1.0,2,6.0
+sig_01M4NEXKNFM121WDPTKMJGXV5Z,BA,2021-10-22,-0.002638009513667259,0.002638009513667259,3,-0.3799,Product Launch,Boeing delays launch of flagship product after defects found,0.2474,1.0,1,5.0
+sig_01M4NEXKNFYDJ90MK7DSNJ7VDS,NVDA,2021-10-22,0.032789316649091266,0.032789316649091266,6,0.4971,Merger/Acquisition,Nvidia 8-K: Nvidia announces merger talks; shares rally 6%,0.2994,1.0,6,5.0
+sig_01M4NEXKNFSCG8296PZWMK7AP6,BA,2021-10-27,0.025344196577146975,0.025344196577146975,4,0.5927,Product Launch,Boeing unveils next-gen product line to strong early demand,0.1333,1.0,5,5.0
+sig_01M4NEXKNFZQBVGYYBDJSSCBD6,BAC,2021-10-28,-0.014569685201423842,0.014569685201423842,3,-0.3799,Product Launch,Bank of America delays launch of flagship product after defects found,0.0,1.0,3,5.0
+sig_01M4NEXKNF36KH62R9GP6FAFT4,GOOGL,2021-11-03,0.05656949790556945,0.05656949790556945,7,0.4971,Merger/Acquisition,Alphabet announces merger talks; shares rally 22%,0.0691,1.0,9,5.0
+sig_01M4NEXKNGNQ14CXSANSC5EN1R,WMT,2021-11-04,-0.022641393161066378,0.022641393161066378,5,-0.6324,Operational,$WMT walmart suffers global outage affecting millions of users,0.2123,0.6,4,6.0
+sig_01M4NEXKNGQRP3WR40T2H8K3Z5,KO,2021-11-08,-0.060181441889994865,0.060181441889994865,9,-0.9387,Credit Event,Coca-Cola 8-K: Coca-Cola shares plunge 8% after report of deposit outflows and emergency capital raise,0.4036,1.0,9,6.0
+sig_01M4NEXKNGXES6DWGB55BBH417,AMZN,2021-11-09,0.015244819147105668,0.015244819147105668,5,-0.4971,Operational,Amazon restores services after brief outage,0.2222,1.0,3,5.0
+sig_01M4NEXKNGH8JYREDZ3EXRK7QY,GOOGL,2021-11-11,-0.056661069836869235,0.056661069836869235,6,-0.7293,Operational,Alphabet 8-K: Cyberattack forces Alphabet to halt production at several plants,0.0658,1.0,9,6.0
+sig_01M4NEXKNGYE5RXF8XVAPNFJV6,PFE,2021-11-11,-0.008236361935094007,0.008236361935094007,3,-0.3799,Product Launch,$PFE pfizer delays launch of flagship product after defects found 📉,0.0,0.6,2,5.0
+sig_01M4NEXKNG6XA840HRQ89WX9DY,WMT,2021-11-17,-0.012586279631221525,0.012586279631221525,3,-0.3799,Product Launch,$WMT walmart delays launch of flagship product after defects found lol,0.2994,0.6,2,5.0
+sig_01M4NEXKNG5PBE0G5KKGG50Z52,NVDA,2021-11-17,0.04847986875808748,0.04847986875808748,4,0.5927,Product Launch,Nvidia unveils next-gen product line to strong early demand,0.0607,1.0,8,5.0
+sig_01M4NEXKNH86N40MKMWA9PSYAP,JPM,2021-11-18,-0.05296430628065635,0.05296430628065635,8,-0.5624,Credit Event,JPMorgan faces liquidity crisis as funding costs spike 3%,0.1538,1.0,8,6.0
+sig_01M4NEXKNH0A4DD3TSXCDP3ZZ5,BA,2021-11-19,-0.039939474425802944,0.039939474425802944,6,-0.1974,Credit Event,$BA rating agency cuts boeing outlook to negative on refinancing risk,0.2485,0.6,7,5.0
+sig_01M4NEXKNH4402YECENT7GS70C,BAC,2021-11-23,-0.014218787641860273,0.014218787641860273,6,-0.6741,Merger/Acquisition,$BAC bankof america takeover bid collapses after regulators object 📉,0.2994,0.6,3,6.0
+sig_01M4NEXKNH3AHHH01EXAQY1G7B,AMZN,2021-11-24,-0.04239125153136383,0.04239125153136383,7,-0.6324,Credit Event,"$AMZN amazon misses coupon payment, bondholders hire restructuring advisers",0.0607,0.6,7,6.0
+sig_01M4NEXKNH6PA962G8VM3J8K6H,PFE,2021-11-25,-0.05494532374666422,0.05494532374666422,6,-0.6741,Merger/Acquisition,Pfizer takeover bid collapses after regulators object,0.0,1.0,9,6.0
+sig_01M4NEXKNHT7BPQECKRN8K52EV,KO,2021-12-02,0.014481977504302215,0.014481977504302215,7,0.4971,Merger/Acquisition,Coca-Cola announces merger talks; shares rally 8%,0.0691,1.0,3,5.0
+sig_01M4NEXKNHT3N8P75ZWZPZ5RTC,BA,2021-12-07,0.09173077073382058,0.09173077073382058,5,-0.4971,Operational,$BA boeing restores sevices after brief outage lol,0.331,0.6,10,5.0
+sig_01M4NEXKNHHWQXGRFEFH10JDKH,XOM,2021-12-08,0.012470642747053989,0.012470642747053989,6,0.4971,Merger/Acquisition,$XOM exxon announces merger talks; shares rally 6%,0.2474,0.6,2,5.0
+sig_01M4NEXKNHTGW0RTB4E0JG574C,AMZN,2021-12-10,-0.052064544147214814,0.052064544147214814,4,0.0,Operational,"Workers strike at Amazon plants, halting output",0.2727,1.0,8,4.0
+sig_01M4NEXKNJWS4BDMDN3433HVBZ,BA,2021-12-13,0.03510598719316582,0.03510598719316582,6,0.8762,Earnings,Boeing posts record revenue on strong demand,0.2474,1.0,6,6.0
+sig_01M4NEXKNJSF8TA45D78HNYKCM,WMT,2021-12-14,0.13879527071119274,0.13879527071119274,3,0.6839,Other,$WMT walmart upgraded to a- as balance sheet strengthens 📉,0.3636,0.6,10,5.0
+sig_01M4NEXKNJHPSFJ28DZW4M9QX0,JNJ,2021-12-14,-0.029484611382536375,0.029484611382536375,7,-0.7207,Regulatory/Legal,Johnson & Johnson fined $18 billion after probe into sales practices,0.415,1.0,6,6.0
+sig_01M4NEXKNJW9D89EXDCNHH4CHF,WMT,2021-12-15,0.08359078747974003,0.08359078747974003,8,-0.6741,Credit Event,"Walmart completes refinancing, removing near-term default risk",0.1859,1.0,10,6.0
+sig_01M4NEXKNJ0NV616RHKGSVMMZV,BAC,2021-12-15,-0.0319750660978242,0.0319750660978242,5,0.0,Merger/Acquisition,Bank of America agrees to acquire a rival for $2 billion in all-cash deal,0.2123,1.0,6,4.0
+sig_01M4NEXKS4X1JH318K0SJ3PYSR,PFE,2021-12-17,-0.0060652637523246344,0.0060652637523246344,5,-0.4971,Operational,Pfizer restores services after brief outage,0.2222,1.0,1,5.0
+sig_01M4NEXKS43WMAG6SKAAEGQEG7,XOM,2021-12-17,-0.017700949072407497,0.017700949072407497,3,-0.3799,Product Launch,Exxon Mobil delays launch of flagship product after defects found,0.2474,1.0,3,5.0
+sig_01M4NEXKS4M2JH349HJZ6X9R8X,JPM,2021-12-20,0.05781209206266257,0.05781209206266257,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against JPMorgan,0.2857,1.0,9,6.0
+sig_01M4NEXKS4AZNEKRG7PPEA3CYH,BA,2021-12-21,-0.09128980190328428,0.09128980190328428,7,-0.8545,Earnings,Boeing misses estimates and cuts guidance; shares fall 9%,0.2123,1.0,10,6.0
+sig_01M4NEXKS4SRMKDJ67AV66A72M,META,2021-12-27,-0.09610512430987186,0.09610512430987186,7,-0.6324,Credit Event,"$META meta misses coupon payment, bondholders hire restructuring advisers !!",0.2299,0.6,10,6.0
+sig_01M4NEXKS45DT6P6PYQD8YH7HY,JNJ,2021-12-28,-0.0062061611611277465,0.0062061611611277465,6,-0.7293,Operational,Cyberattack forces Johnson & Johnson to halt production at several plants,0.3772,1.0,1,6.0
+sig_01M4NEXKS5J1CPYX3Q4X36N152,KO,2021-12-28,0.0038424871828198013,0.0038424871828198013,3,0.6839,Other,Coca-Cola upgraded to A- as balance sheet strengthens,0.0,1.0,1,5.0
+sig_01M4NEXKS52XDNHQM4HDS57Y6W,NVDA,2021-12-30,0.03798241698254698,0.03798241698254698,3,-0.3799,Product Launch,$NVDA nvidia delays launch of flagship product after defects found,0.2474,0.6,7,5.0
+sig_01M4NEXKS59ZNXXPMYBT957JCF,JNJ,2021-12-30,-0.000477721027825756,0.000477721027825756,4,0.0,Operational,"Johnson & Johnson 8-K: Workers strike at Johnson & Johnson plants, halting output",0.4585,1.0,1,5.0
+sig_01M4NEXKS5HQAACMT9EPZQSTDV,AMZN,2021-12-31,0.04321787758144163,0.04321787758144163,7,0.4971,Merger/Acquisition,Amazon announces merger talks; shares rally 35%,0.2474,1.0,7,5.0
+sig_01M4NEXKS5V589ZGAJXS9AS6JX,TSLA,2022-01-05,0.02077566445959331,0.02077566445959331,5,-0.6934,Regulatory/Legal,$TSLA court dismisses lawsuit against tesla lol,0.4302,0.6,4,6.0
+sig_01M4NEXKS5D5VP55ECB911RC2T,BA,2022-01-07,-0.015967133429924923,0.015967133429924923,3,0.2234,Product Launch,Boeing launches new platform ahead of schedule,0.0,1.0,3,5.0
+sig_01M4NEXKS5FNEM1RHEA6W8XA59,GOOGL,2022-01-10,0.0018129941002563484,0.0018129941002563484,3,0.5927,Product Launch,$GOOGL alphabet unveils next-gen product line to strong early demand,0.0607,0.6,1,5.0
+sig_01M4NEXKS55FX0V8WQC8ZTXQ07,META,2022-01-11,-0.005208647030820133,0.005208647030820133,3,0.2234,Product Launch,Meta launches new platform ahead of schedule,0.1818,1.0,1,5.0
+sig_01M4NEXKS6AEZHJJTTQ2NCTN63,BAC,2022-01-12,-0.050914097818671386,0.050914097818671386,5,-0.5747,Regulatory/Legal,$BAC bank of america hit with antitrust lawsuit by regulators lol,0.0691,0.6,8,6.0
+sig_01M4NEXKS6ZJB1HP981SC8TRF3,XOM,2022-01-13,-0.03655108982707927,0.03655108982707927,6,-0.6741,Merger/Acquisition,$XOM exxon takeover bid collapses after regulators object,0.2474,0.6,7,6.0
+sig_01M4NEXKS66VGJVQM11SERTCE5,WMT,2022-01-13,0.04353567934346314,0.04353567934346314,5,0.0,Merger/Acquisition,Walmart agrees to acquire a rival for $40 billion in all-cash deal,0.1859,1.0,7,4.0
+sig_01M4NEXKS6GA7B9CATSM1K84V3,WMT,2022-01-14,0.03795191543145553,0.03795191543145553,3,0.6839,Other,$WMT walmart upgraded to a- as balance sheet strengthens lol,0.0801,0.6,7,5.0
+sig_01M4NEXKS67JRZXG1ZFNF902YY,BA,2022-01-14,0.009217489894767238,0.009217489894767238,6,-0.6741,Merger/Acquisition,Boeing takeover bid collapses after regulators object,0.1818,1.0,2,6.0
+sig_01M4NEXKS64K4WR49BVE9WFT6J,MSFT,2022-01-17,-0.050687885369053026,0.050687885369053026,6,-0.7293,Operational,Cyberattack forces Microsoft to halt production at several plants,0.2727,1.0,8,6.0
+sig_01M4NEXKS75WDY3T0N175TA1R7,BAC,2022-01-21,-0.014036137235005733,0.014036137235005733,6,-0.5747,Regulatory/Legal,Bank of America 8-K: Bank of America hit with antitrust lawsuit by regulators,0.1527,1.0,3,6.0
+sig_01M4NEXKS7M0XVSF3W5MWS8CWV,NVDA,2022-01-31,0.004547462194422059,0.004547462194422059,7,0.4971,Merger/Acquisition,Nvidia announces merger talks; shares rally 22%,0.1407,1.0,1,5.0
+sig_01M4NEXKS7PH7JN9P8X5MJWZX6,AMZN,2022-02-01,0.011964329272980407,0.011964329272980407,8,-0.6741,Credit Event,"Amazon completes refinancing, removing near-term default risk",0.1333,1.0,2,6.0
+sig_01M4NEXKS77N7S7CTR5JQV2E1C,MSFT,2022-02-04,-0.03457646452419829,0.03457646452419829,6,-0.6741,Merger/Acquisition,$MSFT microsoft takeover bid collapses after regulators object lol,0.2994,0.6,6,6.0
+sig_01M4NEXKS7ZM9H3P33VF2ZR411,AAPL,2022-02-04,0.00397001926006655,0.00397001926006655,6,-0.6741,Merger/Acquisition,$AAPL apple takeover bid collapses after regulators object,0.2474,0.6,1,6.0
+sig_01M4NEXKS7CNNDAD026MCBC0GE,AMZN,2022-02-07,0.019406437642905845,0.019406437642905845,7,0.957,Earnings,"Amazon beats expectations, raises guidance; shares jump 6%",0.1538,1.0,4,6.0
+sig_01M4NEXKS70AYZ5E90QR859Z7R,JNJ,2022-02-09,-0.027831838109027264,0.027831838109027264,6,-0.7207,Regulatory/Legal,Johnson & Johnson fined $2 billion after probe into sales practices,0.1233,1.0,5,6.0
+sig_01M4NEXKS75DQGBQ2XCSEDSTSV,NVDA,2022-02-09,0.018981321808485198,0.018981321808485198,6,-0.8545,Earnings,$NVDA nvidia misses estimates and cuts guidance; sares fall 6%,0.4271,0.6,4,6.0
+sig_01M4NEXKS82GX7SV05CXXXS7HD,PFE,2022-02-11,-0.009874576744148614,0.009874576744148614,5,-0.6324,Earnings,Pfizer quarterly revenue below expectations as demand weakens,0.0,1.0,2,6.0
+sig_01M4NEXKS8C8ARY1351BMFCH1T,GOOGL,2022-02-11,0.024851337441355384,0.024851337441355384,3,-0.3799,Product Launch,Alphabet delays launch of flagship product after defects found,0.1818,1.0,5,5.0
+sig_01M4NEXKS8DA01KRRRZYH2WJPZ,GOOGL,2022-02-14,0.04415935965607006,0.04415935965607006,4,0.0,Merger/Acquisition,$GOOGL alphabet agrees to acquire a rival for $5 billion in all-cash deal,0.2123,0.6,7,4.0
+sig_01M4NEXKS8D21R65CWMXHD9HJD,WMT,2022-02-17,0.006590831695803342,0.006590831695803342,5,0.0,Merger/Acquisition,Walmart agrees to acquire a rival for $40 billion in all-cash deal,0.0,1.0,1,4.0
+sig_01M4NEXKS8TJ5VKHH997ZMYE7Q,BAC,2022-02-18,0.013099410750888805,0.013099410750888805,7,0.957,Earnings,"Bank of America beats expectations, raises guidance; shares jump 6%",0.2123,1.0,3,6.0
+sig_01M4NEXKS8DZXN3W3R8V9AB1WJ,WMT,2022-02-21,0.017891450478378083,0.017891450478378083,5,-0.4971,Operational,$WMT walmart restores services after brief outage 🚀,0.0955,0.6,4,5.0
+sig_01M4NEXKS8K2TMPEVQDZNHRV4N,BA,2022-02-23,0.07321659685500218,0.07321659685500218,3,0.5624,Other,$BA boeing upgraded to a- as balance sheet stengthens,0.5455,0.6,10,5.0
+sig_01M4NEXKS81JVF6PBW13T51RXX,BAC,2022-02-24,0.030009926341472076,0.030009926341472076,3,0.2234,Product Launch,$BAC bank of america launches new platform ahead of schedule lol,0.1255,0.6,6,5.0
+sig_01M4NEXKS953CN9727A6R31329,KO,2022-02-25,-0.010122030017157026,0.010122030017157026,8,-0.5624,Credit Event,Coca-Cola faces liquidity crisis as funding costs spike 12%,0.2601,1.0,2,6.0
+sig_01M4NEXKS9J586346QB98T0PPT,TSLA,2022-02-28,-0.024315437808408485,0.024315437808408485,6,-0.6741,Merger/Acquisition,Tesla takeover bid collapses after regulators object,0.0801,1.0,5,6.0
+sig_01M4NEXKS9TF6C1GZ0B92YNEED,KO,2022-03-01,0.0791730883604985,0.0791730883604985,3,0.6839,Other,Coca-Cola upgraded to A- as balance sheet strengthens,0.0,1.0,10,5.0
+sig_01M4NEXKS9TJEGFRX60R7R3K21,NVDA,2022-03-08,-0.0050597724003802365,0.0050597724003802365,3,-0.3799,Product Launch,Nvidia delays launch of flagship product after defects found,0.0801,1.0,1,5.0
+sig_01M4NEXKS9DS8K3G2RTFRKX876,PFE,2022-03-08,-0.00942710906392018,0.00942710906392018,6,-0.7293,Operational,Cyberattack forces Pfizer to halt production at several plants,0.2727,1.0,2,6.0
+sig_01M4NEXKS98M6QY5B1HXFWRV6A,META,2022-03-09,0.013889003598191984,0.013889003598191984,7,-0.8545,Earnings,$META meta misses estimates and cuts guidance; shares fall 15%,0.3001,0.6,3,6.0
+sig_01M4NEXKS90ZY2N4QG003MMSPQ,NVDA,2022-03-09,0.02156304488924224,0.02156304488924224,5,-0.4971,Operational,$NVDA nvidia restores services after brief outage 📉,0.2965,0.6,4,5.0
+sig_01M4NEXKS9RYKZSHS9GNR2J6K1,GOOGL,2022-03-15,-0.0696174309421006,0.0696174309421006,7,-0.1974,Credit Event,Rating agency cuts Alphabet outlook to negative on refinancing risk,0.2,1.0,10,5.0
+sig_01M4NEXKSABNTPQ659FCTXC2SS,TSLA,2022-03-16,-0.01166782390109053,0.01166782390109053,3,-0.3799,Product Launch,Tesla delays launch of flagship product after defects found,0.1818,1.0,2,5.0
+sig_01M4NEXKSA0WM41XC3QMK22NNY,TSLA,2022-03-23,0.03857025976569804,0.03857025976569804,3,-0.3799,Product Launch,$TSLA tesla delays launch of flagship product after defects found,0.0801,0.6,7,5.0
+sig_01M4NEXKSAHK9B2S2AHSWT0D7F,AMZN,2022-03-23,-0.02071577801251368,0.02071577801251368,3,-0.3799,Product Launch,Amazon delays launch of flagship product after defects found,0.1818,1.0,4,5.0
+sig_01M4NEXKSAP3T5N1NYWRGHVFFF,AMZN,2022-03-24,0.013675340810950778,0.013675340810950778,5,-0.4971,Operational,Amazon restores services after brief outage,0.0,1.0,3,5.0
+sig_01M4NEXKSAK6BGAG24YGY5BT8M,BA,2022-03-25,0.048351164739978844,0.048351164739978844,3,0.2234,Product Launch,$BA boeing launches new platform ahead of schedule !!,0.0801,0.6,8,5.0
+sig_01M4NEXKSASZ8CBXTVJZ4FMBKB,TSLA,2022-03-29,-0.02760629962201374,0.02760629962201374,5,-0.6324,Operational,$TSLA tesla suffers global outage affecting millions of users,0.2123,0.6,5,6.0
+sig_01M4NEXKSA6X19N8485CV772MD,TSLA,2022-03-31,0.023476064506236478,0.023476064506236478,8,-0.6741,Credit Event,"Tesla completes refinancing, removing near-term default risk",0.1333,1.0,4,6.0
+sig_01M4NEXKSA8VRD2WP922YTBV4B,GOOGL,2022-04-01,-0.020638055020970568,0.020638055020970568,3,-0.3799,Product Launch,Alphabet delays launch of flagship product after defects found,0.0,1.0,4,5.0
+sig_01M4NEXKSACY1PT44FFYNZ9QQA,XOM,2022-04-13,-0.03709740830982918,0.03709740830982918,3,-0.3799,Product Launch,Exxon 8-K: Exxon Mobil delays launch of flagship product after defects found,0.0583,1.0,7,5.0
+sig_01M4NEXKSBEH7KD2DEJSW25NQT,GOOGL,2022-04-15,0.014490915520760358,0.014490915520760358,3,0.2234,Product Launch,Alphabet launches new platform ahead of schedule,0.1818,1.0,3,5.0
+sig_01M4NEXKSBXVTDM9M6DA293TVX,JNJ,2022-04-18,0.04155110070392935,0.04155110070392935,5,-0.4971,Operational,Johnson & Johnson restores services after brief outage,0.0,1.0,7,5.0
+sig_01M4NEXKSBP1EBPTTTMDRR7FEP,PFE,2022-04-20,-0.011705135139242071,0.011705135139242071,3,-0.3799,Product Launch,Pfizer delays launch of flagship product after defects found,0.0801,1.0,2,5.0
+sig_01M4NEXKSBMYCGNMVHDR1YBZFE,BAC,2022-04-25,0.026032624590153815,0.026032624590153815,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Bank of America,0.0,1.0,5,6.0
+sig_01M4NEXKSB38S2J6T1XRF3GW4Q,AAPL,2022-04-27,0.03828827533268554,0.03828827533268554,3,0.2234,Product Launch,$AAPL apple launches new platform ahead of schedule lol,0.2994,0.6,7,5.0
+sig_01M4NEXKSBJ30MB7322XQDRK7T,WMT,2022-04-27,-0.04903148535739163,0.04903148535739163,6,-0.4386,Regulatory/Legal,Regulator opens investigation into Walmart safety record,0.2727,1.0,8,5.0
+sig_01M4NEXKSB0P9QY4GVN9N2ZDRQ,AMZN,2022-04-29,-0.009734001119887172,0.009734001119887172,3,-0.3799,Product Launch,Amazon delays launch of flagship product after defects found,0.0,1.0,2,5.0
+sig_01M4NEXKSBQDRVKHYDPFTFMGSK,BAC,2022-04-29,0.00031855482199937696,0.00031855482199937696,6,0.8762,Earnings,$BAC bank of america posts record revenue on strong demand 🚀,0.2994,0.6,1,6.0
+sig_01M4NEXKSCH8WH7ES4GPYPVW4C,XOM,2022-04-29,-0.006220715827160802,0.006220715827160802,6,-0.4386,Regulatory/Legal,Regulator opens investigation into Exxon safety record,0.2727,1.0,1,5.0
+sig_01M4NEXKSC4HPJXS71208RTW2E,GOOGL,2022-05-06,0.09931918433652268,0.09931918433652268,3,0.6839,Other,Alphabet upgraded to BB as balance sheet strengthens,0.1818,1.0,10,5.0
+sig_01M4NEXKSC23WKQKKGYA3SRA68,AMZN,2022-05-11,-0.018774103350958943,0.018774103350958943,5,-0.6324,Earnings,Amazon quarterly revenue below expectations as demand weakens,0.1818,1.0,4,6.0
+sig_01M4NEXKXKRDSWVP4MP0RCT1JT,PFE,2022-05-16,-0.04826976348207284,0.04826976348207284,6,-0.7293,Operational,Cyberattack forces Pfizer to halt production at several plants,0.0,1.0,8,6.0
+sig_01M4NEXKXK16B2PMYEQFTA0BDS,BA,2022-05-18,-0.07168756162410281,0.07168756162410281,5,-0.4386,Regulatory/Legal,$BA regulator opens investigation into boeing safety record,0.0801,0.6,10,5.0
+sig_01M4NEXKXKFDD9F3M5PBX5C3AC,JNJ,2022-05-20,-0.006804653078675299,0.006804653078675299,3,0.5927,Product Launch,$JNJ johnson & johnson unveils next-gen product line to strong early demand !!,0.2675,0.6,2,5.0
+sig_01M4NEXKXKX097RKT4FNPXEVTN,TSLA,2022-05-25,0.023628661699394964,0.023628661699394964,9,-0.9387,Credit Event,$TSLA tesla shares plunge 35% after report of deposit outflows and emergency capital raise 🚀,0.1489,0.6,4,6.0
+sig_01M4NEXKXM1EC6SVQCGHVVBB0E,JPM,2022-06-02,0.033279925590852036,0.033279925590852036,3,0.6839,Other,$JPM jpmorgan upgraded to a- as balance sheet strengthens,0.3636,0.6,6,5.0
+sig_01M4NEXKXMXB1F7Q2QWGAXNG6K,TSLA,2022-06-16,-0.07962450542708766,0.07962450542708766,6,0.4971,Merger/Acquisition,$TSLA tesla announces merger talks; shares rally 12% lol,0.0607,0.6,10,5.0
+sig_01M4NEXKXMKZ91SSPG6HG0BRGY,WMT,2022-06-17,0.051201099896078184,0.051201099896078184,6,0.4971,Merger/Acquisition,$WMT walmart announces merger talks; shares rally 12%,0.2667,0.6,8,5.0
+sig_01M4NEXKXMKAD2FWSZ8X06XY01,META,2022-06-22,-0.014250366807055697,0.014250366807055697,6,-0.7207,Regulatory/Legal,$META meta platforms fined $18 billion after probe into sales practices,0.3879,0.6,3,6.0
+sig_01M4NEXKXMWT8G4MYVXXDP48DQ,BAC,2022-06-24,0.011949096125006178,0.011949096125006178,3,0.6839,Other,Bank of America upgraded to BB+ as balance sheet strengthens,0.1638,1.0,2,5.0
+sig_01M4NEXKXMMFDZ7CAS3FXZEPMZ,JPM,2022-06-24,-0.05225464424683339,0.05225464424683339,6,-0.4386,Regulatory/Legal,Regulator opens investigation into JPMorgan safety record,0.2727,1.0,8,5.0
+sig_01M4NEXKXMTDWQ8DFA2D2FH35Z,AMZN,2022-06-24,0.08159162674989003,0.08159162674989003,7,0.957,Earnings,"Amazon beats expectations, raises guidance; shares jump 22%",0.0691,1.0,10,6.0
+sig_01M4NEXKXM88J3PRG2ACMK2BZ9,JPM,2022-06-29,0.048555020241302566,0.048555020241302566,3,0.6839,Other,$JPM jpmorgan upgraded to bb+ as balance sheet strengthens,0.1638,0.6,8,5.0
+sig_01M4NEXKXN8K4ADRTEFS23XMEV,KO,2022-06-30,-0.0003064839082629958,0.0003064839082629958,4,0.5927,Product Launch,Coca-Cola unveils next-gen product line to strong early demand,0.1859,1.0,1,5.0
+sig_01M4NEXKXNY4G5Y624HTKS6H88,KO,2022-07-04,0.02229316300760969,0.02229316300760969,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Coca-Cola,0.3701,1.0,4,6.0
+sig_01M4NEXKXNW6C7F6CW1GM3R52F,BA,2022-07-06,0.0841039247479829,0.0841039247479829,5,-0.4971,Operational,Boeing restores services after brief outage,0.0,1.0,10,5.0
+sig_01M4NEXKXNRW61325N3F6JX9AJ,PFE,2022-07-06,0.012314152415334609,0.012314152415334609,3,0.5927,Product Launch,$PFE pfizer unveils next-gen product line to strong early demand,0.1859,0.6,2,5.0
+sig_01M4NEXKXN0E0W5WEJN3K6G6G8,META,2022-07-06,-0.06276219901128538,0.06276219901128538,5,-0.6324,Earnings,$META meta quarterly revenue below expectations as demand weakens 📉,0.2994,0.6,9,6.0
+sig_01M4NEXKXN94MS8VKY47H8RQTB,AMZN,2022-07-12,-0.02210023683545883,0.02210023683545883,6,-0.5747,Regulatory/Legal,Amazon hit with antitrust lawsuit by regulators,0.2222,1.0,4,6.0
+sig_01M4NEXKXNM7JY0W3DYE9H3PX9,WMT,2022-07-21,0.02116894214469052,0.02116894214469052,3,0.2234,Product Launch,$WMT walmart launches new platform ahead of schedule lol,0.2667,0.6,4,5.0
+sig_01M4NEXKXN0N716YC3RYRJWW3F,BA,2022-07-22,-0.06986534655749009,0.06986534655749009,7,-0.7207,Regulatory/Legal,Boeing fined $40 billion after probe into sales practices,0.331,1.0,10,6.0
+sig_01M4NEXKXPKVD9SFER1T51G5AB,JNJ,2022-07-26,-0.06724916265900363,0.06724916265900363,5,-0.6324,Earnings,$JNJ johnson & johnson quarterly revenue below expectations as demand weakens 📉,0.3419,0.6,9,6.0
+sig_01M4NEXKXP6WV3R9JBDT2BKFZD,NVDA,2022-07-26,0.006668542615193108,0.006668542615193108,5,0.0,Merger/Acquisition,Nvidia agrees to acquire a rival for $5 billion in all-cash deal,0.1538,1.0,2,4.0
+sig_01M4NEXKXPCAG7X3908CCC7WJZ,BAC,2022-08-09,0.07678253115787076,0.07678253115787076,7,0.957,Earnings,"Bank of America beats expectations, raises guidance; shares jump 15%",0.0607,1.0,10,6.0
+sig_01M4NEXKXPXQK9FW6SVE7XQDJE,META,2022-08-11,-0.030242010284377646,0.030242010284377646,5,-0.6324,Operational,$META meta suffers global outage affecting millions of users 🚀,0.2601,0.6,6,6.0
+sig_01M4NEXKXPSNE1EQVF47PQW07Q,PFE,2022-08-11,0.0384973835475615,0.0384973835475615,5,0.0,Merger/Acquisition,Pfizer agrees to acquire a rival for $18 billion in all-cash deal,0.1859,1.0,7,4.0
+sig_01M4NEXKXP5YVEG0845ZA4HNMP,PFE,2022-08-16,0.005096773714808463,0.005096773714808463,5,-0.6934,Regulatory/Legal,$PFE court dismisses lawsuit against pfizer 📉,0.3701,0.6,1,6.0
+sig_01M4NEXKXQXCNAZ606FK01GHD3,META,2022-08-16,-0.008651827187545064,0.008651827187545064,7,0.957,Earnings,"Meta beats expectations, raises guidance; shares jump 35%",0.0691,1.0,2,6.0
+sig_01M4NEXKXQRQAK403C6A4CD26T,NVDA,2022-08-22,-0.007030357353162486,0.007030357353162486,3,-0.3799,Product Launch,Nvidia delays launch of flagship product after defects found,0.0,1.0,2,5.0
+sig_01M4NEXKXQ1ZYVDWHVE7G9HAR6,BAC,2022-08-24,0.02995664977285805,0.02995664977285805,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Bank of America,0.0,1.0,6,6.0
+sig_01M4NEXKXQTCAXTQ3Z3TP26Q1C,TSLA,2022-08-24,0.001511294472072244,0.001511294472072244,5,-0.4971,Operational,Tesla 8-K: Tesla restores services after brief outage,0.0755,1.0,1,5.0
+sig_01M4NEXKXQ81V10MEACKK5C4G4,MSFT,2022-08-31,0.011151942085864102,0.011151942085864102,7,0.957,Earnings,"Microsoft beats expectations, raises guidance; shares jump 4%",0.1538,1.0,2,6.0
+sig_01M4NEXKXQSBTDS1TNGF9WXSKK,XOM,2022-09-06,-0.05703110418045282,0.05703110418045282,6,-0.5747,Regulatory/Legal,Exxon hit with antitrust lawsuit by regulators,0.2222,1.0,9,6.0
+sig_01M4NEXKXRWYN9A9WTAER92GF1,BAC,2022-09-06,0.012358181562292847,0.012358181562292847,3,-0.3799,Product Launch,Bank of America delays launch of flagship product after defects found,0.0,1.0,2,5.0
+sig_01M4NEXKXR4V6BBDPEX8G0K73E,JPM,2022-09-09,-0.08858347794038919,0.08858347794038919,6,-0.8545,Earnings,JPMorgan misses estimates and cuts guidance; shares fall 4%,0.1538,1.0,10,6.0
+sig_01M4NEXKXRGTVESY6H1PNKYSQK,BAC,2022-09-12,-0.035039696674563456,0.035039696674563456,3,-0.3799,Product Launch,Bank of America delays launch of flagship product after defects found,0.0,1.0,6,5.0
+sig_01M4NEXKXR8XR2SVMYHXN42PNQ,KO,2022-09-16,-0.035495520230728356,0.035495520230728356,5,-0.6324,Earnings,Coca-Cola quarterly revenue below expectations as demand weakens,0.2474,1.0,6,6.0
+sig_01M4NEXKXRPW0AS0T7YJTG56EY,MSFT,2022-09-23,-0.023741416830628206,0.023741416830628206,6,-0.6324,Operational,Microsoft suffers global outage affecting millions of users,0.1538,1.0,4,6.0
+sig_01M4NEXKXRZ5KQQ8YVJR7AN293,NVDA,2022-09-28,-0.02879133157046331,0.02879133157046331,6,-0.8545,Earnings,$NVDA nvidia misses estimates and cuts guidance; shares fall 3% !!,0.2,0.6,5,6.0
+sig_01M4NEXKXRYHK59WETZ5GBKMYS,META,2022-10-03,0.056718840012643996,0.056718840012643996,4,0.5927,Product Launch,Meta unveils next-gen product line to strong early demand,0.1333,1.0,9,5.0
+sig_01M4NEXKXS5XTQ2R92KHEKK3GQ,AAPL,2022-10-04,0.02109361291154347,0.02109361291154347,6,-0.4971,Operational,Apple 8-K: Apple restores services after brief outage,0.3528,1.0,4,5.0
+sig_01M4NEXKXS48DREXPXCCXHX0P7,NVDA,2022-10-06,-0.015592171154580675,0.015592171154580675,7,-0.8545,Earnings,NVIDIA misses estimates and cuts guidance; shares fall 22%,0.1333,1.0,3,6.0
+sig_01M4NEXKXSFZZ0KZ034161J0W1,META,2022-10-06,0.05695277125845684,0.05695277125845684,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Meta,0.0,1.0,9,6.0
+sig_01M4NEXKXSBWWC5RRE038BNMJV,BA,2022-10-11,0.00924750884875808,0.00924750884875808,7,-0.6324,Credit Event,"$BA boeing misses coupon payment, bondholders hire restructuring advisers",0.0607,0.6,2,6.0
+sig_01M4NEXKXSSQ84X7T31MVB6QPZ,BA,2022-10-14,0.0018320001822128788,0.0018320001822128788,6,-0.6741,Merger/Acquisition,Boeing takeover bid collapses after regulators object,0.0,1.0,1,6.0
+sig_01M4NEXKXSQFCK50N6YSD4SE0K,JPM,2022-10-18,0.02498825906533721,0.02498825906533721,5,-0.4971,Operational,JPMorgan restores services after brief outage,0.2222,1.0,5,5.0
+sig_01M4NEXKXS5BR21KERPCCJM0SP,WMT,2022-10-21,-0.01631224404635016,0.01631224404635016,8,-0.828,Credit Event,Walmart downgraded one notches to A- as commercial real estate losses mount,0.2892,1.0,3,6.0
+sig_01M4NEXKXSNE6ZBCEHFPJB75R6,BAC,2022-10-25,0.032150491066495854,0.032150491066495854,5,0.8762,Earnings,$BAC bank of america posts record revenue on strong demand 📉,0.0,0.6,6,6.0
+sig_01M4NEXKXT7MF7SWH5SC4K1R3D,TSLA,2022-10-28,0.09110111420885278,0.09110111420885278,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Tesla,0.2023,1.0,10,6.0
+sig_01M4NEXKXTP7210FFKX7RBC5M1,GOOGL,2022-11-01,0.008246097325384984,0.008246097325384984,6,-0.6741,Merger/Acquisition,$GOOGL alphabet takeover bid collapses after regulators object,0.2474,0.6,2,6.0
+sig_01M4NEXKXT04P9W0XKZZJFN68R,PFE,2022-11-02,-0.06913552654315608,0.06913552654315608,7,-0.1974,Credit Event,Rating agency cuts Pfizer outlook to negative on refinancing risk,0.2,1.0,10,5.0
+sig_01M4NEXKXTJ38TN8RYMJ5TQFCM,MSFT,2022-11-03,0.001388618975792311,0.001388618975792311,3,0.2234,Product Launch,Microsoft launches new platform ahead of schedule,0.1818,1.0,1,5.0
+sig_01M4NEXKXTH6RNS8VZQPYD1NSD,PFE,2022-11-07,0.04411943512546949,0.04411943512546949,5,0.0,Merger/Acquisition,Pfizer 8-K: Pfizer agrees to acquire a rival for $5 billion in all-cash deal,0.1859,1.0,7,4.0
+sig_01M4NEXKXTHFGS9KN3W3MWSAED,BAC,2022-11-07,0.0007313789468303272,0.0007313789468303272,5,0.0,Merger/Acquisition,Bank of America agrees to acquire a rival for $40 billion in all-cash deal,0.1233,1.0,1,4.0
+sig_01M4NEXKXTZ18X6XRE00PCBRVN,WMT,2022-11-08,-0.04877497323251906,0.04877497323251906,8,-0.828,Credit Event,Walmart 8-K: Walmart downgraded two notches to BB+ as energy losses mount,0.4364,1.0,8,6.0
+sig_01M4NEXKXTZZE722DPGSD6JVZR,BAC,2022-11-08,-0.034315984371525284,0.034315984371525284,3,-0.3799,Product Launch,Bank of America delays launch of flagship product after defects found,0.0,1.0,6,5.0
+sig_01M4NEXKXVEMKHR57D36CYRWH5,TSLA,2022-11-08,0.008700668923039376,0.008700668923039376,7,-0.1974,Credit Event,Rating agency cuts Tesla outlook to negative on refinancing risk,0.2,1.0,2,5.0
+sig_01M4NEXKXV84CJATDK090ZTTNS,KO,2022-11-09,-0.07553302209506606,0.07553302209506606,6,-0.6741,Merger/Acquisition,Coca-Cola takeover bid collapses after regulators object,0.0691,1.0,10,6.0
+sig_01M4NEXKXV8XVEERV92VBRYPEP,TSLA,2022-11-09,0.027526923707578945,0.027526923707578945,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Tesla,0.0,1.0,5,6.0
+sig_01M4NEXKXVB82D1RCA05T1RXK8,BAC,2022-11-11,0.05046173458197135,0.05046173458197135,6,0.4971,Merger/Acquisition,$BAC bank of america announces merger talks; shaes rally 35%,0.2485,0.6,8,5.0
+sig_01M4NEXKXV1KCYPQEBC02ETXSP,XOM,2022-11-17,0.07285024096024591,0.07285024096024591,5,-0.6934,Regulatory/Legal,$XOM court dismisses lawsuit against exxon,0.3701,0.6,10,6.0
+sig_01M4NEXKXVXQEWDF0KZAPFNVQZ,AAPL,2022-11-18,0.030471625419770006,0.030471625419770006,5,-0.6934,Regulatory/Legal,$AAPL court dismisses lawsuit against apple,0.1181,0.6,6,6.0
+sig_01M4NEXKXVQP7SS9NRW30RZC5K,XOM,2022-11-22,0.01740226865958986,0.01740226865958986,7,-0.1974,Credit Event,Rating agency cuts Exxon outlook to negative on refinancing risk,0.2,1.0,3,5.0
+sig_01M4NEXKXVG145D48H891ZHGBG,BA,2022-11-23,-0.0894543375092777,0.0894543375092777,4,0.0,Operational,"$BA workers strike at boeing plants, halting output 📉",0.331,0.6,10,5.0
+sig_01M4NEXM0EXW2R1MARX9CW2B60,GOOGL,2022-11-23,0.0032501228433693546,0.0032501228433693546,5,-0.4971,Operational,Alphabet restores services after brief outage,0.0955,1.0,1,5.0
+sig_01M4NEXM0EDWG1YVDEJKY75Y2Y,NVDA,2022-12-09,-0.07651837801273878,0.07651837801273878,5,-0.4386,Regulatory/Legal,$NVDA regulator opens investigation into nvidia safety record,0.331,0.6,10,5.0
+sig_01M4NEXM0FVMKPDBQRYBC1FQ1G,WMT,2022-12-09,-0.0074293341087036365,0.0074293341087036365,3,-0.3799,Product Launch,Walmart delays launch of flagship product after defects found,0.1437,1.0,2,5.0
+sig_01M4NEXM0FQMT4848QN10Q1M1Z,META,2022-12-12,0.05907215170253609,0.05907215170253609,5,-0.6934,Regulatory/Legal,$META court dismisses lawsuit against meta,0.0883,0.6,9,6.0
+sig_01M4NEXM0FMCW7DPPB7EQQES6H,AAPL,2022-12-12,0.025022024548014332,0.025022024548014332,5,-0.6934,Regulatory/Legal,$AAPL court dismisses lawsuit against apple !!,0.0,0.6,5,6.0
+sig_01M4NEXM0FECMN0M59W02QNMN6,PFE,2022-12-13,0.053203906119836254,0.053203906119836254,8,0.4971,Merger/Acquisition,Pfizer announces merger talks; shares rally 35%,1.0,1.0,8,5.0
+sig_01M4NEXM0FGA0N4JGWPJCJ5173,PFE,2022-12-14,0.044605384867534945,0.044605384867534945,8,0.957,Earnings,"Pfizer beats expectations, raises guidance; shares jump 8%",0.8462,1.0,8,6.0
+sig_01M4NEXM0FFJF8PTMPC6ZXB4DS,WMT,2022-12-16,0.015367743681996445,0.015367743681996445,3,-0.3799,Product Launch,$WMT walmart delays launch of flagship product after defects found,1.0,0.6,3,5.0
+sig_01M4NEXM0FG7A1R2J6S30Z12B7,JNJ,2022-12-16,0.042523872753055865,0.042523872753055865,5,0.0,Merger/Acquisition,$JNJ johnson & johnson agrees to acquire a rival for $40 billion in all-cash deal !!,1.0,0.6,7,5.0
+sig_01M4NEXM0GDXXPFEG5XXPH8ZF9,BAC,2022-12-20,-0.05785743967839663,0.05785743967839663,5,-0.6324,Earnings,$BAC bank of america quarterly revenue below expectations as demand weakens lol,0.9327,0.6,9,6.0
+sig_01M4NEXM0KJR9MZXWP4FGBGE3D,BAC,2022-12-21,-0.022180599575370212,0.022180599575370212,8,-0.6324,Credit Event,"Bank of America misses coupon payment, bondholders hire restructuring advisers",0.8235,1.0,4,6.0
+sig_01M4NEXM0KSTHX8HA63WZ14P71,AMZN,2022-12-27,-0.014445575763383397,0.014445575763383397,4,0.0,Merger/Acquisition,$AMZN amazon agrees to acquire a rival for $5 billion in all-cash deal,0.4366,0.6,3,4.0
+sig_01M4NEXM0KVYZCD0484DFQGDWK,BA,2022-12-29,0.020445719929152825,0.020445719929152825,3,0.2234,Product Launch,$BA boeing launches new platform ahead of schedule,1.0,0.6,4,5.0
+sig_01M4NEXM0KDKAR3K7E7ER0GXV4,JNJ,2023-01-02,0.030824859399114696,0.030824859399114696,6,-0.6934,Regulatory/Legal,$JNJ court dismisses lawsuit against johnson & johnson,0.5377,0.6,6,6.0
+sig_01M4NEXM0K3B1NTKRFVGGBMPEV,PFE,2023-01-03,0.021163749952217904,0.021163749952217904,7,0.4971,Merger/Acquisition,Pfizer announces merger talks; shares rally 22%,0.1538,1.0,4,5.0
+sig_01M4NEXM0KJXWMPAP9584T9718,AMZN,2023-01-03,-0.005751310963132401,0.005751310963132401,8,-0.6741,Credit Event,"Amazon completes refinancing, removing near-term default risk",0.9333,1.0,1,6.0
+sig_01M4NEXM0KXQ9R0P3X0FGWNA1Y,KO,2023-01-04,0.06927168564659575,0.06927168564659575,8,-0.6741,Credit Event,"Coca-Cola 8-K: Coca-Cola completes refinancing, removing near-term default risk",0.354,1.0,10,6.0
+sig_01M4NEXM0M3P9HMJ9Y577Y7P96,WMT,2023-01-09,0.04161207027060475,0.04161207027060475,4,0.5927,Product Launch,Walmart unveils next-gen product line to strong early demand,0.8568,1.0,7,5.0
+sig_01M4NEXM0M62KDKRVZER6GT54T,WMT,2023-01-11,-0.024733476941986736,0.024733476941986736,6,-0.5747,Regulatory/Legal,Walmart hit with antitrust lawsuit by regulators,0.8889,1.0,5,6.0
+sig_01M4NEXM0MM0SRGP5782V7X5QQ,WMT,2023-01-16,0.0026251603532066285,0.0026251603532066285,3,0.2234,Product Launch,Walmart launches new platform ahead of schedule,0.2474,1.0,1,5.0
+sig_01M4NEXM0MG5E8PTQNKM90JSX3,AAPL,2023-01-20,-0.047206898232896116,0.047206898232896116,6,-0.7207,Regulatory/Legal,$AAPL apple fined $2 billion after probe into sales practices,0.8151,0.6,8,6.0
+sig_01M4NEXM0MBASTT7M3TAQK3PXA,JPM,2023-01-20,-0.02662973749155253,0.02662973749155253,7,-0.6741,Merger/Acquisition,JPMorgan takeover bid collapses after regulators object,0.8995,1.0,5,6.0
+sig_01M4NEXM0MCQBR0B6DMFP0B6E7,GOOGL,2023-01-26,0.022718394049027653,0.022718394049027653,3,0.2234,Product Launch,Alphabet launches new platform ahead of schedule,0.1818,1.0,4,5.0
+sig_01M4NEXM0M7GPGPRS8V1CK16J4,BA,2023-01-26,-0.010710185492502841,0.010710185492502841,6,-0.6741,Merger/Acquisition,$BA boeing takeover bid collapses after regulators object,0.2474,0.6,2,6.0
+sig_01M4NEXM0NFZNRSNAZKXE0T38Z,JPM,2023-01-31,0.051394609082430154,0.051394609082430154,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against JPMorgan,0.3701,1.0,8,6.0
+sig_01M4NEXM0NYQBQ836B2SFSFPSZ,AMZN,2023-02-03,-0.013625461832854794,0.013625461832854794,6,-0.6324,Operational,Amazon 8-K: Amazon suffers global outage affecting millions of users,0.8748,1.0,3,6.0
+sig_01M4NEXM0N4YQ112M0H4W5SRZ2,AAPL,2023-02-07,-0.04743863404845137,0.04743863404845137,6,-0.6324,Earnings,Apple 8-K: Apple quarterly revenue below expectations as demand weakens,0.4364,1.0,8,6.0
+sig_01M4NEXM0NBBEM629TF4058C17,BA,2023-02-10,-0.016561492315017492,0.016561492315017492,5,-0.6324,Earnings,$BA boeing quarterly revenue below expectations as demand weakens,0.3555,0.6,3,6.0
+sig_01M4NEXM0NJJDNYFZ0R53233HC,META,2023-02-13,0.02439265195576535,0.02439265195576535,6,0.4971,Merger/Acquisition,$META meta announces merger talks; shares rally 22%,0.2601,0.6,5,5.0
+sig_01M4NEXM0NWG5Z3QFNECCKASDX,JPM,2023-02-15,0.042944401597658076,0.042944401597658076,5,-0.6934,Regulatory/Legal,$JPM court dismisses lawsuit against jpmorgan 📉,0.1181,0.6,7,6.0
+sig_01M4NEXM0N5JW4XED867Z2KB2B,WMT,2023-02-16,-0.03550228102358348,0.03550228102358348,3,-0.3799,Product Launch,Walmart delays launch of flagship product after defects found,0.0801,1.0,6,5.0
+sig_01M4NEXM0NJB0DS3VD3ERSJD3N,TSLA,2023-02-22,0.10077984275367918,0.10077984275367918,3,0.6839,Other,Tesla upgraded to A- as balance sheet strengthens,0.9075,1.0,10,6.0
+sig_01M4NEXM0PFJXBJYBPPT2Y04GJ,NVDA,2023-02-28,-0.12048180412890909,0.12048180412890909,6,-0.6741,Merger/Acquisition,$NVDA nvidia takeover bid collapses after regulators object 📉,0.2474,0.6,10,6.0
+sig_01M4NEXM0PDWYDG0TZ9VJXKJ49,NVDA,2023-03-07,0.037905297829989366,0.037905297829989366,5,0.0,Merger/Acquisition,$NVDA nvidia announces merger talks; shares raly 22%,0.4271,0.6,7,4.0
+sig_01M4NEXM0PSK97GGHZM23FNGPM,META,2023-03-07,-0.06117617481990771,0.06117617481990771,6,-0.7207,Regulatory/Legal,$META meta fined $18 billion after probe into sales practices,0.4619,0.6,9,6.0
+sig_01M4NEXM0PXA0W692GC00XFJ01,META,2023-03-08,-0.030839086509071027,0.030839086509071027,3,0.2234,Product Launch,Meta launches new platform ahead of schedule,0.1818,1.0,6,5.0
+sig_01M4NEXM0P423Z71NGF9FTBHMM,GOOGL,2023-03-09,0.028324760613480063,0.028324760613480063,3,0.6839,Other,Alphabet upgraded to A- as balance sheet strengthens,0.2222,1.0,5,5.0
+sig_01M4NEXM0PR1YQT67G5TFXMGF8,JNJ,2023-03-16,0.05143877224890377,0.05143877224890377,3,0.5927,Product Launch,$JNJ johnson & johnson unveils next-gen product line to strong early demand,0.2675,0.6,8,5.0
+sig_01M4NEXM0P3MYR3TJ6TP0V2HGV,AMZN,2023-03-16,0.01105439643508856,0.01105439643508856,3,-0.3799,Product Launch,Amazon delays launch of flagship product after defects found,0.1818,1.0,2,5.0
+sig_01M4NEXM0PTQ919MEQT6V902VF,JNJ,2023-03-21,-0.049041310599029456,0.049041310599029456,6,-0.6741,Merger/Acquisition,$JNJ johnson & johnson takeover bid collapses after regulators object lol,0.3775,0.6,8,6.0
+sig_01M4NEXM0Q0D0EYRHR2ZXZQ63T,JPM,2023-03-21,-0.03165153901575592,0.03165153901575592,6,-0.1974,Credit Event,$JPM ratin agency cuts jpmorgan chase outlook to negative on refinancing risk,0.8471,0.6,6,5.0
+sig_01M4NEXM0QYH1RQK59XFB7QR2W,TSLA,2023-03-30,0.04587568354801523,0.04587568354801523,3,0.2234,Product Launch,$TSLA tesla launches new platform ahead of schedule,0.2474,0.6,8,5.0
+sig_01M4NEXM0QNFT9T201X54J300Q,WMT,2023-03-31,0.028650659469537928,0.028650659469537928,5,-0.4971,Operational,$WMT walmart restores services after brief outage,0.7491,0.6,5,6.0
+sig_01M4NEXM0Q1MCHMV38JH2259JN,TSLA,2023-03-31,0.025967099748202493,0.025967099748202493,4,0.0,Merger/Acquisition,$TSLA tesla agrees to acquire a rival for $18 billion in all-cash deal,0.3738,0.6,5,4.0
+sig_01M4NEXM0Q558YS0WQW7ZRE7ZV,AAPL,2023-04-03,-0.02560895715563257,0.02560895715563257,3,-0.3799,Product Launch,Apple delays launch of flagship product after defects found,0.1818,1.0,5,5.0
+sig_01M4NEXM0Q58XPZM03NZTC6KDW,XOM,2023-04-03,0.0533600438524884,0.0533600438524884,7,0.957,Earnings,"Exxon beats expectations, raises guidance; shares jump 3%",0.1538,1.0,9,6.0
+sig_01M4NEXM0QND826ZCJ4D1XXZF2,TSLA,2023-04-03,-0.0133090742738551,0.0133090742738551,3,0.2234,Product Launch,$TSLA tesla launches new platform ahead of schedule !!,0.0,0.6,3,5.0
+sig_01M4NEXM0QBDX39N7SGNW9XM0Y,PFE,2023-04-06,-0.0011077499115020356,0.0011077499115020356,6,-0.6741,Merger/Acquisition,Pfizer takeover bid collapses after regulators object,0.1818,1.0,1,6.0
+sig_01M4NEXM0RXQYZ2MHJ6HZC4W49,KO,2023-04-06,-0.05774771838998334,0.05774771838998334,6,-0.6741,Regulatory/Legal,$KO coca-cola takeoer bid collapses after regulators object,0.4551,0.6,9,6.0
+sig_01M4NEXM0R84354VG5WCD9VHM9,NVDA,2023-04-10,0.0010515384193514922,0.0010515384193514922,3,0.2234,Product Launch,Nvidia launches new platform ahead of schedule,0.1818,1.0,1,5.0
+sig_01M4NEXM0RV4Q7T1ZBAG6PE3Z8,BAC,2023-04-10,0.005037573267206139,0.005037573267206139,3,-0.3799,Product Launch,$BAC bank of america delays launch of flagship product after defects found lol,0.3419,0.6,1,5.0
+sig_01M4NEXM0RM8E6S0TX0J1ETHX0,WMT,2023-04-13,0.06279846558576863,0.06279846558576863,7,-0.6741,Credit Event,"$WMT walmart completes refinancing, removing near-term default risk",0.1859,0.6,9,6.0
+sig_01M4NEXM0RNHBYNJAWCNAATHYM,XOM,2023-04-13,0.0073616377569343545,0.0073616377569343545,4,0.5927,Product Launch,Exxon Mobil unveils next-gen product line to strong early demand,0.1859,1.0,2,5.0
+sig_01M4NEXM0R7EE13QNYHGVESR3H,AMZN,2023-04-13,-0.02865113428298542,0.02865113428298542,5,0.0,Operational,"Workers strike at Amazon plants, halting output",0.8537,1.0,5,5.0
+sig_01M4NEXM0RP1BT5PYN68V5FS64,JPM,2023-04-14,-0.015402447097944673,0.015402447097944673,6,-0.6741,Merger/Acquisition,JPMorgan takeover bid collapses after regulators object,0.0,1.0,3,6.0
+sig_01M4NEXM0RGYBYE82EY0SKPK42,KO,2023-04-17,0.02651327630588492,0.02651327630588492,3,0.6839,Other,Coca-Cola upgraded to BB as balance sheet strengthens,0.4453,1.0,5,5.0
+sig_01M4NEXM0RX3WGZ2AJ1CR2ZYF0,JPM,2023-04-26,0.061688514726046924,0.061688514726046924,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against JPMorgan,0.0,1.0,9,6.0
+sig_01M4NEXM0S37QAMRZX4N09BFPM,GOOGL,2023-04-28,-0.05382461771038172,0.05382461771038172,7,-0.7207,Regulatory/Legal,Alphabet fined $18 billion after probe into sales practices,0.2601,1.0,9,6.0
+sig_01M4NEXM0SW4EC89M7HEEW7SDH,WMT,2023-05-01,0.03028884428785346,0.03028884428785346,3,0.5927,Product Launch,$WMT walmart unveils next-gen product line to strong early deand 🚀,0.1859,0.6,6,5.0
+sig_01M4NEXM0S9SB4RCDKQQX3X86X,AAPL,2023-05-01,-0.06772124907716992,0.06772124907716992,6,-0.7207,Regulatory/Legal,$AAPL apple fined $40 billion after probe intosales practices,0.3555,0.6,10,6.0
+sig_01M4NEXM0SGGSNH2BBN2K5WRQN,BA,2023-05-01,0.013344004151444587,0.013344004151444587,6,0.4971,Merger/Acquisition,$BA boeing announces merge talks; shares rally 8%,0.5385,0.6,3,5.0
+sig_01M4NEXM0SFQH17PCARS5KHBM6,NVDA,2023-05-04,-0.042549607870969036,0.042549607870969036,4,-0.1974,Earnings,$NVDA nvidia quarterly revenue belw expectations as demand weakens,0.4271,0.6,7,5.0
+sig_01M4NEXM0SGH6T3H28ZTFF2FW9,BAC,2023-05-04,0.016738890232542197,0.016738890232542197,3,0.5927,Product Launch,$BAC bank of america unveils next-gen product line to strong early demand 📉,0.2299,0.6,3,5.0
+sig_01M4NEXM3YPG2DN58Y7C57F7XQ,JNJ,2023-05-05,-0.04180254791349096,0.04180254791349096,8,-0.8545,Earnings,Johnson & Johnson misses estimates and cuts guidance; shares fall 22%,0.6819,1.0,7,6.0
+sig_01M4NEXM3Y65QKA0TSRDWPDJSF,GOOGL,2023-05-09,-0.10771450150686021,0.10771450150686021,7,-0.7293,Operational,Alphabet 8-K: Cyberattack forces Alphabet to halt production at several plants,0.8279,1.0,10,6.0
+sig_01M4NEXM3Y5P16EW2EKGSQ5KFQ,JPM,2023-05-10,0.06792392950750221,0.06792392950750221,3,0.6839,Other,$JPM jpmorgan upgraded to a- as balance sheet strengthens 🚀,0.2965,0.6,10,5.0
+sig_01M4NEXM3YT9QB16WV5RQ1DK5K,KO,2023-05-10,-0.01852233815607076,0.01852233815607076,4,-0.3799,Product Launch,Coca-Cola 8-K: Coca-Cola delays launch of flagship product after defects found,0.4342,1.0,4,5.0
+sig_01M4NEXM3YA38N70MZ9EA58SAQ,BA,2023-05-11,0.008134543217796131,0.008134543217796131,7,0.8762,Earnings,Boeing posts record revenue on strong demand,0.7491,1.0,2,6.0
+sig_01M4NEXM3Y27QBC7NE584Y2SJ1,KO,2023-05-12,0.039197114037200415,0.039197114037200415,6,0.8762,Earnings,Coca-Cola 8-K: Coca-Cola posts record revenue on strong demand,0.4342,1.0,7,6.0
+sig_01M4NEXM3YC5CVDD2W7CNM5PDS,WMT,2023-05-17,-0.0368551594286647,0.0368551594286647,6,-0.6741,Merger/Acquisition,$WMT walmart takeover bid collapses after regulators object,0.2474,0.6,7,6.0
+sig_01M4NEXM3Z7SXXW40FMAX04ECM,BA,2023-05-17,0.03066078918471337,0.03066078918471337,4,0.0,Merger/Acquisition,$BA boeing agrees to acquire a rival for $18 billion in all-cash deal,0.2353,0.6,6,4.0
+sig_01M4NEXM3Z4DDWG8TWEQXBW6WG,META,2023-05-18,-0.04389570150399361,0.04389570150399361,6,-0.7207,Regulatory/Legal,Meta fined $5 billion after probe into sales practices,0.1956,1.0,7,6.0
+sig_01M4NEXM3ZADWKH4M4Q26JES2M,JNJ,2023-05-30,-0.048955181810052165,0.048955181810052165,5,-0.6741,Merger/Acquisition,$JNJ johnson & johnson takeover bid collapses after regulators object lol,0.0,0.6,8,6.0
+sig_01M4NEXM3Z4XNSHWK4K86JHXTX,BA,2023-05-30,0.06291619104069336,0.06291619104069336,8,-0.6741,Credit Event,"Boeing completes refinancing, removing near-term default risk",0.1333,1.0,9,6.0
+sig_01M4NEXM3ZK4JTQFXRRBSTNS68,KO,2023-05-31,-0.02062126407616692,0.02062126407616692,3,-0.3799,Product Launch,$KO coca-cola delays launch of flagsip product after defects found,0.3001,0.6,4,5.0
+sig_01M4NEXM3ZC0PARHK0NSSWHE8G,JPM,2023-05-31,-0.007334859311525185,0.007334859311525185,5,-0.6741,Merger/Acquisition,$JPM jpmorgan takeover bid collapses after regulators object 📉,0.0801,0.6,2,6.0
+sig_01M4NEXM3ZHMC4VG99XJ0NA0V4,TSLA,2023-05-31,0.0516293186110973,0.0516293186110973,3,0.6839,Other,Tesla upgraded to BB+ as balance sheet strengthens,0.196,1.0,8,5.0
+sig_01M4NEXM40XG4S1GWAZE3R5EHW,NVDA,2023-05-31,-0.023433389776542708,0.023433389776542708,5,-0.6741,Merger/Acquisition,$NVDA nvidia takeover bid collapses after regulators object,0.0,0.6,4,6.0
+sig_01M4NEXM40BDMT75XRJG3RKVG9,AAPL,2023-06-02,0.02753128645697499,0.02753128645697499,6,-0.4971,Operational,Apple restores services after brief outage,0.2965,1.0,5,5.0
+sig_01M4NEXM40B62JZHMHY6YH60RH,KO,2023-06-05,-0.06058712841083518,0.06058712841083518,9,-0.9387,Credit Event,Coca-Cola shares plunge 2% after report of deposit outflows and emergency capital raise,0.713,1.0,9,6.0
+sig_01M4NEXM40AZ9GZA1270JBHEHN,JNJ,2023-06-13,-0.030079104295190978,0.030079104295190978,3,-0.3799,Product Launch,Johnson & Johnson delays launch of flagship product after defects found,0.2994,1.0,6,5.0
+sig_01M4NEXM40948S2ME4W0V8SBMM,WMT,2023-06-15,0.018381245345664522,0.018381245345664522,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Walmart,0.2857,1.0,4,6.0
+sig_01M4NEXM40EQKX6D2RAKBGVKJ6,KO,2023-06-15,-0.02411967019347479,0.02411967019347479,6,-0.6741,Merger/Acquisition,Coca-Cola takeover bid collapses after regulators object,0.2474,1.0,5,6.0
+sig_01M4NEXM40KJKXDX4SDNZGJ69M,TSLA,2023-06-15,0.01928716709813664,0.01928716709813664,3,-0.3799,Product Launch,$TSLA tesla delays launch of flagship product after defects found,0.2474,0.6,4,5.0
+sig_01M4NEXM40GT47FRYD6CZ8QH3X,NVDA,2023-06-16,-0.03645705497117075,0.03645705497117075,7,-0.8545,Earnings,Nvidia misses estimates and cuts guidance; shares fall 12%,0.3484,1.0,7,6.0
+sig_01M4NEXM417DH96JEQEZFNMP9W,JNJ,2023-06-20,0.02072030534661235,0.02072030534661235,3,0.6839,Other,Johnson & Johnson upgraded to BBB- as balance sheet strengthens,0.4836,1.0,4,5.0
+sig_01M4NEXM41G2RGAJ92MK6FKY32,XOM,2023-06-22,-0.04789789489101043,0.04789789489101043,5,-0.6324,Earnings,Exxon quarterly revenue below expectations as demand weakens,0.2474,1.0,8,6.0
+sig_01M4NEXM41N8P98QGJ0QFN9MYS,AMZN,2023-06-23,-0.06722205015434526,0.06722205015434526,7,-0.6324,Credit Event,"Amazon misses coupon payment, bondholders hire restructuring advisers",0.1859,1.0,9,6.0
+sig_01M4NEXM417NZPS395N4ADXFMQ,BAC,2023-06-29,0.026131849076192745,0.026131849076192745,3,0.2234,Product Launch,$BAC bank of america launches new platform ahead of schedule 🚀,0.2994,0.6,5,5.0
+sig_01M4NEXM41JKZA6DA0M57BD48N,KO,2023-06-30,0.02943348871660367,0.02943348871660367,6,-0.4971,Operational,Coca-Cola restores services after brief outage,0.2965,1.0,6,5.0
+sig_01M4NEXM41S5A9YB8RBK4NNNQ9,BA,2023-07-07,0.0012983973351714112,0.0012983973351714112,6,-0.8545,Earnings,$BA boeing misses estimates and cuts guidance; shares fall 3%,0.2667,0.6,1,6.0
+sig_01M4NEXM414CV1FGKT29B2ZRTV,KO,2023-07-10,-0.022155356869441215,0.022155356869441215,8,-0.828,Credit Event,Coca-Cola downgraded three notches to BB as commercial real estate losses mount,0.713,1.0,4,7.0
+sig_01M4NEXM42MV9TSEJWZT882AB2,AMZN,2023-07-10,-0.006933189727484693,0.006933189727484693,7,0.4971,Merger/Acquisition,Amazon announces merger talks; shares rally 15%,0.3077,1.0,2,5.0
+sig_01M4NEXM42NDNGRKFZH5BP5DV1,TSLA,2023-07-11,0.007713937403202902,0.007713937403202902,3,0.5927,Product Launch,$TSLA tesla unveils next-gen product line to strong early demand,0.1859,0.6,2,5.0
+sig_01M4NEXM42X54NH1KCDTEA7TMJ,AAPL,2023-07-19,-0.040166243335561645,0.040166243335561645,9,-0.9387,Credit Event,Apple shares plunge 4% after report of deposit outflows and emergency capital raise,0.1654,1.0,7,6.0
+sig_01M4NEXM42WRS0AR04PAHVVGB3,AMZN,2023-07-19,0.007582028170504533,0.007582028170504533,3,0.2234,Product Launch,$AMZN amazon launches new platform ahead of schedule,0.2474,0.6,2,5.0
+sig_01M4NEXM42ZE060XVSV0FTYTDA,WMT,2023-07-20,0.02108620591187603,0.02108620591187603,5,-0.4971,Operational,$WMT walmart restores services after brief outage,0.0,0.6,4,5.0
+sig_01M4NEXM42DZPKBV3TJGABJNM8,AAPL,2023-07-21,0.035127669733596927,0.035127669733596927,6,0.4971,Merger/Acquisition,$AAPL apple announces merger talks; shares rally 35%,0.2123,0.6,6,5.0
+sig_01M4NEXM42B22GHPR7FFW0C365,BA,2023-07-21,-0.013073031375670206,0.013073031375670206,5,-0.6324,Operational,$BA boeing suffers global outage affecting millions of users,0.3112,0.6,3,6.0
+sig_01M4NEXM42W5VRF8VMCVJ0C4WP,AMZN,2023-07-21,0.028950478697562836,0.028950478697562836,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Amazon,0.2857,1.0,5,6.0
+sig_01M4NEXM43CGS2RR3QR5Z5JMTD,NVDA,2023-07-24,0.056814511620772834,0.056814511620772834,4,0.5927,Product Launch,Nvidia unveils next-gen product line to strong early demand,0.1333,1.0,9,5.0
+sig_01M4NEXM43DPDAZ3A51Q7JH2ER,AAPL,2023-07-26,-0.037412504045739065,0.037412504045739065,4,0.0,Operational,"$AAPL workers strike at apple plants, halting output 📉",0.331,0.6,7,5.0
+sig_01M4NEXM43MFF0T6NJXYB0K83X,META,2023-07-28,0.008377944525819955,0.008377944525819955,7,0.957,Earnings,"$META meta beats expectations, raises guidance; shares jump 9% !!",0.2601,0.6,2,6.0
+sig_01M4NEXM43MTZWD54VQ2N56445,AAPL,2023-08-07,0.012687919838613537,0.012687919838613537,3,-0.3799,Product Launch,$AAPL apple delays launch of flagship product after defects found 🚀,0.0801,0.6,2,5.0
+sig_01M4NEXM43KZTNHVKCAVW2DQR5,NVDA,2023-08-14,0.04767401789332039,0.04767401789332039,3,-0.3799,Product Launch,Nvidia 8-K: Nvidia delays launch of flagship product after defects found,0.2994,1.0,8,5.0
+sig_01M4NEXM43QARMYJGAH86SVJN8,WMT,2023-08-14,0.06067581064907537,0.06067581064907537,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Walmart,0.0,1.0,9,6.0
+sig_01M4NEXM43CW6R1SEZXEPE9ZTP,TSLA,2023-08-15,-0.0795453745908323,0.0795453745908323,6,-0.6741,Merger/Acquisition,Tesla takeover bid collapses after regulators object,0.1818,1.0,10,6.0
+sig_01M4NEXM44J0XJW2N9MZXEWGV8,META,2023-08-16,0.022567264957585133,0.022567264957585133,5,-0.4971,Operational,$META meta restoresservices after brief outage,0.6344,0.6,4,6.0
+sig_01M4NEXM44SXEWZ28Q6S42QFWX,JPM,2023-08-17,-0.08276399894989436,0.08276399894989436,6,-0.6741,Merger/Acquisition,JPMorgan takeover bid collapses after regulators object,0.0,1.0,10,6.0
+sig_01M4NEXM44SJC40NFCNAMJM7WE,GOOGL,2023-08-21,-0.03987548825246995,0.03987548825246995,3,-0.3799,Product Launch,Alphabet delays launch of flagship product after defects found,0.1818,1.0,7,5.0
+sig_01M4NEXM447G467SE9GFDAVVBE,AAPL,2023-08-22,0.011157788849562398,0.011157788849562398,4,0.0,Merger/Acquisition,$AAPL apple agrees to acquire a ival for $5 billion in all-cash deal,0.4667,0.6,2,4.0
+sig_01M4NEXM44RNG1BB9NRW6QS0B2,NVDA,2023-08-29,0.015408031388265823,0.015408031388265823,5,-0.6741,Merger/Acquisition,$NVDA nvidia takeover bid collapses after regulators object 📉,0.0,0.6,3,6.0
+sig_01M4NEXM44K82KDRG4P0KZ1DAK,MSFT,2023-08-29,0.0560270317262251,0.0560270317262251,6,0.8762,Earnings,$MSFT microsoft posts record revenue on strong demand 📉,0.2474,0.6,9,6.0
+sig_01M4NEXM44F5G3ZWRGZ4RXFEHK,JPM,2023-08-30,-0.03287267691781381,0.03287267691781381,7,-0.7207,Regulatory/Legal,JPMorgan fined $40 billion after probe into sales practices,0.331,1.0,6,6.0
+sig_01M4NEXM44JJNB1BZNJ6K3P9T9,AMZN,2023-08-30,0.013171184982398132,0.013171184982398132,8,0.957,Earnings,"Amazon beats expectations, raises guidance; shares jump 35%",0.2123,1.0,3,6.0
+sig_01M4NEXM459VSC06MZNY9Y4SFG,JNJ,2023-09-04,-0.02898544813668136,0.02898544813668136,6,-0.7293,Operational,$JNJ cyberattack forces johnson & johnson to halt production at several plants 🚀,0.499,0.6,5,6.0
+sig_01M4NEXM45SPEG311F497TRW0J,NVDA,2023-09-05,0.02740204832889607,0.02740204832889607,5,-0.4971,Operational,$NVDA nvidia restores services after brief outage !!,0.2965,0.6,5,5.0
+sig_01M4NEXM459H54CDWC0W127HZ7,GOOGL,2023-09-06,0.014380412103463238,0.014380412103463238,3,0.2234,Product Launch,Alphabet launches new platform ahead of schedule,0.0,1.0,3,5.0
+sig_01M4NEXM45ZM4VCA2A4WZGXKZZ,AAPL,2023-09-06,-0.059653633243246726,0.059653633243246726,5,-0.6324,Earnings,Apple quarterly revenue below expectations as demand weakens,0.0658,1.0,9,6.0
+sig_01M4NEXM452F1239V1QQJH4TA0,BAC,2023-09-12,-0.04664486261207822,0.04664486261207822,7,-0.6324,Credit Event,"Bank of America misses coupon payment, bondholders hire restructuring advisers",0.0,1.0,8,6.0
+sig_01M4NEXM45VTBDVCNE4SDVY0BT,BA,2023-09-20,0.03471264824302963,0.03471264824302963,4,0.5927,Product Launch,Boeing unveils next-gen product line to strong early demand,0.1333,1.0,6,5.0
+sig_01M4NEXM45S6GDTM99KPBYNVB1,NVDA,2023-09-25,0.02043741092057847,0.02043741092057847,3,-0.1974,Product Launch,$NVDA nvidia delays launch of flagship product after dfects found !!,0.2839,0.6,4,5.0
+sig_01M4NEXM455WBRXQM0QQ2CZ632,XOM,2023-09-27,0.017312554685193344,0.017312554685193344,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Exxon,0.2857,1.0,3,6.0
+sig_01M4NEXM452GCNXNN5WY224F8G,WMT,2023-10-02,-0.030622956229338926,0.030622956229338926,7,-0.6324,Credit Event,"Walmart misses coupon payment, bondholders hire restructuring advisers",0.1333,1.0,6,6.0
+sig_01M4NEXM46GMKPZA21J7TDCMCW,WMT,2023-10-03,0.01427702153777511,0.01427702153777511,5,-0.6934,Regulatory/Legal,$WMT curt dismisses lawsuit against walmart,0.3701,0.6,3,6.0
+sig_01M4NEXM46P0NB7JHBRJT5192X,NVDA,2023-10-19,-0.02421429921813413,0.02421429921813413,3,-0.3799,Product Launch,$NVDA nvidia delays launch of flagship product after defects found lol,0.2,0.6,5,5.0
+sig_01M4NEXM46GSY9MAD555QR7K2Z,GOOGL,2023-10-19,0.09934237469043182,0.09934237469043182,8,-0.6741,Credit Event,"Alphabet completes refinancing, removing near-term default risk",0.1333,1.0,10,6.0
+sig_01M4NEXM8TVVW0GRCZ49FTQVQG,WMT,2023-10-20,0.030972175480624524,0.030972175480624524,3,0.2234,Product Launch,Walmart launches new platform ahead of schedule,0.0,1.0,6,5.0
+sig_01M4NEXM8VB69MXT371P2FZ5QT,JPM,2023-10-20,0.042966815225617724,0.042966815225617724,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against JPMorgan,0.0,1.0,7,6.0
+sig_01M4NEXM8VM478GQCFGY3BA8F3,WMT,2023-10-24,0.02218926209522128,0.02218926209522128,7,-0.6741,Credit Event,"Walmart completes refinancing, removing near-term default risk",0.0607,1.0,4,6.0
+sig_01M4NEXM8VJJN5JCM4PB93YY8A,GOOGL,2023-10-24,-0.019067991461382494,0.019067991461382494,6,-0.6741,Merger/Acquisition,$GOOGL alphabet takeover bid collapses after regulators object lol,0.2994,0.6,4,6.0
+sig_01M4NEXM8VEK1KJCSGF7AX0VE3,MSFT,2023-10-25,0.041508772490027115,0.041508772490027115,5,-0.6934,Regulatory/Legal,$MSFT court dismisses lawsuit against microsoft,0.3701,0.6,7,6.0
+sig_01M4NEXM8VPNBWK38K0GE607SG,AAPL,2023-10-26,0.02069775641635586,0.02069775641635586,5,-0.7207,Regulatory/Legal,$AAPL apple fined $5 billion after probe into sales practices,0.0,0.6,4,6.0
+sig_01M4NEXM8VNT7SDA4QM4YH9J8M,BAC,2023-10-26,0.029294832729719927,0.029294832729719927,4,0.5927,Product Launch,Bank of America unveils next-gen product line to strong early demand,0.0541,1.0,5,5.0
+sig_01M4NEXM8WCYKNNNRHG3AY0SW0,AAPL,2023-10-27,0.05153675773742593,0.05153675773742593,7,-0.6741,Credit Event,"$AAPL apple completes refinancing, removing near-term default risk",0.1859,0.6,8,6.0
+sig_01M4NEXM8WAJRRCC13S3B8ZPKB,JNJ,2023-10-31,0.05018539995066387,0.05018539995066387,3,0.6839,Other,Johnson & Johnson upgraded to BBB- as balance sheet strengthens,0.0,1.0,8,5.0
+sig_01M4NEXM8WJGPSSY3R1XQQ3Z6W,AAPL,2023-10-31,-0.06025426247584971,0.06025426247584971,7,-0.1974,Credit Event,Rating agency cuts Apple outlook to negative on refinancing risk,0.4077,1.0,9,5.0
+sig_01M4NEXM8WM63WENME02TJQJ2W,GOOGL,2023-10-31,0.07550482013970652,0.07550482013970652,7,-0.6741,Credit Event,"Alphabet completes refinancing, removing near-term default risk",0.0,1.0,10,6.0
+sig_01M4NEXM8WEPTS1TAXET08JS22,META,2023-11-01,-0.011149654379992692,0.011149654379992692,5,-0.6324,Earnings,Meta quarterly revenue below expectations as demand weakens,0.1818,1.0,2,6.0
+sig_01M4NEXM8W1TPYQT0ND47MBVZA,TSLA,2023-11-02,0.06942117903076267,0.06942117903076267,5,0.4971,Merger/Acquisition,$TSLA tesla announces merger talks; shares rally 3% 🚀,0.3077,0.6,10,5.0
+sig_01M4NEXM8WP1WXRR3ABM242GQS,JNJ,2023-11-06,0.033654093629564966,0.033654093629564966,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Johnson & Johnson,0.0801,1.0,6,6.0
+sig_01M4NEXM8WP7E4YQCF5043KA2P,BAC,2023-11-06,-0.025228877115922248,0.025228877115922248,3,-0.3799,Product Launch,Bank of America 8-K: Bank of America delays launch of flagship product after defects found,0.1908,1.0,5,5.0
+sig_01M4NEXM8XHYKHBMBF0B9TKQDD,JNJ,2023-11-08,0.02463648030584357,0.02463648030584357,3,0.2234,Product Launch,Johnson & Johnson launches new platform ahead of schedule,0.2994,1.0,5,5.0
+sig_01M4NEXM8XT47A961VHSN1YN22,KO,2023-11-09,-0.048121577815514155,0.048121577815514155,5,-0.6324,Operational,$KO coca-cola suffers global outage affecting millions of users 📉,0.3112,0.6,8,6.0
+sig_01M4NEXM8XH5SKBD37FKPFB4P6,JNJ,2023-11-13,-0.011062627845311574,0.011062627845311574,5,-0.6741,Merger/Acquisition,$JNJ johnson & johnson takeover bid collapses after regulators object !!,0.0541,0.6,2,6.0
+sig_01M4NEXM8X3CBFYFQ35BBRG753,BA,2023-11-14,0.004371908962255188,0.004371908962255188,6,0.4971,Merger/Acquisition,Boeing announces merger talks; shares rally 2%,0.2474,1.0,1,5.0
+sig_01M4NEXM8XT2S7BHJ9DBAA3R4T,JPM,2023-11-14,0.012410571174733692,0.012410571174733692,7,-0.8545,Earnings,JPMorgan misses estimates and cuts guidance; shares fall 12%,0.1333,1.0,2,6.0
+sig_01M4NEXM8X741S14GFN2DJYFT1,AAPL,2023-11-15,-0.09035570495266058,0.09035570495266058,6,-0.6741,Merger/Acquisition,Apple takeover bid collapses after regulators object,0.1818,1.0,10,6.0
+sig_01M4NEXM8X0EGPY4WGJCKFWCAE,TSLA,2023-11-20,0.04733999073292892,0.04733999073292892,8,-0.6741,Credit Event,"Tesla completes refinancing, removing near-term default risk",0.1333,1.0,8,6.0
+sig_01M4NEXM8XPQG6NW0DNH5EX8ZW,MSFT,2023-11-22,-0.021312961813465627,0.021312961813465627,8,-0.828,Credit Event,Microsoft downgraded three notches to BBB- as commercial real estate losses mount,0.3323,1.0,4,6.0
+sig_01M4NEXM8YXER28MHR1YVG56A0,PFE,2023-11-23,0.005294608575634908,0.005294608575634908,3,-0.3799,Product Launch,Pfizer delays launch of flagship product after defects found,0.1818,1.0,1,5.0
+sig_01M4NEXM8Y4YYE8705TZYDWAD1,GOOGL,2023-11-28,0.021174514739346992,0.021174514739346992,6,0.8762,Earnings,Alphabet posts record revenue on strong demand,0.1818,1.0,4,6.0
+sig_01M4NEXM8YFPXNNBTD0TPWDBFA,AMZN,2023-11-29,-0.0026428682178690826,0.0026428682178690826,6,-0.7207,Regulatory/Legal,$AMZN amazon fined $40 billion after probe into sales practices 📉,0.2123,0.6,1,6.0
+sig_01M4NEXM8Y0J58Z7N5H86402R2,PFE,2023-12-04,0.04870833258533677,0.04870833258533677,6,0.4971,Merger/Acquisition,Pfizer announces merger talks; shares rally 6%,0.0801,1.0,8,5.0
+sig_01M4NEXM8Y624W07QDW8HB5WQS,AAPL,2023-12-06,-0.017206658041895945,0.017206658041895945,3,-0.3799,Product Launch,Apple delays launch of flagship product after defects found,0.0,1.0,3,5.0
+sig_01M4NEXM8Y459Q08Q7HGB3AHGS,META,2023-12-07,-0.04273678188652348,0.04273678188652348,6,-0.5747,Regulatory/Legal,Meta hit with antitrust lawsuit by regulators,0.2222,1.0,7,6.0
+sig_01M4NEXM8YYJNP0YJJYN6G3MYP,BA,2023-12-08,-0.06381729543609246,0.06381729543609246,7,-0.7207,Regulatory/Legal,Boeing 8-K: Boeing fined $40 billion after probe into sales practices,0.2601,1.0,9,6.0
+sig_01M4NEXM8YR4N3RXH3KVTWEYSN,JNJ,2023-12-11,0.008210355953660382,0.008210355953660382,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Johnson & Johnson,0.0,1.0,2,6.0
+sig_01M4NEXM8ZTBM09R5Y3WSTNQRZ,AAPL,2023-12-12,0.027770835642449324,0.027770835642449324,3,0.2234,Product Launch,Apple launches new platform ahead of schedule,0.1818,1.0,5,5.0
+sig_01M4NEXM8ZGB7ECE05C9A0XNE6,MSFT,2023-12-12,0.032929760432394345,0.032929760432394345,3,0.6839,Other,$MSFT microsoft upgraded to bb+ as balance sheet strengthens,0.2474,0.6,6,5.0
+sig_01M4NEXM8ZB6G5K4YPVYM3V2S5,NVDA,2023-12-13,0.020001699094204947,0.020001699094204947,3,-0.3799,Product Launch,Nvidia delays launch of flagship product after defects found,0.0658,1.0,4,5.0
+sig_01M4NEXM8Z4VX2PR19TQTF6GTX,AMZN,2023-12-13,0.03721279361453974,0.03721279361453974,6,0.8762,Earnings,Amazon 8-K: Amazon posts record revenue on strong demand,0.2994,1.0,7,6.0
+sig_01M4NEXM8ZZFHYY7ZTPGHG15DQ,AAPL,2023-12-18,0.06441014795407388,0.06441014795407388,3,0.5927,Product Launch,$AAPL apple unveils next-gen product line to strong early demand 📉,0.1859,0.6,9,5.0
+sig_01M4NEXM8Z1F4TVSPRQD1GJ2QM,BAC,2023-12-21,-0.018862858009851654,0.018862858009851654,4,-0.6324,Earnings,$BAC bank of america quarterly revenue below expectations as demand weakens 📉,0.0607,0.6,4,6.0
+sig_01M4NEXM90C25GJNTCV3S89867,META,2023-12-22,0.05922143291894357,0.05922143291894357,7,0.957,Earnings,"$META meta beats expectations, raises guidance; shares jump 15% !!",0.0541,0.6,9,6.0
+sig_01M4NEXM909BQZKZWJMJ402CYY,WMT,2023-12-22,-0.02166372392016305,0.02166372392016305,7,0.4971,Merger/Acquisition,Walmart announces merger talks; shares rally 8%,0.1818,1.0,4,5.0
+sig_01M4NEXM90C69WHNTQ30FKE7GJ,KO,2023-12-26,-0.025159715147422893,0.025159715147422893,3,-0.3799,Product Launch,Coca-Cola delays launch of flagship product after defects found,0.0747,1.0,5,5.0
+sig_01M4NEXM90GYBP32D8WG755MRS,JPM,2023-12-28,0.02653368524169915,0.02653368524169915,6,0.8762,Earnings,JPMorgan Chase posts record revenue on strong demand,0.2474,1.0,5,6.0
+sig_01M4NEXM908Q48N62G8PM4J0W5,GOOGL,2023-12-29,-0.007266451298069864,0.007266451298069864,5,-0.4971,Operational,$GOOGL alphabet restores services after brief outage,0.2965,0.6,2,5.0
+sig_01M4NEXM90V04EXRVM3A0ZRND7,BA,2024-01-03,-0.08158387959960006,0.08158387959960006,6,-0.6741,Merger/Acquisition,Boeing takeover bid collapses after regulators object,0.0801,1.0,10,6.0
+sig_01M4NEXM904A97Y145QNC7RJ4M,BA,2024-01-04,-0.011661662261663777,0.011661662261663777,2,-0.1974,Other,$BA rating agency cuts boeing outlook t negative on refinancing risk,0.2485,0.6,2,4.0
+sig_01M4NEXM90GHK068W6K227Z0HX,NVDA,2024-01-10,0.04276133531904837,0.04276133531904837,7,-0.6741,Credit Event,"$NVDA nvidia completes refinancing, removing near-term default risk",0.1859,0.6,7,6.0
+sig_01M4NEXM91EQDERQN6DS6HRNFJ,GOOGL,2024-01-11,-0.028227783002802435,0.028227783002802435,5,-0.6741,Merger/Acquisition,$GOOGL alphabet takeover bid collapses after regulators object,0.0691,0.6,5,6.0
+sig_01M4NEXM917HG2H5V39W1F3S2M,JPM,2024-01-15,-0.04453484674000353,0.04453484674000353,6,-0.6324,Operational,JPMorgan suffers global outage affecting millions of users,0.2123,1.0,8,6.0
+sig_01M4NEXM91XYCVFRPZA8B5VCRV,AMZN,2024-01-17,0.0219504666627233,0.0219504666627233,5,-0.6934,Regulatory/Legal,$AMZN court dismisses lawsuit against amazon,0.1181,0.6,4,6.0
+sig_01M4NEXM91S94DWZ85HCH9JJNT,PFE,2024-01-18,-0.022010178164314873,0.022010178164314873,3,-0.3799,Product Launch,Pfizer delays launch of flagship product after defects found,0.0,1.0,4,5.0
+sig_01M4NEXM91MACEPHHYE7J1J5PJ,AMZN,2024-01-18,-0.015127017958164284,0.015127017958164284,6,-0.4386,Regulatory/Legal,Regulator opens investigation into Amazon safety record,0.7665,1.0,3,5.0
+sig_01M4NEXM91GG9G5G7PTVF828MW,WMT,2024-01-19,0.07157027978932151,0.07157027978932151,5,0.6242,Earnings,$WMT walmart posts record revenue on srong demand,0.4983,0.6,10,6.0
+sig_01M4NEXM911FY5NSPW43BZY7GA,AAPL,2024-01-26,0.0069677900263485516,0.0069677900263485516,3,0.5927,Product Launch,$AAPL apple unveils next-gen product line to strong early demand,0.0,0.6,2,5.0
+sig_01M4NEXM918TEWEX8F4ZK13W0K,BA,2024-01-29,0.026039524876044082,0.026039524876044082,6,0.957,Earnings,"$BA boeing beats expectations, raises guidance; shares jump 3% lol",0.2601,0.6,5,6.0
+sig_01M4NEXM92JJH71GPHRC9MZQC6,GOOGL,2024-02-01,0.04728984505878529,0.04728984505878529,5,-0.4971,Operational,Alphabet restores services after brief outage,0.0955,1.0,8,5.0
+sig_01M4NEXM92FYJW36ZWVT22J553,JPM,2024-02-01,0.00020602093681663589,0.00020602093681663589,6,-0.5747,Regulatory/Legal,JPMorgan hit with antitrust lawsuit by regulators,0.2222,1.0,1,6.0
+sig_01M4NEXM9281N2WWAXXFPQ7QG6,AAPL,2024-02-02,-0.05742618142993708,0.05742618142993708,5,-0.6324,Earnings,Apple 8-K: Apple quarterly revenue below expectations as demand weakens,0.0,1.0,9,6.0
+sig_01M4NEXM92XEX3BE431GMC3B3V,WMT,2024-02-02,-0.05381230586953019,0.05381230586953019,5,-0.7293,Operational,$WMT cyberattack forces walmart to halt production at several plants,0.4271,0.6,9,6.0
+sig_01M4NEXM927649N2XXXS4DF51W,BAC,2024-02-07,-0.03921027995651544,0.03921027995651544,3,-0.3799,Product Launch,$BAC bank of america delays launch of flagship product after defects found 📉,0.0607,0.6,7,5.0
+sig_01M4NEXM92WQWHC81YFS0MTRD0,MSFT,2024-02-08,0.02101313724822236,0.02101313724822236,3,0.2234,Product Launch,Microsoft launches new platform ahead of schedule,0.1818,1.0,4,5.0
+sig_01M4NEXM929HWFSS9E3QZ68QHE,TSLA,2024-02-09,-0.035927505883613216,0.035927505883613216,3,0.6839,Other,Tesla upgraded to BB+ as balance sheet strengthens,0.0,1.0,7,5.0
+sig_01M4NEXM926FV2MRQTET26G7CV,KO,2024-02-21,0.05043919323253587,0.05043919323253587,7,0.4971,Merger/Acquisition,Coca-Cola announces merger talks; shares rally 35%,0.2123,1.0,8,5.0
+sig_01M4NEXM93CP4H40K4KMN4EFAR,NVDA,2024-02-26,-0.04842807916441624,0.04842807916441624,5,-0.6324,Earnings,Nvidia quarterly revenue below expectations as demand weakens,0.1818,1.0,8,6.0
+sig_01M4NEXM93A7D418VST8Z5CEG0,KO,2024-03-05,0.030159629470782122,0.030159629470782122,3,0.6839,Other,Coca-Cola upgraded to A- as balance sheet strengthens,0.1638,1.0,6,5.0
+sig_01M4NEXM9353XNSWR9VJF7SY58,META,2024-03-06,-0.0014308011448711452,0.0014308011448711452,7,-0.8545,Earnings,Meta misses estimates and cuts guidance; shares fall 8%,0.2123,1.0,1,6.0
+sig_01M4NEXMDGBG0X26DHBN3A3KBM,JNJ,2024-03-07,-0.05110950274727916,0.05110950274727916,6,-0.6324,Operational,Johnson & Johnson suffers global outage affecting millions of users,0.2601,1.0,8,6.0
+sig_01M4NEXMDG8PY5X5ZQ76084TVQ,JNJ,2024-03-12,-0.021783583370071656,0.021783583370071656,3,-0.3799,Product Launch,Johnson & Johnson delays launch of flagship product after defects found,0.0,1.0,4,5.0
+sig_01M4NEXMDG5XRK14FFT7PDXAQ9,MSFT,2024-03-12,0.02428762024117387,0.02428762024117387,3,0.5927,Product Launch,$MSFT microsoft unveils next-gen productline to strong early demand !!,0.4667,0.6,5,5.0
+sig_01M4NEXMDGTCW8H1G7GHFB52HZ,JPM,2024-03-20,0.06609580105911264,0.06609580105911264,6,0.957,Earnings,"$JPM jpmorgan beats expectations, raises guidance; shares jump 3% !!",0.2123,0.6,9,6.0
+sig_01M4NEXMDHFBH2SVG2GFBYDM5N,TSLA,2024-03-27,-0.012847302233449025,0.012847302233449025,4,0.0,Merger/Acquisition,$TSLA tesla agrees to acquire a rival for $2 billion in all-cash deal lol,0.1765,0.6,3,4.0
+sig_01M4NEXMDHZ6547T6VFZWSZAXS,KO,2024-04-01,0.04550186464365595,0.04550186464365595,7,0.957,Earnings,"Coca-Cola 8-K: Coca-Cola beats expectations, raises guidance; shares jump 2%",0.3898,1.0,8,6.0
+sig_01M4NEXMDH86FQX85GDN1BWSQ6,XOM,2024-04-02,-0.02819573229848041,0.02819573229848041,8,-0.828,Credit Event,Exxon downgraded three notches to A- as leveraged losses mount,0.5612,1.0,5,6.0
+sig_01M4NEXMDHE1GDQBSSJFAF1A4Z,BAC,2024-04-02,0.042954339099005784,0.042954339099005784,7,0.957,Earnings,"Bank of America 8-K: Bank of America beats expectations, raises guidance; shares jump 6%",0.3898,1.0,7,6.0
+sig_01M4NEXMDHHXC92ERYSVEWT6M6,PFE,2024-04-04,0.04646297263949775,0.04646297263949775,3,0.2234,Product Launch,Pfizer 8-K: Pfizer launches new platform ahead of schedule,0.2994,1.0,8,5.0
+sig_01M4NEXMDH48ST2H7NQBZCJANW,JNJ,2024-04-04,0.03104536296241395,0.03104536296241395,5,-0.6934,Regulatory/Legal,$JNJ court dismisses lawsuit against johnson & johnson,0.0,0.6,6,6.0
+sig_01M4NEXMDJXZGZSD1EFQ1XD0Y4,JPM,2024-04-10,0.05646777344111587,0.05646777344111587,5,0.4971,Merger/Acquisition,$JPM jpmorgan announces merger talks; shares rally 4% 🚀,0.2474,0.6,9,5.0
+sig_01M4NEXMDJX40ESKHVB41Z58Z5,PFE,2024-04-16,0.031720219884831986,0.031720219884831986,3,0.6839,Other,Pfizer upgraded to BBB- as balance sheet strengthens,0.2994,1.0,6,5.0
+sig_01M4NEXMDJ787J5DF3E7XTXQXG,GOOGL,2024-04-19,0.015678616344932755,0.015678616344932755,7,-0.6741,Credit Event,"$GOOGL alphabet completes refinancing, removing near-term default risk",0.0607,0.6,3,6.0
+sig_01M4NEXMDJC1F26S37P5G0NB1Q,AAPL,2024-04-19,0.08330066215783441,0.08330066215783441,7,0.957,Earnings,"Apple beats expectations, raises guidance; shares jump 4%",0.1538,1.0,10,6.0
+sig_01M4NEXMDJA6F715R273TN3P6Y,PFE,2024-04-22,-0.003336000835403188,0.003336000835403188,9,-0.5624,Credit Event,Pfizer faces liquidity crisis as funding costs spike 12%,0.8667,1.0,1,6.0
+sig_01M4NEXMDJY5SPQ5NRQJXBFKF7,TSLA,2024-04-23,-0.011552858812969824,0.011552858812969824,5,-0.6324,Earnings,Tesla quarterly revenue below expectations as demand weakens,0.1818,1.0,2,6.0
+sig_01M4NEXMDJPRPG7MKWE00EN2XZ,AMZN,2024-05-01,0.03205862108082995,0.03205862108082995,5,-0.6934,Regulatory/Legal,$AMZN court dismisses lawsuit against amazon,0.0,0.6,6,6.0
+sig_01M4NEXMDJ068MS5NYVFP4MA94,META,2024-05-02,0.020090872773864045,0.020090872773864045,3,0.2234,Product Launch,Meta launches new platform ahead of schedule,0.0,1.0,4,5.0
+sig_01M4NEXMDJYMAXEJT8C1B5G9SP,NVDA,2024-05-09,0.06105433782161843,0.06105433782161843,5,-0.4971,Operational,Nvidia restores services after brief outage,0.0955,1.0,9,5.0
+sig_01M4NEXMDKDQHNZYQC6QKQVVYZ,XOM,2024-05-10,-0.00625018958318093,0.00625018958318093,5,-0.4971,Operational,$XOM exxon restores services after brief outage,0.2965,0.6,1,5.0
+sig_01M4NEXMDK04HFKF2PWX4NHF0F,KO,2024-05-17,-0.03691339784430432,0.03691339784430432,9,-0.9387,Credit Event,Coca-Cola shares plunge 15% after report of deposit outflows and emergency capital raise,0.0989,1.0,7,6.0
+sig_01M4NEXMDKPF7VEJNHNNWX1JQW,GOOGL,2024-05-17,0.06730993344882724,0.06730993344882724,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Alphabet,0.2857,1.0,9,6.0
+sig_01M4NEXMDK0SFSANHW0BDSZBQ9,JPM,2024-05-22,-0.016678860762041305,0.016678860762041305,5,-0.7293,Operational,$JPM cyberattack forces jpmorgan to halt production at several plants lol,0.4271,0.6,3,6.0
+sig_01M4NEXMDKX631WKX4GPTA46MZ,GOOGL,2024-05-23,0.0765797207199014,0.0765797207199014,4,0.5927,Product Launch,Alphabet unveils next-gen product line to strong early demand,0.1333,1.0,10,5.0
+sig_01M4NEXMDK55GRGDYHHH6HZ41F,GOOGL,2024-05-24,0.013937587011039972,0.013937587011039972,5,0.4971,Merger/Acquisition,$GOOGL alphabet announces merger talks; shares rally 4%,0.2474,0.6,3,5.0
+sig_01M4NEXMDKQBRVKMZCVA7RBM31,PFE,2024-05-24,0.00041689729771814707,0.00041689729771814707,3,-0.3799,Product Launch,Pfizer delays launch of flagship product after defects found,0.0,1.0,1,5.0
+sig_01M4NEXMDMQDDD7S5YRTYD95ZS,META,2024-05-28,-0.029397705540254688,0.029397705540254688,7,-0.8545,Earnings,$META meta misses estimates and cuts guidance; shares fall 12% 📉,0.1092,0.6,6,6.0
+sig_01M4NEXMDM4SMZN6E7WCZ44J8Y,XOM,2024-05-28,-0.057878514463115614,0.057878514463115614,6,-0.7207,Regulatory/Legal,$XOM exxon mobil fined $2 billion after probe into sales practices 📉,0.2994,0.6,9,6.0
+sig_01M4NEXMDMAEM8RE30XST3N14H,PFE,2024-05-29,-0.06036671071929291,0.06036671071929291,3,-0.3799,Product Launch,Pfizer delays launch of flagship product after defects found,0.0,1.0,9,5.0
+sig_01M4NEXMDMGWZVBTHAK5ZRZGNW,META,2024-05-31,0.06734493810007902,0.06734493810007902,7,0.4971,Merger/Acquisition,Meta announces merger talks; shares rally 35%,0.1538,1.0,9,5.0
+sig_01M4NEXMDMD2000RMXV28F89TA,BA,2024-06-03,0.003979407349669659,0.003979407349669659,6,-0.8545,Earnings,$BA $B boeing misses estimates and cuts guidance; shares fall 4%,0.0,0.6,1,6.0
+sig_01M4NEXMDMM4ED7MQ0NRZZF10M,PFE,2024-06-05,0.02208976622417909,0.02208976622417909,7,0.957,Earnings,"Pfizer beats expectations, raises guidance; shares jump 15%",0.0691,1.0,4,6.0
+sig_01M4NEXMDMPANSBWVG3FBHYWA5,WMT,2024-06-06,-0.04310705123008328,0.04310705123008328,5,-0.8545,Earnings,$WMT walmart misses estimates and cuts guidance; shares fall 2% 📉,0.2123,0.6,7,6.0
+sig_01M4NEXMDMFK1BCPRYFRNYS46J,JPM,2024-06-18,-0.028679908010463287,0.028679908010463287,5,-0.4971,Operational,$JPM jpmorgan restores services after brief outage,0.2965,0.6,5,5.0
+sig_01M4NEXMDNPWPDFPJDRVKG3YW7,NVDA,2024-06-19,0.00257078739837727,0.00257078739837727,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Nvidia,0.2857,1.0,1,6.0
+sig_01M4NEXMDNG55EV4F29TEZVAZA,GOOGL,2024-06-27,-0.031020597273773105,0.031020597273773105,8,-0.5624,Credit Event,Alphabet faces liquidity crisis as funding costs spike 22%,0.2667,1.0,6,6.0
+sig_01M4NEXMDN60MCS40QGV1FX8KH,META,2024-06-27,0.02928969371622372,0.02928969371622372,7,0.4971,Merger/Acquisition,Meta announces merger talks; shares rally 15%,0.1538,1.0,5,5.0
+sig_01M4NEXMDNX9T039XRBGA2KYFK,XOM,2024-06-28,-0.09934788271860609,0.09934788271860609,7,-0.6324,Credit Event,"Exxon misses coupon payment, bondholders hire restructuring advisers",0.1333,1.0,10,6.0
+sig_01M4NEXMDN7VZEC8QJFF6Q212C,META,2024-07-01,-0.0014266284337909746,0.0014266284337909746,4,0.0,Operational,"$META workers strike at meta plants, halting output",0.3772,0.6,1,5.0
+sig_01M4NEXMDN4PYF6K65PYZTF0K7,META,2024-07-02,0.029262978816352064,0.029262978816352064,3,0.6839,Other,Meta upgraded to A- as balance sheet strengthens,0.2222,1.0,5,5.0
+sig_01M4NEXMDNMMB2N0SD5NX35818,AAPL,2024-07-04,-0.01665741072819007,0.01665741072819007,5,-0.4971,Operational,Apple restores services after brief outage,0.0,1.0,3,5.0
+sig_01M4NEXMDNBDY2VNN048J5QTAE,WMT,2024-07-05,0.04427106983244289,0.04427106983244289,4,0.5927,Product Launch,Walmart unveils next-gen product line to strong early demand,0.0,1.0,8,5.0
+sig_01M4NEXMDN0V529GMNHMPVHPA9,AMZN,2024-07-08,0.06504325718759536,0.06504325718759536,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Amazon,0.0,1.0,9,6.0
+sig_01M4NEXMDPZG1289F8T3PE2VH0,GOOGL,2024-07-08,-0.025784020975906936,0.025784020975906936,3,-0.3799,Product Launch,Alphabet delays launch of flagship product after defects found,0.0,1.0,5,5.0
+sig_01M4NEXMDPEDBS7SEYBQF7G4GZ,AMZN,2024-07-09,0.01721011380102154,0.01721011380102154,3,0.6839,Other,$AMZN amazon upgraded to bb+ as balance sheet strengthens,0.2474,0.6,3,5.0
+sig_01M4NEXMDPFKQFRXRP12XXJY6S,META,2024-07-11,0.01232947880908674,0.01232947880908674,4,0.0,Operational,"Workers strike at Meta plants, halting output",0.0658,1.0,2,4.0
+sig_01M4NEXMDP47ZXA82300D0SXXV,WMT,2024-07-19,0.08754607764426608,0.08754607764426608,3,0.6839,Other,Walmart upgraded to BB+ as balance sheet strengthens,0.1818,1.0,10,5.0
+sig_01M4NEXMDPQKXWEDJ0F794VRAQ,NVDA,2024-07-22,0.046804783029336286,0.046804783029336286,3,0.2234,Product Launch,Nvidia launches new platform ahead of schedule,0.0,1.0,8,5.0
+sig_01M4NEXMDPQ2QHDXRRR8TSVH0P,GOOGL,2024-07-29,-0.029413506236475442,0.029413506236475442,6,-0.6741,Merger/Acquisition,Alphabet takeover bid collapses after regulators object,0.0801,1.0,6,6.0
+sig_01M4NEXMDPYJ923NRPCWYMEM07,NVDA,2024-07-29,0.022920015093144765,0.022920015093144765,3,0.6839,Other,Nvidia upgraded to BBB- as balance sheet strengthens,0.1818,1.0,4,5.0
+sig_01M4NEXMDPXBTGWQVK65QR24FW,PFE,2024-07-30,-0.049402309902670596,0.049402309902670596,6,-0.6741,Merger/Acquisition,$PFE pfzer takeover bid collapses after regulators object,0.2474,0.6,8,6.0
+sig_01M4NEXMDQRZ5T1NXFFR4DST24,BA,2024-07-31,0.028638143774934732,0.028638143774934732,5,-0.4971,Operational,$BA boeing restores services after brief outage 📉,0.2965,0.6,5,5.0
+sig_01M4NEXMDQTFFJJV8RXZBNW0GR,PFE,2024-08-06,-0.029300844340197953,0.029300844340197953,4,0.5927,Product Launch,Pfizer unveils next-gen product line to strong early demand,0.1333,1.0,6,5.0
+sig_01M4NEXMDQCTCV56MRDV0CP31Z,XOM,2024-08-06,0.056839352108765076,0.056839352108765076,5,0.0,Merger/Acquisition,Exxon agrees to acquire a rival for $2 billion in all-cash deal,0.2123,1.0,9,4.0
+sig_01M4NEXMDQB3EM4KNWCQBH92V0,BAC,2024-08-08,0.01746388830513991,0.01746388830513991,4,0.5927,Product Launch,Bank of America 8-K: Bank of America unveils next-gen product line to strong early demand,0.0665,1.0,3,5.0
+sig_01M4NEXMDQTZP8YAX9VQD884WX,TSLA,2024-08-08,-0.04166383521291014,0.04166383521291014,3,0.5927,Product Launch,$TSLA tesla unveils next-gen product line to strong early demand,0.0,0.6,7,5.0
+sig_01M4NEXMDQ2GWBQJQZ15KEV5EH,WMT,2024-08-12,0.03806461521017136,0.03806461521017136,5,0.0,Merger/Acquisition,Walmart agrees to acquire a rival for $18 billion in all-cash deal,0.1859,1.0,7,4.0
+sig_01M4NEXMDQX8NTKDBPTEDKQJWN,MSFT,2024-08-13,0.0379921169884032,0.0379921169884032,7,0.4971,Merger/Acquisition,Microsoft announces merger talks; shares rally 8%,0.1818,1.0,7,5.0
+sig_01M4NEXMDQYFQCAED2FSTB56Q4,TSLA,2024-08-14,-0.04190714376393416,0.04190714376393416,7,-0.8545,Earnings,$TSLA tesla misses estimates and cuts guidance; shares fall 9%,0.2123,0.6,7,6.0
+sig_01M4NEXMDR8QCMVWYNWN5C5CJ1,GOOGL,2024-08-16,-0.027758858967017817,0.027758858967017817,6,-0.4386,Regulatory/Legal,Regulator opens investigation into Alphabet safety record,0.2727,1.0,5,5.0
+sig_01M4NEXMDR9WE7SAY2AYN535Y1,JNJ,2024-08-21,-0.005321213560440113,0.005321213560440113,7,-0.6324,Credit Event,"$JNJ johnson & johnson misses coupon payment, bondholders hire restructuring advisers",0.2675,0.6,1,6.0
+sig_01M4NEXMDRMAP3135CR13FS7MJ,JPM,2024-08-29,0.012478435977219496,0.012478435977219496,7,0.4971,Merger/Acquisition,JPMorgan announces merger talks; shares rally 22%,0.1538,1.0,2,5.0
+sig_01M4NEXMDRB37Y5VA3WR0CEFAQ,AMZN,2024-09-02,-0.0832846856096138,0.0832846856096138,4,0.0,Operational,"Workers strike at Amazon plants, halting output",0.0,1.0,10,4.0
+sig_01M4NEXMHD7M6TC7KZW2N79VDP,JPM,2024-09-03,0.003561204344060028,0.003561204344060028,6,-0.6741,Merger/Acquisition,JPMorgan takeover bid collapses after regulators object,0.0,1.0,1,6.0
+sig_01M4NEXMHETSPVYVB6JR6BRM08,XOM,2024-09-09,0.005787096015083828,0.005787096015083828,6,-0.6741,Merger/Acquisition,$XOM exxon takeover bid collapses after regulators object !!,0.2474,0.6,1,6.0
+sig_01M4NEXMHE7KBAEHMFFJ5QFZ4G,XOM,2024-09-11,-0.04198120922535317,0.04198120922535317,6,-0.6741,Merger/Acquisition,Exxon takeover bid collapses after regulators object,0.0801,1.0,7,6.0
+sig_01M4NEXMHETH02APHHKQAH112S,JPM,2024-09-16,-0.026546205798000606,0.026546205798000606,5,-0.6741,Merger/Acquisition,$JPM jpmorgan takeover bid collapses after regulators object,0.0,0.6,5,6.0
+sig_01M4NEXMHE3D5ZKJ6ZVX9NNGJ5,NVDA,2024-09-26,-0.0010921814867501014,0.0010921814867501014,3,0.6839,Other,Nvidia upgraded to A- as balance sheet strengthens,0.196,1.0,1,5.0
+sig_01M4NEXMHESX0PXY3V7SP1VXNP,GOOGL,2024-09-27,-0.04053556484228291,0.04053556484228291,7,-0.8545,Earnings,$GOOGL alphabet misses estimates and cuts guidance; shares fall 12% lol,0.2299,0.6,7,6.0
+sig_01M4NEXMHER9CKEWNH819RC6VB,XOM,2024-09-30,0.11577120022610732,0.11577120022610732,8,-0.6741,Credit Event,"$XOM exxon completes refinancing, removing near-term default risk lol",1.0,0.6,10,6.0
+sig_01M4NEXMHF29XYVHYQBR3E3QQS,PFE,2024-10-01,0.018539143212987115,0.018539143212987115,4,-0.3799,Product Launch,Pfizer delays launch of flagship product after defects found,1.0,1.0,4,5.0
+sig_01M4NEXMHF46NGP9CGJSRK850A,KO,2024-10-03,-0.025575378730611432,0.025575378730611432,4,-0.3799,Product Launch,Coca-Cola 8-K: Coca-Cola delays launch of flagship product after defects found,0.4342,1.0,5,5.0
+sig_01M4NEXMHFAA4G8RPB3GPRQRCH,WMT,2024-10-09,0.025882369155409306,0.025882369155409306,8,-0.6741,Credit Event,"Walmart completes refinancing, removing near-term default risk",0.2299,1.0,5,6.0
+sig_01M4NEXMHFN2S1A8F3EAND3NVT,XOM,2024-10-11,0.04675625122837486,0.04675625122837486,3,0.2234,Product Launch,$XOM exxon launches new platform ahead of schedule lol,0.7631,0.6,8,5.0
+sig_01M4NEXMHFTZPS3BESTJ10TQKW,AMZN,2024-10-11,0.02521999946545486,0.02521999946545486,6,-0.4971,Operational,Amazon restores services after brief outage,1.0,1.0,5,6.0
+sig_01M4NEXMHF5PMZAYFDY15E43SD,BAC,2024-10-14,0.03754409071019767,0.03754409071019767,3,0.6839,Other,$BAC bank of america upgraded to bbb- as balance sheet strengthens,1.0,0.6,7,6.0
+sig_01M4NEXMHFWYR71Y59HNBVQYD9,TSLA,2024-10-16,0.0010239266443082817,0.0010239266443082817,8,-0.8545,Earnings,Tesla misses estimates and cuts guidance; shares fall 8%,1.0,1.0,1,6.0
+sig_01M4NEXMHFCDAZ9ZM4ZNEP0G34,JNJ,2024-10-16,-0.020410069683508954,0.020410069683508954,6,-0.6741,Merger/Acquisition,$JNJ johnson & johnson takeover bid collapses after regulators object !!,1.0,0.6,4,6.0
+sig_01M4NEXMHGTB0GYQF6P9AXPZS7,META,2024-10-17,-0.005355121579317083,0.005355121579317083,3,-0.3799,Product Launch,Meta delays launch of flagship product after defects found,0.1818,1.0,1,5.0
+sig_01M4NEXMHGT4A3ZBRW9QJTGC27,JPM,2024-10-18,0.014645437179930462,0.014645437179930462,3,0.2234,Product Launch,JPMorgan launches new platform ahead of schedule,0.2994,1.0,3,5.0
+sig_01M4NEXMHG2P0E83SGEPMHCJQB,NVDA,2024-10-28,-0.043843132747701644,0.043843132747701644,6,-0.4386,Regulatory/Legal,$NVDA regulator opens investigation into nvidia safety record lol,0.9333,0.6,7,5.0
+sig_01M4NEXMHGJ3ZPMXAX281DGNH8,AAPL,2024-10-30,0.034480982493002334,0.034480982493002334,6,0.4971,Merger/Acquisition,$AAPL apple announces merger talks; shares rally 6% 📉,0.9231,0.6,6,5.0
+sig_01M4NEXMHGQ0JE4ZRZN14WGGJD,WMT,2024-10-31,-0.01238942682724439,0.01238942682724439,3,0.2234,Product Launch,$WMT walmart launches new platform ahead of schedule !!,0.2474,0.6,2,5.0
+sig_01M4NEXMHG9Z9EXDHMQ2ZRVEPH,MSFT,2024-11-04,0.006592495767363852,0.006592495767363852,6,-0.6324,Earnings,Microsoft quarterly revenue below expectations as demand weakens,1.0,1.0,1,6.0
+sig_01M4NEXMHGEVYDHPTS23432RDT,AAPL,2024-11-04,0.010880839712564361,0.010880839712564361,3,-0.3799,Product Launch,$AAPL apple delays launch of flagship product after defects found lol,0.2994,0.6,2,5.0
+sig_01M4NEXMHHJG855VTM4HJRP6EH,PFE,2024-11-04,-0.0007322602829590383,0.0007322602829590383,7,0.4971,Merger/Acquisition,Pfizer announces merger talks; shares rally 15%,0.3077,1.0,1,5.0
+sig_01M4NEXMHH0N42N281AY1Z4J81,GOOGL,2024-11-06,0.019724442893153275,0.019724442893153275,5,-0.4971,Operational,$GOOGL alphabet restores services after brief outage 🚀,0.2965,0.6,4,5.0
+sig_01M4NEXMHHBVMKDWTZ05R9TC93,NVDA,2024-11-08,0.021747548258726063,0.021747548258726063,3,-0.3799,Product Launch,$NVDA nvidia delays launch of flagship product after defects found lol,0.2667,0.6,4,5.0
+sig_01M4NEXMHHXTPJCF4C4TYCRHV5,NVDA,2024-11-11,0.014969532319445419,0.014969532319445419,6,-0.6741,Merger/Acquisition,$NVDA nvidia takeover bid collapses after regulators object 🚀,0.3946,0.6,3,6.0
+sig_01M4NEXMHHQVYHD8CNY06YGEJB,XOM,2024-11-12,0.05908509331795858,0.05908509331795858,7,0.4971,Merger/Acquisition,Exxon announces merger talks; shares rally 35%,0.3077,1.0,9,5.0
+sig_01M4NEXMHHACTD2VN0ESNSKZ57,TSLA,2024-11-19,-0.03388074856231731,0.03388074856231731,3,-0.3799,Product Launch,$TSLA tesla delays launch of flagship product after defects found 🚀,0.2474,0.6,6,5.0
+sig_01M4NEXMHHZ0HSVTQ4TYBXBJ8R,JPM,2024-11-19,-0.03468009598955164,0.03468009598955164,9,-0.5624,Credit Event,JPMorgan faces liquidity crisis as funding costs spike 8%,0.9164,1.0,6,6.0
+sig_01M4NEXMHH7WB1WVXMK74AWNKW,AAPL,2024-11-20,0.0004876717499660982,0.0004876717499660982,8,-0.5624,Credit Event,Apple faces liquidity crisis as funding costs spike 4%,0.1538,1.0,1,6.0
+sig_01M4NEXMHJVHB6F6PQFQ58PRAN,GOOGL,2024-11-21,-0.023776097697604255,0.023776097697604255,6,-0.6741,Merger/Acquisition,Alphabet 8-K: Alphabet takeover bid collapses after regulators object,0.3555,1.0,5,6.0
+sig_01M4NEXMHJWFEDEC6S7SCSEJEA,JPM,2024-11-26,-0.04379010032278362,0.04379010032278362,6,-0.6324,Operational,JPMorgan suffers global outage affecting millions of users,0.9075,1.0,7,6.0
+sig_01M4NEXMHJVWG6GPNH7TWECNYJ,MSFT,2024-11-27,0.003469762449718438,0.003469762449718438,7,0.8762,Earnings,Microsoft posts record revenue on strong demand,0.7273,1.0,1,6.0
+sig_01M4NEXMHJY405GRAF8CB87PR3,PFE,2024-11-29,-0.02415195656392599,0.02415195656392599,6,-0.5747,Regulatory/Legal,Pfizer hit with antitrust lawsuit by regulators,0.8995,1.0,5,6.0
+sig_01M4NEXMHJNG93BTZM83QR8FEE,MSFT,2024-12-03,0.0970644881528228,0.0970644881528228,6,0.8762,Earnings,Microsoft posts record revenue on strong demand,0.0,1.0,10,6.0
+sig_01M4NEXMHJ810AMJNN3TZ0WJT1,MSFT,2024-12-04,0.05205857929277438,0.05205857929277438,7,0.957,Earnings,"$MSFT microsoft beats expectations, raises guidance; shares jump 4% 🚀",0.7852,0.6,8,6.0
+sig_01M4NEXMHJFNM865A65MX1Z3HE,NVDA,2024-12-06,0.0015546922071342367,0.0015546922071342367,6,0.4971,Merger/Acquisition,Nvidia announces merger talks; shares rally 6%,0.2474,1.0,1,5.0
+sig_01M4NEXMHJZB3ATN237GAGCE6F,MSFT,2024-12-10,-0.0650807698524214,0.0650807698524214,3,-0.3799,Product Launch,Microsoft delays launch of flagship product after defects found,0.1818,1.0,9,5.0
+sig_01M4NEXMHKQ7JF885Q26EK1WTE,BA,2024-12-12,0.10221529516336716,0.10221529516336716,3,0.6839,Other,Boeing upgraded to A- as balance sheet strengthens,0.4836,1.0,10,5.0
+sig_01M4NEXMHKVCN8CSMF7E5D8G2Z,BAC,2024-12-13,-0.03360472781129201,0.03360472781129201,9,-0.9387,Credit Event,Bank of America shares plunge 12% after report of deposit outflows and emergency capital raise,0.831,1.0,6,6.0
+sig_01M4NEXMHKT7EBFDJX8JYTEXMD,BA,2024-12-16,0.014678408158579523,0.014678408158579523,4,0.5927,Product Launch,Boeing unveils next-gen product line to strong early demand,0.8443,1.0,3,5.0
+sig_01M4NEXMHKE25QW3QJAMBNZ5VA,BA,2024-12-18,-0.032736785058183525,0.032736785058183525,3,-0.1974,Product Launch,$BA boeing delays launch of flagship product after efects found,0.4146,0.6,6,5.0
+sig_01M4NEXMHKCWKBHBNWC86K358E,AMZN,2024-12-23,-0.03765475927873332,0.03765475927873332,6,-0.6741,Merger/Acquisition,Amazon takeover bid collapses after regulators object,0.2474,1.0,7,6.0
+sig_01M4NEXMHKRPKJ7826RFVZJMFE,META,2024-12-23,0.0639643731727676,0.0639643731727676,7,0.957,Earnings,"$META meta beats expectations, raises guidance; shares jump 35% 🚀",0.3484,0.6,9,6.0
+sig_01M4NEXMHKTDMRSMXRVYCHSJY8,GOOGL,2024-12-23,-0.050027948634969774,0.050027948634969774,7,-0.8545,Earnings,Alphabet 8-K: Alphabet misses estimates and cuts guidance; shares fall 35%,0.3001,1.0,8,6.0
+sig_01M4NEXMHKMGJKE4T6DQ40V54C,GOOGL,2024-12-24,-0.015668702405497146,0.015668702405497146,3,-0.3799,Product Launch,$GOOGL alphabet delays launch of flagship product after defects found !!,0.2474,0.6,3,5.0
+sig_01M4NEXMHM7FPV5739NYX2FRY0,JNJ,2024-12-25,-0.05222146720188032,0.05222146720188032,9,-0.9387,Credit Event,Johnson & Johnson shares plunge 6% after report of deposit outflows and emergency capital raise,0.3333,1.0,8,6.0
+sig_01M4NEXMHMPXH11E2779BXFPDN,TSLA,2024-12-26,0.0700415538413115,0.0700415538413115,7,0.957,Earnings,"Tesla beats expectations, raises guidance; shares jump 3%",0.2123,1.0,10,6.0
+sig_01M4NEXMHM88EDDPY7W7SAQQZM,MSFT,2024-12-31,-0.034770102671667,0.034770102671667,4,-0.6324,Earnings,$MSFT microsoft quarterly revenue below expectations as demand weakens 🚀,0.0801,0.6,6,6.0
+sig_01M4NEXMHMHS52MTYWBV8AW8PM,META,2025-01-02,0.0010068621086463045,0.0010068621086463045,5,-0.4971,Operational,$META meta platforms restores services after brief outage,0.3975,0.6,1,5.0
+sig_01M4NEXMHM3KR805K2PMA2WG4P,NVDA,2025-01-03,0.07674002050231178,0.07674002050231178,7,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Nvidia,0.874,1.0,10,6.0
+sig_01M4NEXMHNMF30SFNDJ8NSBA8W,BAC,2025-01-03,0.035679747213703844,0.035679747213703844,4,0.0,Merger/Acquisition,$BAC bank of america agrees to acquire a rival for $2 billion in all-cash deal 🚀,0.6869,0.6,7,5.0
+sig_01M4NEXMHNTFDBVJDF987KEBVV,AAPL,2025-01-03,0.04691437318298855,0.04691437318298855,3,0.6839,Other,Apple upgraded to A- as balance sheet strengthens,0.2222,1.0,8,5.0
+sig_01M4NEXMHNPTXN42NN07QPTG0T,GOOGL,2025-01-13,0.03563992862935482,0.03563992862935482,3,0.2234,Product Launch,$GOOGL alphabet launches new platform ahead of schedule 🚀,0.2474,0.6,6,5.0
+sig_01M4NEXMHNNMPJ7DEXNWYBA63N,KO,2025-01-13,-0.012831975288855208,0.012831975288855208,6,-0.4386,Regulatory/Legal,Regulator opens investigation into Coca-Cola safety record,0.4271,1.0,2,5.0
+sig_01M4NEXMHN1KQF9HFMGP52S1PR,BAC,2025-01-14,-0.022687532208908838,0.022687532208908838,5,-0.4386,Regulatory/Legal,$BAC regulator opens investigation into bank of america safety record lol,0.3738,0.6,4,5.0
+sig_01M4NEXMHNNCRHMT2W2D1CJGRX,XOM,2025-01-16,-0.018294338276171506,0.018294338276171506,6,-0.6741,Merger/Acquisition,$XOM exxon takeover bid collapses after regulators object,0.2474,0.6,4,6.0
+sig_01M4NEXMHNWQTYY5TZA6BRWGX1,GOOGL,2025-01-17,0.0384434965081114,0.0384434965081114,4,0.0,Merger/Acquisition,$GOOGL alphabet agrees to acquire a rival for $5 billion in all-cash deal,0.3112,0.6,7,4.0
+sig_01M4NEXMHNN8PZTTDG8S8AK1AY,BA,2025-01-17,-0.028763841837129704,0.028763841837129704,3,-0.3799,Product Launch,Boeing delays launch of flagship product after defects found,0.1818,1.0,5,5.0
+sig_01M4NEXMHPR2W1JR03NZ5DBKGY,MSFT,2025-01-21,0.006739979585153816,0.006739979585153816,3,0.6839,Other,$MSFT microsoft upgraded to bbb- as balane sheet strengthens lol,0.6,0.6,2,5.0
+sig_01M4NEXMHPKPWRZGP74D4492SK,XOM,2025-01-23,-0.07445846861291336,0.07445846861291336,6,-0.8545,Earnings,Exxon misses estimates and cuts guidance; shares fall 2%,0.1538,1.0,10,6.0
+sig_01M4NEXMHPVH711JXPTYXXQ1VJ,XOM,2025-01-24,-0.06821191871554938,0.06821191871554938,8,-0.828,Credit Event,$XOM exxon downgraded three notches to a- as energy losses mount,0.7692,0.6,10,7.0
+sig_01M4NEXMHP0WMZY5GHRFZYJ9H1,META,2025-01-29,0.07842387529296135,0.07842387529296135,7,0.957,Earnings,"Meta beats expectations, raises guidance; shares jump 12%",0.1707,1.0,10,6.0
+sig_01M4NEXMHPWSCQW861ZXYTJ9HG,XOM,2025-01-29,0.01866218587346092,0.01866218587346092,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Exxon,0.2857,1.0,4,6.0
+sig_01M4NEXMNYXRKA87469WD7BY8T,JPM,2025-01-31,0.032813976049009326,0.032813976049009326,5,-0.6934,Regulatory/Legal,$JPM court dismisses lawsuit against jpmorgan 📉,0.3701,0.6,6,6.0
+sig_01M4NEXMNZD2PM6NSM056EC853,JNJ,2025-02-04,-0.011052082026410804,0.011052082026410804,9,-0.9387,Credit Event,Johnson & Johnson shares plunge 22% after report of deposit outflows and emergency capital raise,0.09,1.0,2,6.0
+sig_01M4NEXMNZR4ADF95T4DZA6NPX,BA,2025-02-05,0.02351841559627698,0.02351841559627698,6,-0.8545,Earnings,Boeing misses estimates and cuts guidance; shares fall 3%,0.1538,1.0,4,6.0
+sig_01M4NEXMNZC2H9B93TED3J38NH,KO,2025-02-07,-0.015131938935365142,0.015131938935365142,3,-0.3799,Product Launch,$KO coca-cola delays launch of flagship product after defects found 🚀,0.1386,0.6,3,5.0
+sig_01M4NEXMNZY88J8DCJC0XK1DNM,AAPL,2025-02-10,-0.023028582235103606,0.023028582235103606,6,-0.4386,Regulatory/Legal,Regulator opens investigation into Apple safety record,0.331,1.0,4,5.0
+sig_01M4NEXMP0X7E0JWX1VX7EV0CW,TSLA,2025-02-14,-0.02529563532998033,0.02529563532998033,3,0.2234,Product Launch,Tesla launches new platform ahead of schedule,0.1818,1.0,5,5.0
+sig_01M4NEXMP0WX9727KYHWYY9YZW,JNJ,2025-02-18,-0.02847983592751893,0.02847983592751893,6,-0.6741,Merger/Acquisition,Johnson & Johnson takeover bid collapses after regulators object,0.0607,1.0,5,6.0
+sig_01M4NEXMP0YH812CBBN3RT9ADC,JPM,2025-02-21,0.031845953671224045,0.031845953671224045,5,-0.4971,Operational,$JPM jpmorgan chase restores services after brief outage 📉,0.3528,0.6,6,5.0
+sig_01M4NEXMP1Z8PV04GYJE1TSMS3,TSLA,2025-02-25,-0.12739417871264508,0.12739417871264508,3,-0.3799,Product Launch,Tesla delays launch of flagship product after defects found,0.0801,1.0,10,5.0
+sig_01M4NEXMP14PAHFQSW2TVTCSE6,MSFT,2025-02-25,-0.007357051703484246,0.007357051703484246,6,-0.6741,Merger/Acquisition,Microsoft 8-K: Microsoft takeover bid collapses after regulators object,0.2994,1.0,2,6.0
+sig_01M4NEXMP12QKWZHK0PEN6NP7F,AAPL,2025-02-27,0.0019269975963343037,0.0019269975963343037,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Apple,0.2857,1.0,1,6.0
+sig_01M4NEXMP14437H2DT90S9BR2F,AMZN,2025-03-05,-0.0466275588700285,0.0466275588700285,5,-0.6324,Earnings,Amazon quarterly revenue below expectations as demand weakens,0.1818,1.0,8,6.0
+sig_01M4NEXMP10FJT1MZ2B7XW3KHM,JNJ,2025-03-11,0.052843925587406165,0.052843925587406165,6,-0.6934,Regulatory/Legal,Johnson & Johnson 8-K: Court dismisses lawsuit against Johnson & Johnson,0.5031,1.0,8,6.0
+sig_01M4NEXMP27MX9G2SGPXT0BSK0,BA,2025-03-19,0.03480352014167121,0.03480352014167121,5,0.0,Merger/Acquisition,Boeing agrees to acquire a rival for $12 billion in all-cash deal,0.3333,1.0,6,4.0
+sig_01M4NEXMP2Y8303V96BVPKN7FX,MSFT,2025-03-19,0.0040515205485255,0.0040515205485255,3,0.2234,Product Launch,$MSFT micosoft launches new platform ahead of schedule,0.2474,0.6,1,5.0
+sig_01M4NEXMP2MV1484BK80E1DVRK,JNJ,2025-03-27,0.06883262949262715,0.06883262949262715,6,0.957,Earnings,"$JNJ johnson & johnson beats expectations, raises guidance; shares jump 4% lol",0.3342,0.6,10,6.0
+sig_01M4NEXMP2444A4J3CKDXP5C8H,MSFT,2025-04-03,-0.05420501344739727,0.05420501344739727,5,-0.5747,Regulatory/Legal,$MSFT microsoft hit with antitrust lawsuit by regulators,0.2965,0.6,9,6.0
+sig_01M4NEXMP2KFYJ2S29C6ER5X43,AMZN,2025-04-03,-0.0760543395972737,0.0760543395972737,8,-0.6324,Credit Event,"Amazon misses coupon payment, bondholders hire restructuring advisers",0.9139,1.0,10,6.0
+sig_01M4NEXMP31NK7TCQTSH62NFRT,AMZN,2025-04-07,-0.07206221070928726,0.07206221070928726,7,-0.7293,Operational,Cyberattack forces Amazon to halt production at several plants,0.8995,1.0,10,6.0
+sig_01M4NEXMP3VG0PDS70S2SZB8XB,BA,2025-04-07,0.006677803816752993,0.006677803816752993,6,-0.6741,Merger/Acquisition,$BA boeing takeover bid collapses after regulators object !!,0.2474,0.6,2,6.0
+sig_01M4NEXMP3JPHX71MQM711KHN6,WMT,2025-04-09,0.0421643894558332,0.0421643894558332,6,0.957,Earnings,"Walmart beats expectations, raises guidance; shares jump 2%",0.1538,1.0,7,6.0
+sig_01M4NEXMP30DEYF9Z25040J6RK,PFE,2025-04-09,-0.02434871849646063,0.02434871849646063,7,-0.6324,Credit Event,"Pfizer misses coupon payment, bondholders hire restructuring advisers",0.1333,1.0,5,6.0
+sig_01M4NEXMP3SKT63WY3HGD7972Y,KO,2025-04-11,-0.02615813308065913,0.02615813308065913,6,-0.6741,Merger/Acquisition,Coca-Cola takeover bid collapses after regulators object,0.2474,1.0,5,6.0
+sig_01M4NEXMP4HBBD4TXPFNBF8AVK,XOM,2025-04-14,0.046823601229830356,0.046823601229830356,3,0.2234,Product Launch,Exxon launches new platform ahead of schedule,0.1437,1.0,8,5.0
+sig_01M4NEXMP4RRZVRGT29HHCWMXP,AMZN,2025-04-21,0.06045121805055423,0.06045121805055423,3,0.5927,Product Launch,$AMZN amazon unveils next-gen product line to strong early demand lol,0.2299,0.6,9,5.0
+sig_01M4NEXMP4KKQFDGAMCR3F205W,AAPL,2025-04-21,0.015234881536944656,0.015234881536944656,6,0.8762,Earnings,$AAPL apple posts record revenue on strong demand 🚀,0.2474,0.6,3,6.0
+sig_01M4NEXMP4D9ZPSCYCR6HCXKTF,WMT,2025-04-22,0.065523597437549,0.065523597437549,7,-0.6741,Credit Event,"$WMT walmart completes refinancing, removing near-term default risk 📉",0.0607,0.6,9,6.0
+sig_01M4NEXMP4VTHB0NSZX5NF5PCX,BAC,2025-04-23,-0.014576244574437666,0.014576244574437666,6,-0.6324,Operational,Bank of America suffers global outage affecting millions of users,0.2123,1.0,3,6.0
+sig_01M4NEXMP545PRAEBSW1AARS6C,XOM,2025-04-24,-0.02136019239623758,0.02136019239623758,6,-0.4386,Regulatory/Legal,Regulator opens investigation into Exxon Mobil safety record,0.331,1.0,4,5.0
+sig_01M4NEXMP5V027W491Z7MK3PGG,GOOGL,2025-04-29,0.007385643867361579,0.007385643867361579,5,-0.6324,Earnings,Alphabet quarterly revenue below expectations as demand weakens,0.1818,1.0,2,6.0
+sig_01M4NEXMP53C8AHE90X1KY6TXS,META,2025-05-01,-0.11191845158053917,0.11191845158053917,9,-0.9387,Credit Event,Meta Platforms 8-K: Meta Platforms shares plunge 3% after report of deposit outflows and emergency capital raise,0.3922,1.0,10,6.0
+sig_01M4NEXMP5APYXF2EEBP7D7W3T,XOM,2025-05-09,-0.006608769708060354,0.006608769708060354,3,-0.3799,Product Launch,Exxon delays launch of flagship product after defects found,0.1818,1.0,2,5.0
+sig_01M4NEXMP5NZ3T7Q8PNEYSJ1VA,KO,2025-05-13,-0.017343128851038624,0.017343128851038624,3,-0.3799,Product Launch,$KO coca-cola delays launch of flagship product after defects found,0.0,0.6,3,5.0
+sig_01M4NEXMP6E243JV9XJGFEQWJR,GOOGL,2025-05-14,-0.02437248851518681,0.02437248851518681,5,-0.4386,Regulatory/Legal,$GOOGL regulator opens investigation into alphabet safety record 🚀,0.331,0.6,5,5.0
+sig_01M4NEXMP6V0VAXEF5SYWGB5F4,NVDA,2025-05-15,-0.007030234473388583,0.007030234473388583,6,-0.6741,Merger/Acquisition,Nvidia takeover bid collapses after regulators object,0.0801,1.0,2,6.0
+sig_01M4NEXMP6W0HX0207FHE5B7NE,JNJ,2025-05-22,0.025000902196908432,0.025000902196908432,6,-0.4971,Operational,Johnson & Johnson restores services after brief outage,0.3528,1.0,5,5.0
+sig_01M4NEXMP6CJJM1G06Q7HDNXX6,PFE,2025-05-26,-0.06112180521947924,0.06112180521947924,5,0.0,Operational,"Workers strike at Pfizer plants, halting output",0.8995,1.0,9,5.0
+sig_01M4NEXMP6GNPR75NGCASYACXS,KO,2025-05-26,0.019820945056731487,0.019820945056731487,6,-0.4971,Operational,Coca-Cola restores services after brief outage,0.2965,1.0,4,5.0
+sig_01M4NEXMP7N4G93R7NJQY86YSE,MSFT,2025-05-28,-0.03922169741656942,0.03922169741656942,6,-0.6324,Operational,Microsoft suffers global outage affecting millions of users,0.1538,1.0,7,6.0
+sig_01M4NEXMP70E4P80CRDXFFSMAF,TSLA,2025-05-29,0.04994540947604145,0.04994540947604145,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Tesla,0.2857,1.0,8,6.0
+sig_01M4NEXMP75GKV56YXRJEWWWA2,AAPL,2025-05-29,-0.09272289878067155,0.09272289878067155,5,-0.7293,Operational,$AAPL cyberattack forces apple to halt production at several plants 🚀,0.331,0.6,10,6.0
+sig_01M4NEXMP76PTNAFT9PCT4JWM8,XOM,2025-06-02,-0.056291922361422976,0.056291922361422976,8,-0.828,Credit Event,Exxon downgraded two notches to BB as leveraged losses mount,0.3846,1.0,9,6.0
+sig_01M4NEXMP7B14XR5835WJEVR2M,WMT,2025-06-05,-0.06650913954442524,0.06650913954442524,6,-0.8545,Earnings,$WMT walmart misses estimates and cuts guidance; shares fall 8% 📉,0.2123,0.6,9,6.0
+sig_01M4NEXMP8ANMZQTKRJ0NHC93E,BAC,2025-06-06,-0.01971297016541059,0.01971297016541059,6,-0.6324,Operational,Bank of America suffers global outage affecting millions of users,0.0,1.0,4,6.0
+sig_01M4NEXMP8KJA9P7SS152QMHNF,PFE,2025-06-09,-0.053509362951891966,0.053509362951891966,5,-0.5747,Regulatory/Legal,Pfizer hit with antitrust lawsuit by regulators,0.0,1.0,9,5.0
+sig_01M4NEXMP8PD5G3D4Y82MXPPW9,KO,2025-06-12,0.051079551920750206,0.051079551920750206,5,0.0,Merger/Acquisition,Coca-Cola agrees to acquire a rival for $2 billion in all-cash deal,0.2667,1.0,8,4.0
+sig_01M4NEXMP8H3AGJMXB50Y541QK,BAC,2025-06-12,0.018120504373055298,0.018120504373055298,6,-0.6741,Merger/Acquisition,Bank of America takeover bid collapses after regulators object,0.2474,1.0,4,6.0
+sig_01M4NEXMP8FVGRM4EJHR5NPTCC,AMZN,2025-06-13,-0.06380020639770048,0.06380020639770048,4,0.0,Operational,"Workers strike at Amazon plants, halting output",0.2727,1.0,9,4.0
+sig_01M4NEXMP9RWR43GBXDR4K7HQH,JNJ,2025-06-16,0.016423979537846547,0.016423979537846547,7,-0.7207,Regulatory/Legal,$JNJ johnson & johnson fined $40 billion after probe into sales practices,0.5585,0.6,3,6.0
+sig_01M4NEXMP93ZPYKXSHRBQ0325Y,TSLA,2025-06-17,-0.045665921135097334,0.045665921135097334,5,-0.6324,Earnings,Tesla quarterly revenue below expectations as demand weakens,0.1818,1.0,8,6.0
+sig_01M4NEXMP9VVX072BMNR0H12N7,NVDA,2025-06-20,-0.030712637767771944,0.030712637767771944,3,-0.3799,Product Launch,$NVDA nvidia delays launch of flagship product after defects found,0.0691,0.6,6,5.0
+sig_01M4NEXMP9NDTX2KCMVGSB0HE6,AAPL,2025-06-25,-0.07171658723248922,0.07171658723248922,6,-0.6741,Merger/Acquisition,Apple 8-K: Apple takeover bid collapses after regulators object,0.2994,1.0,10,6.0
+sig_01M4NEXMP9ETXK1NVN6ZFZEAEK,TSLA,2025-07-09,0.004121419672902284,0.004121419672902284,6,-0.6741,Merger/Acquisition,Tesla takeover bid collapses after regulators object,0.1818,1.0,1,6.0
+sig_01M4NEXMPAXJE626XRG3GP1TR9,NVDA,2025-07-10,0.004313586089039699,0.004313586089039699,4,0.0,Operational,"$NVDA workers strike at nvidia plants, halting output",0.331,0.6,1,5.0
+sig_01M4NEXMPAD54XAXWMPMTDR5AB,GOOGL,2025-07-14,-0.05440389214003673,0.05440389214003673,4,-0.6324,Earnings,$GOOGL alphabet quarterly revenue below expectations as demand weakens,0.0801,0.6,9,6.0
+sig_01M4NEXMPARM3GT5J1ZA2HAGR1,JNJ,2025-07-17,0.06605379578366244,0.06605379578366244,5,-0.4971,Operational,Johnson & Johnson restores services after brief outage,0.0,1.0,9,5.0
+sig_01M4NEXMPA1Z0ZYK90NSQP9D9G,KO,2025-07-17,-0.029395477013969832,0.029395477013969832,5,-0.6324,Operational,$KO coca-cola suffers global outage affecting millions of users,0.2601,0.6,6,6.0
+sig_01M4NEXMPAX8RWJ2FKY0Y8ZG3J,JPM,2025-07-23,-0.048028866860226616,0.048028866860226616,5,-0.7293,Operational,$JPM cyberattack forces jpmorgan chase to halt production at several plants 📉,0.3772,0.6,8,6.0
+sig_01M4NEXMPBQK6HY749JXZ1DDK8,META,2025-07-25,-0.007148407424937658,0.007148407424937658,6,-0.6741,Merger/Acquisition,Meta 8-K: Meta takeover bid collapses after regulators object,0.2994,1.0,2,6.0
+sig_01M4NEXMPBX609M5ABYKHPRNXW,TSLA,2025-07-25,-0.08005030679231148,0.08005030679231148,5,-0.5747,Regulatory/Legal,$TSLA tesla hit with antitrust lawsuit by regulators,0.2965,0.6,10,6.0
+sig_01M4NEXMPBCNNTFXRE20BQ2CYH,TSLA,2025-07-28,0.0010503353644885326,0.0010503353644885326,3,0.2234,Product Launch,Tesla launches new platform ahead of schedule,0.0,1.0,1,5.0
+sig_01M4NEXMPBPC378RHBDGHWHP19,JNJ,2025-07-28,-0.026614785262854004,0.026614785262854004,3,-0.3799,Product Launch,$JNJ johnson & johnson delays launch of flagship product after defects found 📉,0.3419,0.6,5,5.0
+sig_01M4NEXMPBGG7CJMZW3V49HHGP,MSFT,2025-07-30,0.017737528441142104,0.017737528441142104,3,-0.3799,Product Launch,Microsoft delays launch of flagship product after defects found,0.0,1.0,3,5.0
+sig_01M4NEXMPCSR3TT899W9ZZEJBW,META,2025-08-08,-0.008255560174001784,0.008255560174001784,3,-0.3799,Product Launch,$META meta platforms delays launch of flagship product after defects found,0.1956,0.6,2,5.0
+sig_01M4NEXMTDP8P9SRGJV1NM6ZCE,WMT,2025-08-11,-0.049642054193598115,0.049642054193598115,7,-0.1974,Credit Event,Walmart 8-K: Rating agency cuts Walmart outlook to negative on refinancing risk,0.7631,1.0,8,5.0
+sig_01M4NEXMTDXYWMMPC3A3SWBB8D,MSFT,2025-08-18,0.028395573557898318,0.028395573557898318,6,0.8762,Earnings,Microsoft posts record revenue on strong demand,0.0,1.0,5,6.0
+sig_01M4NEXMTDE77ZS4A574QE1B53,TSLA,2025-08-20,0.03225151045103082,0.03225151045103082,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Tesla,0.0,1.0,6,6.0
+sig_01M4NEXMTDPJRJVZ1QN34B3KJV,BA,2025-08-21,0.01536002917954319,0.01536002917954319,6,0.8762,Earnings,Boeing posts record revenue on strong demand,0.1818,1.0,3,6.0
+sig_01M4NEXMTE67EJKET6NRP6Z1QG,NVDA,2025-08-22,0.06450749200042862,0.06450749200042862,7,-0.6741,Credit Event,"$NVDA nvidia completes refinancing, removing near-term default risk",0.1859,0.6,9,6.0
+sig_01M4NEXMTEN3YBQ52HQMZK9DND,JNJ,2025-08-26,-0.026931169431171298,0.026931169431171298,3,-0.3799,Product Launch,Johnson & Johnson delays launch of flagship product after defects found,0.0607,1.0,5,5.0
+sig_01M4NEXMTEMZN86W7Q0TQHF2EN,JPM,2025-09-03,0.007974497466259323,0.007974497466259323,4,-0.1974,Earnings,$JPM jpmorgan quarterly revenue below xpectations as demand weakens,0.4983,0.6,2,5.0
+sig_01M4NEXMTER1V6JQRATKMPPAPQ,PFE,2025-09-04,0.05277313155021357,0.05277313155021357,5,0.4971,Earnings,$PFE pfizer posts recrd revenue on strong demand lol,0.5329,0.6,8,5.0
+sig_01M4NEXMTENAVEYNKR28467Z3J,JPM,2025-09-04,0.04283394222609625,0.04283394222609625,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against JPMorgan,0.1181,1.0,7,6.0
+sig_01M4NEXMTF8VB9NPYEZXD0HAJZ,META,2025-09-11,-0.03945312566513817,0.03945312566513817,6,-0.4386,Regulatory/Legal,Regulator opens investigation into Meta safety record,0.2727,1.0,7,5.0
+sig_01M4NEXMTFZ9K0PTSCS9XKPJN0,GOOGL,2025-09-15,-0.01945631149492797,0.01945631149492797,7,-0.6324,Credit Event,"Alphabet misses coupon payment, bondholders hire restructuring advisers",0.1333,1.0,4,6.0
+sig_01M4NEXMTFDMMEB6QXEF7VVKDX,AMZN,2025-09-17,-0.01684443299160129,0.01684443299160129,6,-0.6741,Merger/Acquisition,Amazon takeover bid collapses after regulators object,0.0,1.0,3,6.0
+sig_01M4NEXMTF2M0GA757D5T08C8A,XOM,2025-09-23,0.08485294566154897,0.08485294566154897,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Exxon,0.0,1.0,10,6.0
+sig_01M4NEXMTFPKX9R4248FX0C42B,PFE,2025-09-24,-0.05797714487150894,0.05797714487150894,6,-0.1974,Credit Event,$PFE rating agency cuts pfizer outlook to negative on refinancing risk lol,0.3684,0.6,9,5.0
+sig_01M4NEXMTG49PFEWNQT2EX1R13,JNJ,2025-09-25,-0.05823802370971251,0.05823802370971251,7,-0.8545,Earnings,Johnson & Johnson misses estimates and cuts guidance; shares fall 6%,0.2601,1.0,9,6.0
+sig_01M4NEXMTGZJA0XQKGEGH36N0S,AMZN,2025-09-25,-0.04019138542763785,0.04019138542763785,5,-0.6324,Operational,$AMZN amazon suffers global outage affecting mllions of users,0.4271,0.6,7,6.0
+sig_01M4NEXMTG59Z6SVB3HY2H282V,XOM,2025-10-02,-0.015633659525673544,0.015633659525673544,3,-0.3799,Product Launch,Exxon delays launch of flagship product after defects found,0.0,1.0,3,5.0
+sig_01M4NEXMTGNW3PGMFHSQJXP3SN,MSFT,2025-10-03,0.027278335424829367,0.027278335424829367,6,0.4971,Merger/Acquisition,Microsoft announces merger talks; shares rally 3%,0.1818,1.0,5,5.0
+sig_01M4NEXMTG9MGZ11NCT1320QJ5,AMZN,2025-10-15,0.0022624665145014305,0.0022624665145014305,6,0.8762,Earnings,Amazon posts record revenue on strong demand,0.1818,1.0,1,6.0
+sig_01M4NEXMTHCEYZX1E14TKNZKEQ,AMZN,2025-10-23,0.052600474779709486,0.052600474779709486,3,0.2234,Product Launch,Amazon launches new platform ahead of schedule,0.1818,1.0,8,5.0
+sig_01M4NEXMTHKXTPS1SXE91D0PZD,BA,2025-10-23,-3.140830891511584e-05,3.140830891511584e-05,5,-0.6324,Earnings,Boeing quarterly revenue below expectations as demand weakens,0.1818,1.0,1,6.0
+sig_01M4NEXMTHTQ23FJ5ATYV8F1G4,BAC,2025-10-23,-0.05145955042623179,0.05145955042623179,4,0.0,Operational,"Workers strike at Bank of America plants, halting output",0.331,1.0,8,5.0
+sig_01M4NEXMTH00MPVA2G9HTNYE70,NVDA,2025-10-24,-0.023004699208919042,0.023004699208919042,5,-0.4971,Operational,$NVDA nvidia resores services after brief outage,0.4975,0.6,4,6.0
+sig_01M4NEXMTHD0MAGP64CXPZ70B5,PFE,2025-10-24,0.05528754213451302,0.05528754213451302,6,0.8762,Earnings,$PFE pfizer posts record revenue on strong demand 📉,0.2474,0.6,9,6.0
+sig_01M4NEXMTH0V5ZTC563HGHEF5G,AAPL,2025-10-28,-0.038999340193802474,0.038999340193802474,7,-0.8545,Earnings,$AAPL apple misses estimates and cuts guidance; shares fall 22% !!,0.2601,0.6,7,6.0
+sig_01M4NEXMTJ0JMY6T2XN4Z1BQKE,KO,2025-10-29,-0.036165415207859625,0.036165415207859625,6,-0.6741,Merger/Acquisition,Coca-Cola takeover bid collapses after regulators object,0.0,1.0,7,6.0
+sig_01M4NEXMTJW9TZFE7RHQ9G5K6Q,GOOGL,2025-11-07,-0.04932322132830346,0.04932322132830346,5,-0.6741,Merger/Acquisition,$GOOGL alphabet takeover bid collapses after regulators object 📉,0.1407,0.6,8,6.0
+sig_01M4NEXMTJX2KFT3DQEJ4AKMNV,AAPL,2025-11-07,-0.09089602777181716,0.09089602777181716,7,-0.8545,Earnings,Apple misses estimates and cuts guidance; shares fall 22%,0.0607,1.0,10,6.0
+sig_01M4NEXMTJ9EY5ZBXD6X41ABA5,MSFT,2025-11-11,0.0442389889457612,0.0442389889457612,7,0.957,Earnings,"Microsoft beats expectations, raises guidance; shares jump 9%",0.0691,1.0,8,6.0
+sig_01M4NEXMTJQZ7E487F687KPGKK,NVDA,2025-11-14,-0.062922949452,0.062922949452,5,-0.5747,Regulatory/Legal,$NVDA nvidia hit with antitrust lawsuit by regulators !!,0.2965,0.6,9,6.0
+sig_01M4NEXMTKGCD9P8VBK8XXF67Z,GOOGL,2025-11-19,-0.02501473194431226,0.02501473194431226,6,-0.8545,Earnings,Alphabet misses estimates and cuts guidance; shares fall 3%,0.1092,1.0,5,6.0
+sig_01M4NEXMTKY9CRVA26M0D9RGFF,AAPL,2025-11-21,0.011079085708279854,0.011079085708279854,3,-0.3799,Product Launch,Apple delays launch of flagship product after defects found,0.1437,1.0,2,5.0
+sig_01M4NEXMTKSAWBTSEREH0FH5E1,GOOGL,2025-11-24,0.023522220705132442,0.023522220705132442,5,-0.4971,Operational,$GOOGL alphabet restores services after brief outage 📉,0.0,0.6,4,5.0
+sig_01M4NEXMTKG9B36THHH91C3KXK,AMZN,2025-11-25,0.006306492042697126,0.006306492042697126,5,-0.4971,Operational,Amazon restores services after brief outage,0.0,1.0,1,5.0
+sig_01M4NEXMTK1CJN8EV9SYACWCBE,XOM,2025-12-10,0.06066884069088804,0.06066884069088804,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Exxon,0.0,1.0,9,6.0
+sig_01M4NEXMTMKEJVR1DP3X6F06TD,NVDA,2025-12-10,-0.035705410816021396,0.035705410816021396,5,-0.6324,Earnings,$NVDA nvidia quarterly revenue below expectations as demand weakens,0.2474,0.6,7,6.0
+sig_01M4NEXMTMMJ8CPKD4SDQKY0DP,BAC,2025-12-11,0.03156220482823055,0.03156220482823055,4,0.0,Merger/Acquisition,Bank of America agrees to acquire a rival for $2 billion in all-cash deal,0.0607,1.0,6,4.0
+sig_01M4NEXMTMR3TRPZJVZZ03QJMH,WMT,2025-12-11,0.03499886903609946,0.03499886903609946,7,-0.6741,Credit Event,"Walmart completes refinancing, removing near-term default risk",0.0,1.0,6,6.0
+sig_01M4NEXMTMGW9WYWT2844BGDFH,NVDA,2025-12-15,-0.0012663072483632687,0.0012663072483632687,6,-0.5747,Regulatory/Legal,Nvidia 8-K: Nvidia hit with antitrust lawsuit by regulators,0.1638,1.0,1,6.0
+sig_01M4NEXMTMFP4DDCJNGEZP115E,AMZN,2025-12-17,0.04449018094427994,0.04449018094427994,3,0.2234,Product Launch,$AMZN amazon launches new platform ahead of schedule 🚀,0.0801,0.6,8,5.0
+sig_01M4NEXMTNV8DBY6X22H67VFP5,WMT,2025-12-22,0.002178350578745141,0.002178350578745141,4,0.5927,Product Launch,Walmart unveils next-gen product line to strong early demand,0.1333,1.0,1,5.0
+sig_01M4NEXMTNBPY9ACEPC8D3T2P7,KO,2025-12-22,0.0464896541413291,0.0464896541413291,6,-0.6934,Regulatory/Legal,Court dismisses lawsuit against Coca-Cola,0.3701,1.0,8,6.0
+sig_01M4NEXMTNXN16MEX8WYG1X12Y,TSLA,2025-12-23,0.04218319751794185,0.04218319751794185,8,-0.6741,Credit Event,"Tesla completes refinancing, removing near-term default risk",0.1333,1.0,7,6.0
+sig_01M4NEXMTN8PAK2FKAFSN1KRDJ,GOOGL,2025-12-29,0.07128879039895275,0.07128879039895275,5,-0.6934,Regulatory/Legal,$GOOGL court dismisses lawsuit against alphabet 📉,0.3701,0.6,10,6.0

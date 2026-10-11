@@ -1,0 +1,14 @@
+# Optional: transformer backends, fine-tuning, ONNX export, live data, screenshots.
+# CPU wheels: pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+transformers>=4.40
+datasets>=2.18,<3.0        # <3.0 keeps script-based datasets (takala/financial_phrasebank) loadable
+accelerate>=0.28
+onnx>=1.15
+onnxruntime>=1.17
+sentence-transformers>=2.6 # TRIDENT_NOVELTY=minilm
+spacy>=3.7
+yfinance>=0.2.40
+kaggle>=1.6
+redis>=5.0                 # TRIDENT_BUS=redis
+playwright>=1.42           # scripts/take_screenshots.py, scripts/render_architecture.py

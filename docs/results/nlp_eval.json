@@ -1,0 +1,148 @@
+{
+  "sentiment": {
+    "gold_v0": {
+      "n": 180,
+      "trident_lexicon": 0.6500061934844544,
+      "vader_baseline": 0.474905993400353,
+      "naive_wordcount_baseline": 0.22849464469753303,
+      "trident_best": 0.6500061934844544,
+      "hard_cases_n": 14,
+      "hard_cases_lexicon_acc": 0.6428571428571429,
+      "hard_cases_vader_acc": 0.2857142857142857
+    }
+  },
+  "events": {
+    "gold_v0": {
+      "n": 180,
+      "rules_macro_f1": 0.9205713324573657,
+      "rules-v1_macro_f1": 0.9205713324573657,
+      "best_macro_f1": 0.9205713324573657,
+      "accuracy": 0.9166666666666666,
+      "labels": [
+        "Geopolitical",
+        "Macroeconomic",
+        "Credit Event",
+        "Merger/Acquisition",
+        "Product Launch",
+        "Earnings",
+        "Regulatory/Legal",
+        "Operational",
+        "Other"
+      ],
+      "confusion": [
+        [
+          19,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          20,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          19,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          18,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          18,
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          16,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          17,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          18
+        ]
+      ],
+      "model": "rules-v1"
+    }
+  },
+  "entities": {
+    "precision": 1.0,
+    "recall": 0.9790209790209791,
+    "f1": 0.989399293286219,
+    "ambiguity_traps_correct": "3/3",
+    "tp": 140,
+    "fp": 0,
+    "fn": 3
+  },
+  "provenance": {
+    "gold_v0": "authored fictional headlines (regression/smoke benchmark)"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "champions": {},
+  "log": [
+    {
+      "ts": "2026-10-11T12:27:26.046Z",
+      "kind": "sentiment_sklearn",
+      "candidate": "models/candidates/sentiment_sklearn.joblib",
+      "candidate_score": 0.4849,
+      "bar": "lexicon",
+      "bar_score": 0.65,
+      "eval": "gold_v0 (authored)",
+      "decision": "rejected",
+      "forced": false
+    },
+    {
+      "ts": "2026-10-11T12:27:27.742Z",
+      "kind": "events_sklearn",
+      "candidate": "models/candidates/events_sklearn.joblib",
+      "candidate_score": 0.8778,
+      "bar": "rules",
+      "bar_score": 0.9206,
+      "eval": "gold_v0 (authored)",
+      "decision": "rejected",
+      "forced": false
+    }
+  ]
+}

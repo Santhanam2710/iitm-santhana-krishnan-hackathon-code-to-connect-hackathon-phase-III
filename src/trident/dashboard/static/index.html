@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TRIDENT Risk Console</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/static/styles.css">
+<script src="/static/vendor/echarts.min.js"></script>
+</head>
+<body>
+<header class="top">
+  <div class="brand">TRIDENT<span>.</span></div>
+  <div class="hstat" id="modeChip"><span class="dot"></span><b>connecting…</b></div>
+  <div class="hstat"><small>Simulated clock</small><b id="simClock" class="mono">—</b></div>
+  <div class="hstat"><small>Replay</small><b id="replayProg" class="mono">—</b></div>
+  <div class="hstat"><small>Engine latency p50 / p95</small><b id="latency" class="mono">—</b></div>
+  <div class="hstat"><small>Signals</small><b id="sigCount" class="mono">0</b></div>
+  <div class="hctl">
+    <select id="replaySel" aria-label="Replay window"></select>
+    <select id="speedSel" aria-label="Replay speed">
+      <option value="300">300×</option><option value="600" selected>600×</option><option value="1800">1800×</option><option value="6000">6000×</option>
+    </select>
+    <button class="btn primary" id="replayBtn">Restart replay</button>
+    <button class="btn" id="injectBtn" title="Inject a tagged synthetic credit burst">Inject synthetic burst</button>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist">
+  <button role="tab" data-tab="feed" aria-selected="true">Live signals</button>
+  <button role="tab" data-tab="moda" aria-selected="false">Module A · Rebalancer</button>
+  <button role="tab" data-tab="modb" aria-selected="false">Module B · Stress test</button>
+  <button role="tab" data-tab="lab" aria-selected="false">Engine Lab</button>
+  <button role="tab" data-tab="sys" aria-selected="false">System &amp; results</button>
+</nav>
+
+<main>
+<!-- FEED -->
+<section class="tab" id="tab-feed">
+  <div class="kpis" id="feedKpis"></div>
+  <div class="gatebar" id="gateBar"><span class="muted">Module B gate decisions appear here.</span></div>
+  <div class="split">
+    <div class="panel">
+      <div class="ph"><h3>Signal stream</h3><div class="seg"><button data-filter="all" aria-pressed="true">All</button><button data-filter="stress" aria-pressed="false">Stress classes</button><button data-filter="index" aria-pressed="false">Index names</button></div></div>
+      <div id="feed" class="feed"></div>
+    </div>
+    <div class="panel" id="detail"><div class="empty">Select a signal to see its evidence, rationale, lineage and JSON.</div></div>
+  </div>
+</section>
+
+<!-- MODULE A -->
+<section class="tab" id="tab-moda" hidden>
+  <div class="kpis" id="aKpis"></div>
+  <div class="grid2">
+    <div class="panel"><div class="ph"><h3>Active weight vs benchmark over time</h3><span class="muted small">red underweight · green overweight</span></div><div id="aHeat" class="chart tall"></div></div>
+    <div class="panel"><div class="ph"><h3>Index weights over time</h3><span class="muted small">stacked, sums to 100%</span></div><div id="aArea" class="chart tall"></div></div>
+  </div>
+  <div class="grid2">
+    <div class="panel">
+      <div class="ph"><h3>Current weights and sentiment decomposition</h3></div>
+      <div class="scroll"><table class="tbl" id="aTable"></table></div>
+    </div>
+    <div class="panel">
+      <div class="ph"><h3>Rebalancer controls</h3></div>
+      <div class="ctlgrid">
+        <label>Tilt strength λ <output id="pLamO">1.50</output><input type="range" id="pLam" min="0" max="3" step="0.05" value="1.5"></label>
+        <label>Weight cap w<sub>max</sub> <output id="pMaxO">15%</output><input type="range" id="pMax" min="0.08" max="0.3" step="0.005" value="0.15"></label>
+        <label>No-trade band δ <output id="pBandO">0.20%</output><input type="range" id="pBand" min="0" max="0.01" step="0.0005" value="0.002"></label>
+        <label>Turnover cap <output id="pToO">20%</output><input type="range" id="pTo" min="0.02" max="0.5" step="0.01" value="0.2"></label>
+        <label>Method <select id="pMethod"><option value="tilt">Closed-form tilt (A2)</option><option value="optimizer">Mean-variance optimizer (A4)</option></select></label>
+        <button class="btn primary" id="pApply">Apply</button>
+      </div>
+      <div id="btCard" class="btcard"></div>
+    </div>
+  </div>
+</section>
+
+<!-- MODULE B -->
+<section class="tab" id="tab-modb" hidden>
+  <div id="bStatus"></div>
+  <div class="kpis" id="bKpis"></div>
+  <div class="grid2">
+    <div class="panel"><div class="ph"><h3>P&amp;L attribution by asset class ($m)</h3><span class="muted small" id="bLabel"></span></div><div id="bWater" class="chart"></div></div>
+    <div class="panel"><div class="ph"><h3>Portfolio value before and after</h3></div><div id="bBefore" class="chart"></div></div>
+  </div>
+  <div class="grid2">
+    <div class="panel"><div class="ph"><h3>CET1 ratio against regulatory floors</h3></div><div id="bCet" class="chart short"></div><div id="bReverse" class="callout"></div></div>
+    <div class="panel">
+      <div class="ph"><h3>Run a scenario</h3></div>
+      <div class="ctlgrid">
+        <label>Event class <select id="sCls"><option>Credit Event</option><option>Geopolitical</option><option>Macroeconomic</option></select></label>
+        <label>Impact score <output id="sIO">9</output><input type="range" id="sI" min="1" max="10" step="1" value="9"></label>
+        <label>Contagion origin <select id="sSector"><option value="">none</option><option>Banks</option><option>Energy</option><option>Technology</option><option>Industrials</option><option>Consumer</option></select></label>
+        <button class="btn primary" id="sRun">Run stress test</button>
+      </div>
+      <div class="btnrow" id="presetRow"></div>
+      <div class="scroll"><table class="tbl" id="bShock"></table></div>
+    </div>
+  </div>
+  <div class="panel"><div class="ph"><h3>Position-level revaluation</h3></div><div class="scroll"><table class="tbl wide" id="bBook"></table></div></div>
+  <div class="panel"><div class="ph"><h3>Stress run history</h3></div><div class="scroll"><table class="tbl" id="bHist"></table></div></div>
+</section>
+
+<!-- LAB -->
+<section class="tab" id="tab-lab" hidden>
+  <div class="split">
+    <div class="panel">
+      <div class="ph"><h3>Analyze any text</h3></div>
+      <textarea id="labIn" rows="4">JPMorgan downgraded two notches as commercial real estate losses mount</textarea>
+      <div class="btnrow">
+        <select id="labSrc"><option value="newswire">Newswire</option><option value="social">Social</option><option value="filing">Filing</option></select>
+        <button class="btn primary" id="labRun">Run engine</button>
+        <label class="inline"><input type="checkbox" id="labPub"> publish to stream</label>
+      </div>
+      <div class="samples" id="labSamples"></div>
+    </div>
+    <div class="panel" id="labOut"></div>
+  </div>
+</section>
+
+<!-- SYSTEM -->
+<section class="tab" id="tab-sys" hidden>
+  <div class="grid2">
+    <div class="panel"><div class="ph"><h3>Models and counters</h3></div><div id="sysModels"></div></div>
+    <div class="panel"><div class="ph"><h3>Engine latency distribution (ms)</h3></div><div id="sysLat" class="chart"></div></div>
+  </div>
+  <div class="grid2">
+    <div class="panel"><div class="ph"><h3>Source health</h3></div><div class="scroll"><table class="tbl" id="sysSources"></table></div></div>
+    <div class="panel"><div class="ph"><h3>Dropped and rejected items</h3></div><div id="sysRejected" class="rejlist"></div></div>
+  </div>
+  <div class="panel"><div class="ph"><h3>Evaluation results</h3><span class="muted small">from docs/results/results.json (python scripts/run_all_results.py)</span></div><div id="sysResults"></div></div>
+</section>
+</main>
+<script src="/static/app.js"></script>
+</body>
+</html>

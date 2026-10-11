@@ -1,0 +1,15 @@
+# docker compose up                 -> dashboard on http://localhost:8000 (replay mode)
+# docker compose --profile redis up -> also starts Redis; set TRIDENT_BUS=redis to use Redis Streams
+services:
+  trident:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      TRIDENT_MODE: ${TRIDENT_MODE:-replay}
+      TRIDENT_BUS: ${TRIDENT_BUS:-memory}
+      REDIS_URL: redis://redis:6379/0
+      NEWSAPI_KEY: ${NEWSAPI_KEY:-}
+  redis:
+    image: redis:7-alpine
+    profiles: ["redis"]
+    ports: ["6379:6379"]

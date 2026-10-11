@@ -1,0 +1,180 @@
+{"id": "g000", "text": "JPMorgan downgraded two notches as commercial real estate losses mount", "event": "Credit Event", "polarity": "neg", "tickers": ["JPM"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g001", "text": "Rating agency cuts Boeing outlook to negative on rising debt load", "event": "Credit Event", "polarity": "neg", "tickers": ["BA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g002", "text": "SVB Financial shares collapse as deposit outflows accelerate", "event": "Credit Event", "polarity": "neg", "tickers": ["SIVB"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g003", "text": "First Republic explores emergency sale after deposit flight", "event": "Credit Event", "polarity": "neg", "tickers": ["FRC"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g004", "text": "Credit Suisse credit default swaps hit record as investors flee", "event": "Credit Event", "polarity": "neg", "tickers": ["CS"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g005", "text": "Signature Bank seized by regulators; FDIC appointed receiver", "event": "Credit Event", "polarity": "neg", "tickers": ["SBNY"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g006", "text": "Western Alliance shares sink on fears of a bank run", "event": "Credit Event", "polarity": "neg", "tickers": ["WAL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g007", "text": "PacWest misses deposit targets, weighs capital raise", "event": "Credit Event", "polarity": "neg", "tickers": ["PACW"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g008", "text": "Bank of America placed on watch negative by rating agency over unrealized losses", "event": "Credit Event", "polarity": "neg", "tickers": ["BAC"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g009", "text": "Tesla bonds downgraded to junk as cash burn accelerates", "event": "Credit Event", "polarity": "neg", "tickers": ["TSLA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g010", "text": "Boeing upgraded as free cash flow recovers and debt falls", "event": "Credit Event", "polarity": "pos", "tickers": ["BA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g011", "text": "Charles Schwab says deposit outflows have stabilized, easing liquidity crisis fears", "event": "Credit Event", "polarity": "pos", "tickers": ["SCHW"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g012", "text": "Regional bank stocks plunge as deposit flight spreads across lenders", "event": "Credit Event", "polarity": "neg", "tickers": ["SECTOR:Banks"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g013", "text": "Exxon Mobil denies report it is in default talks with lenders", "event": "Credit Event", "polarity": "pos", "tickers": ["XOM"], "hard": "rumor-denial", "provenance": "authored-fictional"}
+{"id": "g014", "text": "UBS agrees emergency rescue of Credit Suisse to prevent collapse", "event": "Credit Event", "polarity": "neg", "tickers": ["UBS", "CS"], "hard": "multi-entity", "provenance": "authored-fictional"}
+{"id": "g015", "text": "Pfizer misses a coupon payment on a small bond, citing an administrative error", "event": "Credit Event", "polarity": "neg", "tickers": ["PFE"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g016", "text": "Lenders pull credit lines from Walmart suppliers as liquidity crisis deepens", "event": "Credit Event", "polarity": "neg", "tickers": ["WMT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g017", "text": "Meta's credit rating raised to AA- on strong cash generation", "event": "Credit Event", "polarity": "pos", "tickers": ["META"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g018", "text": "First Republic files for receivership after failed rescue talks", "event": "Credit Event", "polarity": "neg", "tickers": ["FRC"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g019", "text": "SVB Financial Group files for chapter 11 bankruptcy protection", "event": "Credit Event", "polarity": "neg", "tickers": ["SIVB"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g020", "text": "Banks face insolvency fears as unrealized bond losses mount", "event": "Credit Event", "polarity": "neg", "tickers": ["SECTOR:Banks"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g021", "text": "Credit Suisse writedown wipes out bondholders in rescue deal", "event": "Credit Event", "polarity": "neg", "tickers": ["CS"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g022", "text": "US imposes sweeping sanctions after missile strikes in the Strait of Hormuz; oil spikes 9%", "event": "Geopolitical", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g023", "text": "China announces export controls on rare earths in escalating trade war", "event": "Geopolitical", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g024", "text": "New tariffs of 25% on European imports announced; retaliation expected", "event": "Geopolitical", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g025", "text": "Ceasefire agreed in border conflict, easing supply fears", "event": "Geopolitical", "polarity": "pos", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g026", "text": "Apple shares fall as new tariffs threaten iPhone supply chain in China", "event": "Geopolitical", "polarity": "neg", "tickers": ["AAPL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g027", "text": "Nvidia hit by tighter export controls on advanced chips", "event": "Geopolitical", "polarity": "neg", "tickers": ["NVDA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g028", "text": "Exxon Mobil jumps as invasion sends crude prices soaring", "event": "Geopolitical", "polarity": "pos", "tickers": ["XOM"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g029", "text": "Boeing deliveries to China halted amid trade war", "event": "Geopolitical", "polarity": "neg", "tickers": ["BA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g030", "text": "Military escalation in the Red Sea disrupts shipping routes", "event": "Geopolitical", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g031", "text": "Sanctions on Russian energy expanded as conflict drags on", "event": "Geopolitical", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g032", "text": "Tesla shares slide after retaliatory tariffs on US-made cars", "event": "Geopolitical", "polarity": "neg", "tickers": ["TSLA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g033", "text": "Troops withdraw from disputed border as talks progress", "event": "Geopolitical", "polarity": "pos", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g034", "text": "Coca-Cola warns tariffs on aluminium will raise can costs", "event": "Geopolitical", "polarity": "neg", "tickers": ["KO"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g035", "text": "Embargo lifted, shipping insurers return to the region", "event": "Geopolitical", "polarity": "pos", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g036", "text": "Airstrikes near major oil field send Brent up 6%", "event": "Geopolitical", "polarity": "neg", "tickers": ["MARKET", "SECTOR:Energy"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g037", "text": "Microsoft says sanctions will force it to exit a key market", "event": "Geopolitical", "polarity": "neg", "tickers": ["MSFT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g038", "text": "Trade war fears ease after tariff pause announced", "event": "Geopolitical", "polarity": "pos", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g039", "text": "Blockade of key strait raises fears of global supply shock", "event": "Geopolitical", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g040", "text": "Walmart cuts forecast as tariffs squeeze margins", "event": "Geopolitical", "polarity": "neg", "tickers": ["WMT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g041", "text": "Coup attempt rattles emerging market currencies", "event": "Geopolitical", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g042", "text": "Fed signals two more rate hikes as CPI surprises to upside", "event": "Macroeconomic", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g043", "text": "Inflation cools to 2.4%, raising hopes of a rate cut", "event": "Macroeconomic", "polarity": "pos", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g044", "text": "Payrolls collapse by 200k as recession fears grow", "event": "Macroeconomic", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g045", "text": "GDP growth beats expectations at 3.1% annualized", "event": "Macroeconomic", "polarity": "pos", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g046", "text": "Treasury yields spike 25 basis points after hawkish FOMC minutes", "event": "Macroeconomic", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g047", "text": "ECB raises interest rates by 50 basis points", "event": "Macroeconomic", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g048", "text": "Federal Reserve cuts rates to near zero in emergency move", "event": "Macroeconomic", "polarity": "pos", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g049", "text": "Unemployment rises to 4.8%, highest in three years", "event": "Macroeconomic", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g050", "text": "PMI slumps to lowest since 2009 as factories shut", "event": "Macroeconomic", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g051", "text": "JPMorgan says higher interest rates will lift lending margins", "event": "Macroeconomic", "polarity": "pos", "tickers": ["JPM"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g052", "text": "Bank of America economists now expect a recession next year", "event": "Macroeconomic", "polarity": "neg", "tickers": ["BAC"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g053", "text": "Jobs report beats forecasts as hiring rebounds strongly", "event": "Macroeconomic", "polarity": "pos", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g054", "text": "Stagflation fears grow as inflation stays high and growth stalls", "event": "Macroeconomic", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g055", "text": "Central bank launches emergency lending facility to calm markets", "event": "Macroeconomic", "polarity": "pos", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g056", "text": "Hotter-than-expected CPI sends Treasury yields higher", "event": "Macroeconomic", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g057", "text": "Fed holds rates steady and signals patience", "event": "Macroeconomic", "polarity": "neu", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g058", "text": "Quantitative easing restarted as recession risk rises", "event": "Macroeconomic", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g059", "text": "Walmart says inflation is easing for shoppers", "event": "Macroeconomic", "polarity": "pos", "tickers": ["WMT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g060", "text": "Yields fall sharply as investors price a rate cut", "event": "Macroeconomic", "polarity": "pos", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g061", "text": "Fed chair warns rates may need to stay higher for longer", "event": "Macroeconomic", "polarity": "neg", "tickers": ["MARKET"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g062", "text": "Microsoft agrees to acquire cybersecurity firm in $18 billion deal", "event": "Merger/Acquisition", "polarity": "pos", "tickers": ["MSFT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g063", "text": "Pfizer to buy biotech for $43 billion in all-cash deal", "event": "Merger/Acquisition", "polarity": "pos", "tickers": ["PFE"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g064", "text": "Johnson & Johnson takeover bid collapses after regulators object", "event": "Merger/Acquisition", "polarity": "neg", "tickers": ["JNJ"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g065", "text": "Alphabet in talks to acquire cloud software startup", "event": "Merger/Acquisition", "polarity": "pos", "tickers": ["GOOGL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g066", "text": "Amazon agrees to buy healthcare chain in $4 billion deal", "event": "Merger/Acquisition", "polarity": "pos", "tickers": ["AMZN"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g067", "text": "Exxon Mobil announces merger with shale producer", "event": "Merger/Acquisition", "polarity": "pos", "tickers": ["XOM"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g068", "text": "Walmart bids for online retailer, shares rally 3%", "event": "Merger/Acquisition", "polarity": "pos", "tickers": ["WMT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g069", "text": "Coca-Cola completes acquisition of sports drink maker", "event": "Merger/Acquisition", "polarity": "pos", "tickers": ["KO"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g070", "text": "Nvidia abandons acquisition after antitrust pushback", "event": "Merger/Acquisition", "polarity": "neg", "tickers": ["NVDA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g071", "text": "Meta agrees to buy virtual reality studio", "event": "Merger/Acquisition", "polarity": "pos", "tickers": ["META"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g072", "text": "Tender offer for chipmaker launched by Nvidia", "event": "Merger/Acquisition", "polarity": "pos", "tickers": ["NVDA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g073", "text": "JPMorgan acquires failed lender's deposits and assets", "event": "Merger/Acquisition", "polarity": "pos", "tickers": ["JPM"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g074", "text": "Boeing agrees to acquire key supplier to fix quality problems", "event": "Merger/Acquisition", "polarity": "pos", "tickers": ["BA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g075", "text": "Apple acquires AI startup to boost Siri", "event": "Merger/Acquisition", "polarity": "pos", "tickers": ["AAPL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g076", "text": "Shareholders reject Pfizer merger terms", "event": "Merger/Acquisition", "polarity": "neg", "tickers": ["PFE"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g077", "text": "Charles Schwab to merge with online broker in all-stock deal", "event": "Merger/Acquisition", "polarity": "pos", "tickers": ["SCHW"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g078", "text": "Johnson & Johnson buyout of device maker approved", "event": "Merger/Acquisition", "polarity": "pos", "tickers": ["JNJ"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g079", "text": "Microsoft beats Google to acquire gaming studio", "event": "Merger/Acquisition", "polarity": "pos", "tickers": ["MSFT", "GOOGL"], "hard": "multi-entity", "provenance": "authored-fictional"}
+{"id": "g080", "text": "Amazon deal to buy robot vacuum maker called off", "event": "Merger/Acquisition", "polarity": "neg", "tickers": ["AMZN"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g081", "text": "Tesla bid for battery startup rejected", "event": "Merger/Acquisition", "polarity": "neg", "tickers": ["TSLA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g082", "text": "Nvidia unveils next-gen Blackwell Ultra GPUs, shares jump 6% in premarket", "event": "Product Launch", "polarity": "pos", "tickers": ["NVDA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g083", "text": "Apple launches new iPhone with satellite messaging", "event": "Product Launch", "polarity": "pos", "tickers": ["AAPL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g084", "text": "Tesla debuts cheaper model to strong early demand", "event": "Product Launch", "polarity": "pos", "tickers": ["TSLA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g085", "text": "Microsoft releases new AI assistant across Office", "event": "Product Launch", "polarity": "pos", "tickers": ["MSFT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g086", "text": "Google introduces new Pixel phones and AI features", "event": "Product Launch", "polarity": "pos", "tickers": ["GOOGL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g087", "text": "Amazon rolls out drone delivery in two more cities", "event": "Product Launch", "polarity": "pos", "tickers": ["AMZN"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g088", "text": "Meta launches new mixed-reality headset at lower price", "event": "Product Launch", "polarity": "pos", "tickers": ["META"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g089", "text": "Pfizer launches new RSV vaccine after approval", "event": "Product Launch", "polarity": "pos", "tickers": ["PFE"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g090", "text": "Coca-Cola unveils zero-sugar flavor line", "event": "Product Launch", "polarity": "pos", "tickers": ["KO"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g091", "text": "Boeing delays launch of 777X after defects found", "event": "Product Launch", "polarity": "neg", "tickers": ["BA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g092", "text": "Walmart launches subscription service to rival Prime", "event": "Product Launch", "polarity": "pos", "tickers": ["WMT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g093", "text": "Apple delays rollout of new AI features, disappointing fans", "event": "Product Launch", "polarity": "neg", "tickers": ["AAPL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g094", "text": "Johnson & Johnson introduces new surgical robot", "event": "Product Launch", "polarity": "pos", "tickers": ["JNJ"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g095", "text": "Nvidia announces new chip for data centers", "event": "Product Launch", "polarity": "pos", "tickers": ["NVDA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g096", "text": "Tesla unveils robotaxi but investors are unimpressed", "event": "Product Launch", "polarity": "neg", "tickers": ["TSLA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g097", "text": "Amazon releases new Kindle lineup", "event": "Product Launch", "polarity": "neu", "tickers": ["AMZN"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g098", "text": "Microsoft debuts new Surface devices", "event": "Product Launch", "polarity": "neu", "tickers": ["MSFT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g099", "text": "YouTube launches cheaper subscription tier", "event": "Product Launch", "polarity": "pos", "tickers": ["GOOGL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g100", "text": "Instagram rolls out new teen safety features", "event": "Product Launch", "polarity": "neu", "tickers": ["META"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g101", "text": "Azure launches new AI supercomputing region", "event": "Product Launch", "polarity": "pos", "tickers": ["MSFT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g102", "text": "$AAPL not looking good after iPhone sales miss lol", "event": "Earnings", "polarity": "neg", "tickers": ["AAPL"], "hard": "social", "provenance": "authored-fictional"}
+{"id": "g103", "text": "Pfizer losses narrowed in Q3 and the company raised guidance", "event": "Earnings", "polarity": "pos", "tickers": ["PFE"], "hard": "delta-phrase", "provenance": "authored-fictional"}
+{"id": "g104", "text": "Microsoft beats expectations as Azure revenue surges", "event": "Earnings", "polarity": "pos", "tickers": ["MSFT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g105", "text": "Tesla misses estimates and cuts guidance; shares fall 9%", "event": "Earnings", "polarity": "neg", "tickers": ["TSLA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g106", "text": "Nvidia posts record revenue on AI chip demand", "event": "Earnings", "polarity": "pos", "tickers": ["NVDA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g107", "text": "Meta shares jump after strong ad revenue", "event": "Earnings", "polarity": "pos", "tickers": ["META"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g108", "text": "Amazon quarterly profit below expectations as AWS growth slows", "event": "Earnings", "polarity": "neg", "tickers": ["AMZN"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g109", "text": "JPMorgan profit rises on higher interest income", "event": "Earnings", "polarity": "pos", "tickers": ["JPM"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g110", "text": "Bank of America earnings beat but deposits shrink", "event": "Earnings", "polarity": "pos", "tickers": ["BAC"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g111", "text": "Walmart raises forecast after strong holiday quarter", "event": "Earnings", "polarity": "pos", "tickers": ["WMT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g112", "text": "Coca-Cola revenue tops estimates on price increases", "event": "Earnings", "polarity": "pos", "tickers": ["KO"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g113", "text": "Johnson & Johnson cuts guidance on weaker drug sales", "event": "Earnings", "polarity": "neg", "tickers": ["JNJ"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g114", "text": "Boeing reports bigger-than-expected loss as deliveries slump", "event": "Earnings", "polarity": "neg", "tickers": ["BA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g115", "text": "Alphabet earnings beat, buyback expanded by $70 billion", "event": "Earnings", "polarity": "pos", "tickers": ["GOOGL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g116", "text": "Exxon Mobil profit falls as oil prices weaken", "event": "Earnings", "polarity": "neg", "tickers": ["XOM"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g117", "text": "Apple did not beat expectations this quarter", "event": "Earnings", "polarity": "neg", "tickers": ["AAPL"], "hard": "negation", "provenance": "authored-fictional"}
+{"id": "g118", "text": "Tesla margin squeeze worse than feared", "event": "Earnings", "polarity": "neg", "tickers": ["TSLA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g119", "text": "great, $NVDA 'record quarter' and the stock is down 8% again", "event": "Earnings", "polarity": "neg", "tickers": ["NVDA"], "hard": "sarcasm", "provenance": "authored-fictional"}
+{"id": "g120", "text": "Boeing loss narrower than expected as deliveries recover", "event": "Earnings", "polarity": "pos", "tickers": ["BA"], "hard": "delta-phrase", "provenance": "authored-fictional"}
+{"id": "g121", "text": "Microsoft results in line with forecasts", "event": "Earnings", "polarity": "neu", "tickers": ["MSFT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g122", "text": "Amazon beats estimates, shares soar 8% after hours", "event": "Earnings", "polarity": "pos", "tickers": ["AMZN"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g123", "text": "$TSLA earnings tomorrow, no idea what to expect", "event": "Earnings", "polarity": "neu", "tickers": ["TSLA"], "hard": "social", "provenance": "authored-fictional"}
+{"id": "g124", "text": "Google hit with antitrust lawsuit by regulators", "event": "Regulatory/Legal", "polarity": "neg", "tickers": ["GOOGL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g125", "text": "Meta fined $1.3 billion over data transfers", "event": "Regulatory/Legal", "polarity": "neg", "tickers": ["META"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g126", "text": "FDA approves Pfizer drug for early Alzheimer's", "event": "Regulatory/Legal", "polarity": "pos", "tickers": ["PFE"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g127", "text": "SEC opens probe into Tesla self-driving claims", "event": "Regulatory/Legal", "polarity": "neg", "tickers": ["TSLA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g128", "text": "Court dismisses lawsuit against Apple over App Store fees", "event": "Regulatory/Legal", "polarity": "pos", "tickers": ["AAPL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g129", "text": "Boeing faces FAA investigation after door panel blowout", "event": "Regulatory/Legal", "polarity": "neg", "tickers": ["BA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g130", "text": "Johnson & Johnson reaches settlement in talc litigation", "event": "Regulatory/Legal", "polarity": "pos", "tickers": ["JNJ"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g131", "text": "Amazon sued by FTC over Prime cancellations", "event": "Regulatory/Legal", "polarity": "neg", "tickers": ["AMZN"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g132", "text": "Microsoft wins regulatory approval for acquisition", "event": "Regulatory/Legal", "polarity": "pos", "tickers": ["MSFT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g133", "text": "Nvidia faces antitrust investigation in Europe", "event": "Regulatory/Legal", "polarity": "neg", "tickers": ["NVDA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g134", "text": "Regulators ban Coca-Cola ad campaign", "event": "Regulatory/Legal", "polarity": "neg", "tickers": ["KO"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g135", "text": "JPMorgan fined over record-keeping failures", "event": "Regulatory/Legal", "polarity": "neg", "tickers": ["JPM"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g136", "text": "Bank of America ordered to pay $250 million over junk fees", "event": "Regulatory/Legal", "polarity": "neg", "tickers": ["BAC"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g137", "text": "Walmart settles opioid lawsuit", "event": "Regulatory/Legal", "polarity": "pos", "tickers": ["WMT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g138", "text": "Exxon Mobil sued by state over climate disclosures", "event": "Regulatory/Legal", "polarity": "neg", "tickers": ["XOM"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g139", "text": "Tesla recalls 2 million vehicles over Autopilot safeguards", "event": "Regulatory/Legal", "polarity": "neg", "tickers": ["TSLA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g140", "text": "DOJ drops probe into Apple", "event": "Regulatory/Legal", "polarity": "pos", "tickers": ["AAPL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g141", "text": "Court rules against Google in search monopoly case", "event": "Regulatory/Legal", "polarity": "neg", "tickers": ["GOOGL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g142", "text": "Pfizer subpoenaed over drug pricing", "event": "Regulatory/Legal", "polarity": "neg", "tickers": ["PFE"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g143", "text": "Meta wins dismissal of shareholder lawsuit", "event": "Regulatory/Legal", "polarity": "pos", "tickers": ["META"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g144", "text": "Microsoft suffers global outage affecting millions of Azure users", "event": "Operational", "polarity": "neg", "tickers": ["MSFT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g145", "text": "Cyberattack forces Boeing to halt production at a plant", "event": "Operational", "polarity": "neg", "tickers": ["BA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g146", "text": "Workers strike at Boeing plants, halting output", "event": "Operational", "polarity": "neg", "tickers": ["BA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g147", "text": "Amazon restores AWS services after brief outage", "event": "Operational", "polarity": "pos", "tickers": ["AMZN"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g148", "text": "Fire at Tesla gigafactory halts production", "event": "Operational", "polarity": "neg", "tickers": ["TSLA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g149", "text": "Data breach exposes 30 million Walmart customer records", "event": "Operational", "polarity": "neg", "tickers": ["WMT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g150", "text": "Meta platforms down for six hours in global outage", "event": "Operational", "polarity": "neg", "tickers": ["META"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g151", "text": "Exxon Mobil refinery explosion shuts unit", "event": "Operational", "polarity": "neg", "tickers": ["XOM"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g152", "text": "Apple supplier shutdown disrupts iPhone production", "event": "Operational", "polarity": "neg", "tickers": ["AAPL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g153", "text": "JPMorgan systems outage delays payments for hours", "event": "Operational", "polarity": "neg", "tickers": ["JPM"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g154", "text": "Coca-Cola plant closure hits regional supply", "event": "Operational", "polarity": "neg", "tickers": ["KO"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g155", "text": "Pfizer resolves supply chain problems at vaccine plant", "event": "Operational", "polarity": "pos", "tickers": ["PFE"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g156", "text": "Nvidia chip shortage eases as supply chain recovers", "event": "Operational", "polarity": "pos", "tickers": ["NVDA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g157", "text": "Johnson & Johnson hit by ransomware attack", "event": "Operational", "polarity": "neg", "tickers": ["JNJ"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g158", "text": "Bank of America app outage leaves customers locked out", "event": "Operational", "polarity": "neg", "tickers": ["BAC"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g159", "text": "Google cloud outage hits major customers", "event": "Operational", "polarity": "neg", "tickers": ["GOOGL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g160", "text": "Walkout at Amazon warehouses during peak season", "event": "Operational", "polarity": "neg", "tickers": ["AMZN"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g161", "text": "Boeing grounded fleet cleared to fly again after fix", "event": "Operational", "polarity": "pos", "tickers": ["BA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g162", "text": "Just baked an apple pie with my grandmother, best afternoon", "event": "Other", "polarity": "neu", "tickers": [], "hard": "ambiguous-entity", "provenance": "authored-fictional"}
+{"id": "g163", "text": "Meta-analysis shows coffee drinkers live longer", "event": "Other", "polarity": "neu", "tickers": [], "hard": "ambiguous-entity", "provenance": "authored-fictional"}
+{"id": "g164", "text": "Grabbed a coke and watched the game", "event": "Other", "polarity": "neu", "tickers": [], "hard": "ambiguous-entity", "provenance": "authored-fictional"}
+{"id": "g165", "text": "Fifteen years after Lehman, analysts debate lessons from the 2008 crisis", "event": "Other", "polarity": "neu", "tickers": ["SECTOR:Banks"], "hard": "retrospective", "provenance": "authored-fictional"}
+{"id": "g166", "text": "Apple CEO Tim Cook attends charity event", "event": "Other", "polarity": "neu", "tickers": ["AAPL"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g167", "text": "Microsoft names new head of marketing", "event": "Other", "polarity": "neu", "tickers": ["MSFT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g168", "text": "Nvidia to present at industry conference next week", "event": "Other", "polarity": "neu", "tickers": ["NVDA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g169", "text": "Walmart opens new store in Texas", "event": "Other", "polarity": "neu", "tickers": ["WMT"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g170", "text": "Tesla holds annual shareholder meeting", "event": "Other", "polarity": "neu", "tickers": ["TSLA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g171", "text": "Stocks mixed in quiet trading ahead of holiday", "event": "Other", "polarity": "neu", "tickers": [], "hard": "", "provenance": "authored-fictional"}
+{"id": "g172", "text": "Analysts debate whether value stocks will outperform", "event": "Other", "polarity": "neu", "tickers": [], "hard": "", "provenance": "authored-fictional"}
+{"id": "g173", "text": "Boeing employees volunteer at local food bank", "event": "Other", "polarity": "neu", "tickers": ["BA"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g174", "text": "The weather was great for the marathon today", "event": "Other", "polarity": "neu", "tickers": [], "hard": "", "provenance": "authored-fictional"}
+{"id": "g175", "text": "Coca-Cola sponsors youth football tournament", "event": "Other", "polarity": "neu", "tickers": ["KO"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g176", "text": "Amazon founder speaks at space conference", "event": "Other", "polarity": "neu", "tickers": ["AMZN"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g177", "text": "rumor: another big bank is about to fail tomorrow, trust me", "event": "Other", "polarity": "neg", "tickers": ["SECTOR:Banks"], "hard": "rumor", "provenance": "authored-fictional"}
+{"id": "g178", "text": "Johnson & Johnson publishes annual sustainability report", "event": "Other", "polarity": "neu", "tickers": ["JNJ"], "hard": "", "provenance": "authored-fictional"}
+{"id": "g179", "text": "Exxon Mobil to webcast investor day", "event": "Other", "polarity": "neu", "tickers": ["XOM"], "hard": "", "provenance": "authored-fictional"}

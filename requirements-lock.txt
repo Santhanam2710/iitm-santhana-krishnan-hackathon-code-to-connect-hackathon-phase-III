@@ -1,0 +1,23 @@
+# Exact versions used to generate docs/results (Python 3.13, Linux x86_64)
+clarabel==0.11.1
+cvxpy==1.9.3
+fastapi==0.143.0
+feedparser==6.0.14
+httpx==0.28.1
+hypothesis==6.169.0
+joblib==1.6.0
+matplotlib==3.11.2
+numpy==2.5.3
+pandas==3.0.5
+pydantic==2.13.5
+pydantic_core==2.46.5
+pysentiment2==0.1.1
+pytest==9.1.1
+python-dotenv==1.2.3
+PyYAML==6.0.3
+RapidFuzz==3.14.6
+scikit-learn==1.9.1
+scipy==1.18.1
+starlette==1.6.0
+uvicorn==0.53.0
+vaderSentiment==3.3.2

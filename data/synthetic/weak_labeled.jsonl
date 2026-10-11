@@ -1,0 +1,63 @@
+{"text": "SVB Financial says it sold about $21 billion of securities at a loss of roughly $1.8 billion and plans a $2.25 billion share sale to shore up capital", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "SVB Financial announces emergency capital raise after $1.8 billion loss on bond portfolio sale", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "Rating agency downgrades SVB Financial, citing unrealized losses and deposit outflows", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "anyone else moving their startup's cash out of SVB tonight? this capital raise looks bad", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "Venture investors advise portfolio companies to withdraw deposits from Silicon Valley Bank", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "SVB Financial shares plunge 60% as depositors pull funds and capital raise spooks investors", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "$SIVB down 60% lol this is a bank run in real time", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "Bank stocks tumble as SVB turmoil sparks fears of deposit flight across regional lenders", "label": "Macroeconomic", "confidence": 0.527, "votes": ["kw:Macroeconomic", "kw:Credit Event"]}
+{"text": "JPMorgan and Bank of America shares fall as bank index posts worst day in nearly three years", "label": "Other", "confidence": 0.5, "votes": []}
+{"text": "made an apple crumble to cope with this week honestly", "label": "Other", "confidence": 0.5, "votes": []}
+{"text": "my company just wired everything out of SVB. 42 billion in withdrawal requests today?? insane", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "Customers attempted to withdraw about $42 billion from Silicon Valley Bank in a single day, filings later showed", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "Trading in SVB Financial shares halted premarket as talks to sell the bank falter", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "SVB Financial abandons share sale and explores emergency sale of the bank", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "Regulators close Silicon Valley Bank and appoint the FDIC as receiver in largest bank failure since 2008", "label": "Credit Event", "confidence": 0.512, "votes": ["kw:Credit Event", "kw:Regulatory/Legal"]}
+{"text": "Silicon Valley Bank seized by California regulators; FDIC takes control of deposits", "label": "Credit Event", "confidence": 0.512, "votes": ["kw:Credit Event", "kw:Regulatory/Legal"]}
+{"text": "Silicon Valley Bank seized by California regulators; FDIC takes control of deposits", "label": "Credit Event", "confidence": 0.512, "votes": ["kw:Credit Event", "kw:Regulatory/Legal"]}
+{"text": "uninsured deposits frozen at SVB, payroll on monday is going to be a disaster for a lot of startups", "label": "Other", "confidence": 0.5, "votes": []}
+{"text": "Regional bank stocks slide again as contagion fears spread to First Republic and Western Alliance", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "Fifteen years after Lehman, analysts debate lessons from the 2008 crisis", "label": "Other", "confidence": 0.5, "votes": []}
+{"text": "New York regulators close Signature Bank as deposit flight spreads", "label": "Credit Event", "confidence": 0.512, "votes": ["kw:Credit Event", "kw:Regulatory/Legal"]}
+{"text": "Federal Reserve creates Bank Term Funding Program to backstop deposits and stabilize the banking system", "label": "Macroeconomic", "confidence": 1.0, "votes": ["kw:Macroeconomic"]}
+{"text": "First Republic shares plunge more than 60% despite federal backstop; regional bank trading halted repeatedly", "label": "Other", "confidence": 0.5, "votes": []}
+{"text": "Two-year Treasury yields post their sharpest drop in decades as investors bet the Fed will pause rate hikes", "label": "Macroeconomic", "confidence": 1.0, "votes": ["kw:Macroeconomic", "re:central_bank"]}
+{"text": "Rating agency places six US regional banks on review for downgrade after SVB collapse", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "First Republic halted again. if you have more than 250k there, why???", "label": "Other", "confidence": 0.5, "votes": []}
+{"text": "Large banks including JPMorgan and Bank of America see deposit inflows as customers flee smaller lenders", "label": "Other", "confidence": 0.5, "votes": []}
+{"text": "US consumer prices rise 6.0% from a year earlier in February, keeping pressure on the Fed despite bank turmoil", "label": "Macroeconomic", "confidence": 1.0, "votes": ["kw:Macroeconomic"]}
+{"text": "Regional bank shares rebound as fears of contagion ease", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "rumor: another big bank is about to fail tomorrow, trust me", "label": "Other", "confidence": 0.5, "votes": []}
+{"text": "Credit Suisse shares plunge 24% after top shareholder rules out more funding", "label": "Other", "confidence": 0.5, "votes": []}
+{"text": "Credit Suisse credit default swaps spike to record as European bank stocks tumble", "label": "Macroeconomic", "confidence": 0.527, "votes": ["kw:Macroeconomic", "kw:Credit Event"]}
+{"text": "credit suisse CDS going vertical. this is not a drill", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "Swiss National Bank says it will provide liquidity to Credit Suisse if needed", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "European Central Bank raises interest rates by 50 basis points despite banking turmoil", "label": "Macroeconomic", "confidence": 1.0, "votes": ["kw:Macroeconomic", "re:central_bank"]}
+{"text": "Eleven of the largest US banks, including JPMorgan Chase and Bank of America, deposit $30 billion in First Republic", "label": "Other", "confidence": 0.5, "votes": []}
+{"text": "SVB Financial Group files for Chapter 11 bankruptcy protection", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "First Republic shares slump again as investors question rescue deal", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "UBS agrees to buy Credit Suisse for about $3.2 billion in emergency rescue brokered by Swiss authorities", "label": "Merger/Acquisition", "confidence": 0.677, "votes": ["kw:Credit Event", "kw:Merger/Acquisition", "re:buy_deal"]}
+{"text": "Apple says it will miss quarterly revenue guidance as the virus disrupts iPhone supply in China", "label": "Earnings", "confidence": 1.0, "votes": ["kw:Earnings", "re:quarter_results"]}
+{"text": "Coronavirus cases surge in Italy and South Korea, raising fears of a global pandemic", "label": "Macroeconomic", "confidence": 1.0, "votes": ["kw:Macroeconomic"]}
+{"text": "Stocks plunge as virus spreads beyond China; Dow falls more than 1,000 points", "label": "Macroeconomic", "confidence": 1.0, "votes": ["kw:Macroeconomic"]}
+{"text": "stocking up on apple juice and pasta lol", "label": "Other", "confidence": 0.5, "votes": []}
+{"text": "S&P 500 enters correction just six trading days after a record high", "label": "Macroeconomic", "confidence": 1.0, "votes": ["kw:Macroeconomic"]}
+{"text": "Federal Reserve announces emergency half-point rate cut to counter coronavirus threat", "label": "Macroeconomic", "confidence": 1.0, "votes": ["kw:Macroeconomic"]}
+{"text": "Oil prices crash about 25% as Saudi Arabia and Russia start a price war", "label": "Geopolitical", "confidence": 1.0, "votes": ["kw:Geopolitical", "re:conflict"]}
+{"text": "Trading halted after S&P 500 drops 7% at the open; Exxon Mobil shares tumble with crude", "label": "Macroeconomic", "confidence": 1.0, "votes": ["kw:Macroeconomic"]}
+{"text": "World Health Organization declares the coronavirus outbreak a pandemic", "label": "Macroeconomic", "confidence": 1.0, "votes": ["kw:Macroeconomic"]}
+{"text": "Boeing draws down a $13.8 billion loan as travel collapse hits airlines", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "US suspends travel from Europe for 30 days in sweeping response to pandemic", "label": "Geopolitical", "confidence": 0.514, "votes": ["kw:Geopolitical", "kw:Macroeconomic"]}
+{"text": "Dow plunges 10% in worst day since 1987 crash as pandemic panic deepens", "label": "Macroeconomic", "confidence": 1.0, "votes": ["kw:Macroeconomic"]}
+{"text": "circuit breakers twice in one week. this is a crash", "label": "Macroeconomic", "confidence": 1.0, "votes": ["kw:Macroeconomic"]}
+{"text": "Federal Reserve cuts rates to near zero and launches $700 billion quantitative easing program", "label": "Product Launch", "confidence": 0.642, "votes": ["kw:Macroeconomic", "kw:Product Launch", "re:launch"]}
+{"text": "Stocks crash 12% as volatility index hits record despite emergency Fed action", "label": "Macroeconomic", "confidence": 1.0, "votes": ["kw:Macroeconomic"]}
+{"text": "Boeing seeks $60 billion in government aid for aerospace industry as liquidity crisis looms", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "Federal Reserve revives commercial paper funding facility to keep credit flowing", "label": "Macroeconomic", "confidence": 0.527, "votes": ["kw:Macroeconomic", "kw:Credit Event"]}
+{"text": "Automakers halt US production as virus spreads; Tesla faces pressure to close factory", "label": "Other", "confidence": 0.5, "votes": []}
+{"text": "Corporate bond spreads widen to levels last seen in 2009 as investors flee credit", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "Weekly jobless claims surge as layoffs spread through the economy", "label": "Macroeconomic", "confidence": 1.0, "votes": ["kw:Macroeconomic"]}
+{"text": "Boeing suspends dividend and share buybacks to preserve cash", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "every airline and boeing are going to need bailouts. junk bonds getting destroyed", "label": "Credit Event", "confidence": 1.0, "votes": ["kw:Credit Event"]}
+{"text": "Federal Reserve pledges unlimited asset purchases and launches corporate bond buying facilities", "label": "Product Launch", "confidence": 0.642, "votes": ["kw:Macroeconomic", "kw:Product Launch", "re:launch"]}
+{"text": "Fed backstop for corporate credit sparks rebound in bond markets", "label": "Macroeconomic", "confidence": 0.527, "votes": ["kw:Macroeconomic", "kw:Credit Event"]}

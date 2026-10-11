@@ -1,0 +1,25 @@
+state,reason,sources,label,impact,signal_id,ts,ticker,effective_impact
+monitored,Earnings is not a stress class,[],Earnings,6,sig_01M4NEYKS3TGZQTE40TPF9PS73,2020-02-17T22:00:00.000Z,AAPL,
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-a'],Macroeconomic,8,sig_01M4NEYKS43WBHQFPNM4PZANP7,2020-02-21T14:00:00.000Z,MARKET,
+triggered,single source with impact 9,['replay:wire-b'],Macroeconomic,9,sig_01M4NEYKS4GAF90F76BDFD8CVT,2020-02-24T15:00:00.000Z,MARKET,9.0
+monitored,event confidence 0.50 below 0.6,['replay:wire-c'],Macroeconomic,8,sig_01M4NEYKS4B2RCQ4PTC89MPPZV,2020-02-27T20:30:00.000Z,MARKET,
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-b'],Macroeconomic,8,sig_01M4NEYKS4JA6V335N3P23H7B0,2020-03-03T15:00:00.000Z,MARKET,
+monitored,event confidence 0.56 below 0.6,['replay:wire-c'],Geopolitical,10,sig_01M4NEYKS4FXJ2SQDSYNWAVAYY,2020-03-09T13:30:00.000Z,MARKET,
+monitored,event confidence 0.56 below 0.6,['replay:wire-c'],Geopolitical,10,sig_01M4NEYKS4FWC2D61M0FJQSSWS,2020-03-09T13:30:00.000Z,SECTOR:Energy,
+monitored,event confidence 0.50 below 0.6,['replay:wire-a'],Macroeconomic,8,sig_01M4NEYKS48ZA8VFNDND70K1BK,2020-03-09T14:00:00.000Z,XOM,
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-b'],Macroeconomic,8,sig_01M4NEYKS5NVAT89C2G6SKEFGF,2020-03-11T16:30:00.000Z,MARKET,
+triggered,single source with impact 9,['replay:wire-c'],Credit Event,9,sig_01M4NEYKS5GZ0Q6932A9FE5VDA,2020-03-11T18:00:00.000Z,BA,9.0
+monitored,event confidence 0.40 below 0.6,['replay:wire-a'],Geopolitical,9,sig_01M4NEYKS5HD5VPCB9CGGQWQPY,2020-03-12T01:00:00.000Z,MARKET,
+monitored,retrospective article,[],Macroeconomic,4,sig_01M4NEYKS592CR4MW191HSWZYH,2020-03-12T20:15:00.000Z,MARKET,
+monitored,event confidence 0.50 below 0.6,['replay:social'],Macroeconomic,8,sig_01M4NEYKS5FS2Z1B1QG04E8HTA,2020-03-12T21:00:00.000Z,MARKET,
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-c'],Macroeconomic,8,sig_01M4NEYKS56CAP777ZRSQ6DXXG,2020-03-15T21:00:00.000Z,MARKET,
+triggered,single source with impact 9,['replay:wire-a'],Macroeconomic,9,sig_01M4NEYKS6AGHV9GY2WY20KJDH,2020-03-16T20:30:00.000Z,MARKET,9.0
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-b'],Credit Event,8,sig_01M4NEYKS6MKG62C3961FCZ5Z4,2020-03-17T14:00:00.000Z,BA,
+monitored,impact 7 is not above 7,[],Credit Event,7,sig_01M4NEYKS6D3GVHBTXKATA42JW,2020-03-17T16:00:00.000Z,MARKET,
+monitored,Other is not a stress class,[],Other,3,sig_01M4NEYKS6E6535248TCMHH7C0,2020-03-18T15:00:00.000Z,TSLA,
+monitored,retrospective article,[],Credit Event,4,sig_01M4NEYKS60CE19V0GT7C5V1A2,2020-03-18T19:00:00.000Z,MARKET,
+monitored,impact 7 is not above 7,[],Macroeconomic,7,sig_01M4NEYKS6A3XMM9ZRFZAQTNW8,2020-03-19T14:00:00.000Z,MARKET,
+monitored,impact 7 is not above 7,[],Credit Event,7,sig_01M4NEYKS66FP3KCDFNBQ0MH5J,2020-03-20T12:00:00.000Z,BA,
+monitored,impact 7 is not above 7,[],Credit Event,7,sig_01M4NEYKS6E4TPV2G5WN8EED0P,2020-03-21T15:00:00.000Z,BA,
+monitored,impact 7 is not above 7,[],Macroeconomic,7,sig_01M4NEYKS7NSTKTBJG0MHTHGGD,2020-03-23T12:00:00.000Z,MARKET,
+monitored,event confidence 0.48 below 0.6,['replay:wire-c'],Credit Event,8,sig_01M4NEYKS76JA1PMN3AJPAN1AX,2020-03-23T13:00:00.000Z,MARKET,

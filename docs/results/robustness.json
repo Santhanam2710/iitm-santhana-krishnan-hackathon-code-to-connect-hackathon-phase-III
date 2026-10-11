@@ -1,0 +1,93 @@
+{
+  "seeds": 5,
+  "summary": {
+    "impact_spearman_oos": {
+      "mean": 0.22956901495357757,
+      "sd": 0.08196809544253619,
+      "min": 0.10438105309063714
+    },
+    "net_ir_oos": {
+      "mean": 0.2940679019952211,
+      "sd": 0.6163838848693166,
+      "min": -0.6021478509486954
+    },
+    "gross_ir_oos": {
+      "mean": 0.5933836505191323,
+      "sd": 0.6425326847935925,
+      "min": -0.3441353803708301
+    },
+    "ic": {
+      "mean": 0.06435017193942989,
+      "sd": 0.03014826529584164,
+      "min": 0.02708235160843574
+    }
+  },
+  "runs": [
+    {
+      "seed": 1000,
+      "events": 887,
+      "impact_spearman_oos": 0.22405277073953403,
+      "net_ir_oos": 0.34795009589580517,
+      "gross_ir_oos": 0.6862897880893201,
+      "ic": 0.02708235160843574,
+      "chosen": {
+        "lambda": 1.5,
+        "band": 0.01,
+        "turnover_max": 0.2
+      }
+    },
+    {
+      "seed": 1017,
+      "events": 864,
+      "impact_spearman_oos": 0.32710938625332875,
+      "net_ir_oos": 0.7080209363882373,
+      "gross_ir_oos": 0.9754183559344154,
+      "ic": 0.08043747437802898,
+      "chosen": {
+        "lambda": 0.75,
+        "band": 0.01,
+        "turnover_max": 0.2
+      }
+    },
+    {
+      "seed": 1034,
+      "events": 846,
+      "impact_spearman_oos": 0.22260761126782375,
+      "net_ir_oos": -0.6021478509486954,
+      "gross_ir_oos": -0.3441353803708301,
+      "ic": 0.04327407702519332,
+      "chosen": {
+        "lambda": 0.75,
+        "band": 0.01,
+        "turnover_max": 0.2
+      }
+    },
+    {
+      "seed": 1051,
+      "events": 895,
+      "impact_spearman_oos": 0.10438105309063714,
+      "net_ir_oos": 0.033653931391000834,
+      "gross_ir_oos": 0.3192621617126967,
+      "ic": 0.06743731111829929,
+      "chosen": {
+        "lambda": 1.5,
+        "band": 0.01,
+        "turnover_max": 0.2
+      }
+    },
+    {
+      "seed": 1068,
+      "events": 894,
+      "impact_spearman_oos": 0.26969425341656417,
+      "net_ir_oos": 0.9828623972497574,
+      "gross_ir_oos": 1.3300833272300594,
+      "ic": 0.10351964556719212,
+      "chosen": {
+        "lambda": 1.5,
+        "band": 0.01,
+        "turnover_max": 0.2
+      }
+    }
+  ],
+  "note": "Known-answer synthetic markets: tests that the pipeline recovers planted structure. Not a performance claim."
+}

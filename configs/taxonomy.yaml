@@ -1,0 +1,47 @@
+# Event taxonomy: 8 classes + "Other" (abstain).
+# base_severity feeds the impact model (eq. E3). prior multiplies keyword evidence.
+# Keywords are matched case-insensitively on word boundaries.
+abstain_threshold: 0.45
+stress_classes: [Geopolitical, Macroeconomic, Credit Event]
+classes:
+  Geopolitical:
+    base_severity: 6.5
+    prior: 1.10
+    keywords: [sanction, sanctions, war, invasion, invades, missile, missiles, missile strikes, embargo, conflict, military, strait, border clash, geopolitical, troops, ceasefire, tariff, tariffs, coup, blockade, airstrike, airstrikes, export controls, trade war, retaliatory, price war, travel ban, suspends travel]
+  Macroeconomic:
+    base_severity: 6.0
+    prior: 1.00
+    keywords: [inflation, cpi, fed, federal reserve, fomc, rate hike, rate hikes, rate cut, rate cuts, gdp, unemployment, payrolls, jobs report, recession, yields, treasury yields, central bank, ecb, interest rates, pmi, stagflation, emergency lending, lending facility, quantitative easing, basis points, pandemic, coronavirus, outbreak, lockdown, lockdowns, jobless claims, circuit breaker, circuit breakers, volatility index, stocks crash, stocks plunge, stocks tumble, dow, s&p 500, consumer prices, asset purchases]
+  Credit Event:
+    base_severity: 7.0
+    prior: 1.25
+    keywords: [default, defaults, defaulted, downgrade, downgraded, downgrades, bankruptcy, chapter 11, missed payment, covenant breach, restructuring, bank run, deposit outflows, deposit flight, insolvency, insolvent, credit rating, junk, distressed, liquidity crisis, losses mount, writedown, write-down, notches, outlook to negative, watch negative, receivership, fdic, seized, collapse, rescue, bailout, capital raise, emergency sale, share sale, unrealized losses, contagion, spreads widen, bond spreads, commercial paper, corporate credit, government aid, liquidity, credit default swaps, cds, suspends dividend, withdraw deposits, withdrawals, withdrawal requests, withdraw, pull deposits, sell the bank, shore up capital]
+    subtypes:
+      downgrade: [downgrade, downgraded, downgrades, notches, junk]
+      outlook_negative: [outlook to negative, negative outlook, watch negative]
+      default: [default, defaults, defaulted, missed payment, chapter 11, bankruptcy, receivership, insolvent, insolvency]
+      liquidity: [bank run, deposit outflows, deposit flight, liquidity crisis, capital raise, emergency sale, share sale, seized, fdic]
+  Merger/Acquisition:
+    base_severity: 5.0
+    prior: 1.15
+    keywords: [acquire, acquires, acquisition, merger, merge, takeover, buyout, deal to buy, bid for, agrees to buy, agrees to acquire, tender offer, to buy, all-stock deal, all-cash deal]
+  Product Launch:
+    base_severity: 3.0
+    prior: 0.90
+    keywords: [launch, launches, launched, unveil, unveils, unveiled, release, releases, rollout, new model, debut, debuts, next-gen, introduces, announces new]
+  Earnings:
+    base_severity: 4.5
+    prior: 0.95
+    keywords: [earnings, quarterly, revenue, eps, guidance, beats, misses, profit, q1, q2, q3, q4, sales miss, results, iphone sales, margin, forecast, outlook raised]
+  Regulatory/Legal:
+    base_severity: 5.0
+    prior: 1.00
+    keywords: [lawsuit, sec, antitrust, fined, fine of, probe, investigation, regulator, regulators, fda, recall, recalls, court, settlement, ban, banned, doj, ftc, subpoena, faa]
+  Operational:
+    base_severity: 5.0
+    prior: 1.00
+    keywords: [outage, cyberattack, breach, data breach, strike, walkout, fire, explosion, grounded, halts production, halts deliveries, shutdown, supply chain, plant closure, defect]
+  Other:
+    base_severity: 2.0
+    prior: 1.00
+    keywords: []

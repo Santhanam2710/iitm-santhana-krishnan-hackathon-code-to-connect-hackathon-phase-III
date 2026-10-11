@@ -1,0 +1,7 @@
+{
+  "name": "trident-deck",
+  "private": true,
+  "description": "Builds docs/presentation.pptx from docs/results/results.json",
+  "scripts": { "build": "node build_deck.js" },
+  "dependencies": { "pptxgenjs": "^3.12.0" }
+}

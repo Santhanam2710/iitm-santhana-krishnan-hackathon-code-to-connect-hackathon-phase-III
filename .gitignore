@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.hypothesis/
+.venv/
+venv/
+.env
+data/raw/
+data/runtime/
+models/finbert-ft*/
+models/finbert-onnx/
+models/events-deberta*/
+models/candidates/
+docs/deck/node_modules/
+*.log
+.DS_Store
+*.egg-info/

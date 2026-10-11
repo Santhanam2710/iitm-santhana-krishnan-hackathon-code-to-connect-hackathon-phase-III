@@ -1,0 +1,58 @@
+{
+  "params": {
+    "lambda": 1.5,
+    "w_min": 0.005,
+    "w_max": 0.15,
+    "band": 0.002,
+    "turnover_max": 0.2,
+    "kappa_bps": 10
+  },
+  "strategy": {
+    "ann_return": 0.0647267328855814,
+    "ann_vol": 0.20335697557354757,
+    "sharpe": 0.30845257493406275,
+    "sortino": 0.5165415555241375,
+    "max_drawdown": 0.25037479030398124,
+    "days": 1825,
+    "information_ratio": -1.040298543235448,
+    "tracking_error": 0.001165003165723975,
+    "active_return": -0.0012119510961673362
+  },
+  "strategy_gross": {
+    "ann_return": 0.06803717851788527,
+    "ann_vol": 0.20335582460442875,
+    "sharpe": 0.32372393856893944,
+    "sortino": 0.5423567388517272,
+    "max_drawdown": 0.24924097432122627,
+    "days": 1825,
+    "information_ratio": 1.60752424520045,
+    "tracking_error": 0.0011777207310566386,
+    "active_return": 0.001893214629248745
+  },
+  "cap_weight": {
+    "ann_return": 0.06601758727081397,
+    "ann_vol": 0.2033607606184953,
+    "sharpe": 0.31440644521672956,
+    "sortino": 0.526399224013965,
+    "max_drawdown": 0.2494095951852935,
+    "days": 1825
+  },
+  "equal_weight": {
+    "ann_return": 0.06801410242596773,
+    "ann_vol": 0.19743238663835583,
+    "sharpe": 0.3333269563323534,
+    "sortino": 0.5693130039919698,
+    "max_drawdown": 0.25341093744460996,
+    "days": 1825,
+    "information_ratio": 0.03842485950005259,
+    "tracking_error": 0.048708120245998625,
+    "active_return": 0.0018716026769641638
+  },
+  "avg_daily_turnover": 0.005058086706931743,
+  "total_cost_bps": 224.87807336842656,
+  "signals_used": 934,
+  "period": [
+    "2019-01-03",
+    "2025-12-31"
+  ]
+}

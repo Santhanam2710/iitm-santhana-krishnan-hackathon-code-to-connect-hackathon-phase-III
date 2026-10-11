@@ -1,0 +1,799 @@
+{
+  "generated": "2026-10-11T12:27:28.910Z",
+  "provenance": {
+    "market": "synthetic known-answer market (data/market/prices_synthetic.csv)"
+  },
+  "nlp": {
+    "sentiment": {
+      "gold_v0": {
+        "n": 180,
+        "trident_lexicon": 0.6500061934844544,
+        "vader_baseline": 0.474905993400353,
+        "naive_wordcount_baseline": 0.22849464469753303,
+        "trident_best": 0.6500061934844544,
+        "hard_cases_n": 14,
+        "hard_cases_lexicon_acc": 0.6428571428571429,
+        "hard_cases_vader_acc": 0.2857142857142857
+      }
+    },
+    "events": {
+      "gold_v0": {
+        "n": 180,
+        "rules_macro_f1": 0.9205713324573657,
+        "rules-v1_macro_f1": 0.9205713324573657,
+        "best_macro_f1": 0.9205713324573657,
+        "accuracy": 0.9166666666666666,
+        "labels": [
+          "Geopolitical",
+          "Macroeconomic",
+          "Credit Event",
+          "Merger/Acquisition",
+          "Product Launch",
+          "Earnings",
+          "Regulatory/Legal",
+          "Operational",
+          "Other"
+        ],
+        "confusion": [
+          [
+            19,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            20,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            19,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            18,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            18,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            16,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            17,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            18
+          ]
+        ],
+        "model": "rules-v1"
+      }
+    },
+    "entities": {
+      "precision": 1.0,
+      "recall": 0.9790209790209791,
+      "f1": 0.989399293286219,
+      "ambiguity_traps_correct": "3/3",
+      "tp": 140,
+      "fp": 0,
+      "fn": 3
+    },
+    "provenance": {
+      "gold_v0": "authored fictional headlines (regression/smoke benchmark)"
+    }
+  },
+  "checklist": {
+    "passed": 58,
+    "total": 58,
+    "rate": 1.0
+  },
+  "checklist_detail": {
+    "negation flips sign": {
+      "kind": "DIR",
+      "passed": 8,
+      "total": 8
+    },
+    "delta phrase is positive": {
+      "kind": "MFT",
+      "passed": 8,
+      "total": 8
+    },
+    "entity swap keeps sentiment": {
+      "kind": "INV",
+      "passed": 7,
+      "total": 7
+    },
+    "entity swap keeps event": {
+      "kind": "INV",
+      "passed": 7,
+      "total": 7
+    },
+    "downgrade is a credit event": {
+      "kind": "MFT",
+      "passed": 8,
+      "total": 8
+    },
+    "sanctions are geopolitical": {
+      "kind": "MFT",
+      "passed": 3,
+      "total": 3
+    },
+    "intensity raises magnitude": {
+      "kind": "DIR",
+      "passed": 8,
+      "total": 8
+    },
+    "fruit is not Apple Inc.": {
+      "kind": "MFT",
+      "passed": 3,
+      "total": 3
+    },
+    "cashtag resolves": {
+      "kind": "MFT",
+      "passed": 3,
+      "total": 3
+    },
+    "lower-case social names resolve": {
+      "kind": "MFT",
+      "passed": 3,
+      "total": 3
+    }
+  },
+  "adversarial": {
+    "n_each": 244,
+    "real_source": "authored gold_v0 + replay text (no real corpus fetched)",
+    "auc": 0.9480230448804086,
+    "target": "<= 0.65",
+    "passes": false,
+    "synthetic_tells": [
+      "demand",
+      "expectations",
+      "product",
+      "restores services",
+      "quarter",
+      "strong",
+      "report of",
+      "agreed between",
+      "between",
+      "lol"
+    ],
+    "real_tells": [
+      "in",
+      "as",
+      "over",
+      "to",
+      "tesla",
+      "apple",
+      "for",
+      "boeing",
+      "microsoft",
+      "bank"
+    ]
+  },
+  "latency": {
+    "documents": 3000,
+    "signals": 2060,
+    "batch_size": 16,
+    "backend": {
+      "sentiment": "lexicon-v1",
+      "event": "rules-v1",
+      "impact": "impact-default-coefficients",
+      "ner": "alias-trie+cashtag"
+    },
+    "engine_ms": {
+      "p50": 1.4335,
+      "p95": 3.2924999999999995,
+      "p99": 4.520230000000001,
+      "mean": 1.4875194174757282
+    },
+    "throughput_docs_per_s": 855.2516121291607,
+    "module_a_rebalance_ms": {
+      "p50": 0.3396659994905349,
+      "p95": 0.6493083005807418
+    },
+    "module_b_full_revaluation_ms": {
+      "p50": 2.748803500253416,
+      "p95": 3.897362500083545
+    },
+    "machine": "x86_64 \u00b7 Linux \u00b7 Python 3.13.16"
+  },
+  "registry": [
+    {
+      "ts": "2026-10-11T12:27:26.046Z",
+      "kind": "sentiment_sklearn",
+      "candidate": "models/candidates/sentiment_sklearn.joblib",
+      "candidate_score": 0.4849,
+      "bar": "lexicon",
+      "bar_score": 0.65,
+      "eval": "gold_v0 (authored)",
+      "decision": "rejected",
+      "forced": false
+    },
+    {
+      "ts": "2026-10-11T12:27:27.742Z",
+      "kind": "events_sklearn",
+      "candidate": "models/candidates/events_sklearn.joblib",
+      "candidate_score": 0.8778,
+      "bar": "rules",
+      "bar_score": 0.9206,
+      "eval": "gold_v0 (authored)",
+      "decision": "rejected",
+      "forced": false
+    }
+  ],
+  "impact_synthetic": {
+    "events": 871,
+    "train_events": 748,
+    "test_events": 123,
+    "test_from": "2025-01-01",
+    "spearman_default_impact_vs_abs_car": 0.20074140781236174,
+    "spearman_calibrated_vs_abs_car": 0.2561717103655665,
+    "mean_abs_car_bps_by_calibrated_impact": {
+      "4": 439.4,
+      "5": 299.4,
+      "6": 406.6,
+      "7": 682.1
+    },
+    "beta": {
+      "base_severity": 0.1281,
+      "abs_sentiment": 0.2724,
+      "novelty": 0.0476,
+      "log_velocity": 0.0,
+      "reliability": -0.0028,
+      "magnitude": -0.0746,
+      "breadth": 0.0
+    }
+  },
+  "ic_synthetic": {
+    "days": 80,
+    "mean_ic": 0.04075255435459039,
+    "t_stat": 1.4406925309741418,
+    "hit_rate": 0.5625
+  },
+  "backtest_synthetic": {
+    "strategy": {
+      "ann_return": 0.005249078925146922,
+      "ann_vol": 0.19987665575008265,
+      "sharpe": 0.026193178456947904,
+      "sortino": 0.04250602791758525,
+      "max_drawdown": 0.24948466521828305,
+      "days": 523,
+      "information_ratio": 0.9511593874299892,
+      "tracking_error": 0.004584994765344465,
+      "active_return": 0.004361060812374748
+    },
+    "strategy_gross": {
+      "ann_return": 0.0065209730904953744,
+      "ann_vol": 0.19987930243315705,
+      "sharpe": 0.03251906161508061,
+      "sortino": 0.05277426535107683,
+      "max_drawdown": 0.2487294250874974,
+      "days": 523,
+      "information_ratio": 1.2270032401599906,
+      "tracking_error": 0.004584782717936865,
+      "active_return": 0.005625543250338062
+    },
+    "cap_weight": {
+      "ann_return": 0.0008747249331433338,
+      "ann_vol": 0.1997595903723587,
+      "sharpe": 0.004376981848207258,
+      "sortino": 0.007075661684387002,
+      "max_drawdown": 0.2508947178041816,
+      "days": 523
+    },
+    "equal_weight": {
+      "ann_return": 0.020757560064503577,
+      "ann_vol": 0.19337068080953626,
+      "sharpe": 0.10625134590076593,
+      "sortino": 0.1728256467380288,
+      "max_drawdown": 0.2146512404347617,
+      "days": 523,
+      "information_ratio": 0.4118143303539985,
+      "tracking_error": 0.0477680098596513,
+      "active_return": 0.019671550992695498
+    },
+    "total_cost_bps": 26.243028375191432,
+    "avg_daily_turnover": 0.0020667240128206523,
+    "period": [
+      "2024-01-01",
+      "2025-12-31"
+    ],
+    "chosen": {
+      "lambda": 0.75,
+      "band": 0.01,
+      "turnover_max": 0.05
+    },
+    "split": "2024-01-01"
+  },
+  "robustness": {
+    "impact_spearman_oos": {
+      "mean": 0.22956901495357757,
+      "sd": 0.08196809544253619,
+      "min": 0.10438105309063714
+    },
+    "net_ir_oos": {
+      "mean": 0.2940679019952211,
+      "sd": 0.6163838848693166,
+      "min": -0.6021478509486954
+    },
+    "gross_ir_oos": {
+      "mean": 0.5933836505191323,
+      "sd": 0.6425326847935925,
+      "min": -0.3441353803708301
+    },
+    "ic": {
+      "mean": 0.06435017193942989,
+      "sd": 0.03014826529584164,
+      "min": 0.02708235160843574
+    }
+  },
+  "stress": {
+    "credit9": {
+      "pnl": -80.27456105863287,
+      "pnl_pct": -0.02456403129762094,
+      "cet1_before": 0.13,
+      "cet1_after": 0.08411464808719574,
+      "var_before": 37.0286966063951,
+      "var_after": 63.563660962306585,
+      "es_before": 42.4224639218778,
+      "es_after": 72.82263112253904,
+      "rwa_before": 2738.2466631370576,
+      "rwa_after": 3277.639643256766
+    },
+    "credit9_by_class": {
+      "Loans": -26.362404329384063,
+      "Bonds": -17.325612247914222,
+      "Derivatives": -13.021251357759812,
+      "Equity": -19.72312576647019,
+      "FX": -3.8421673571045813
+    },
+    "credit9_with_bank_contagion": {
+      "pnl": -85.43384485447878,
+      "cet1_after": 0.08110996344038855
+    },
+    "reverse_credit": {
+      "breach": true,
+      "multiple": 1.0937730453215408,
+      "line": 0.07,
+      "implied_impact": null
+    },
+    "var_unstressed": 37.0286966063951,
+    "table": [
+      {
+        "scenario": "Credit Event I=7",
+        "class": "Credit Event",
+        "impact": 7,
+        "pnl": -50.824306073546694,
+        "pnl_pct": -0.015552247544008295,
+        "cet1_before": 0.13,
+        "cet1_after": 0.09979018756931435,
+        "var_after": 56.18365293770896,
+        "es_after": 64.36761777182363,
+        "dv_Loans": -12.534179925696606,
+        "dv_Bonds": -12.58063348072119,
+        "dv_Derivatives": -9.54522095449056,
+        "dv_Equity": -13.528792629056,
+        "dv_FX": -2.6354790835823376
+      },
+      {
+        "scenario": "Credit Event I=8",
+        "class": "Credit Event",
+        "impact": 8,
+        "pnl": -64.5293763047183,
+        "pnl_pct": -0.019746001700430282,
+        "cet1_before": 0.13,
+        "cet1_after": 0.09220958805389892,
+        "var_after": 59.87360119633711,
+        "es_after": 68.59506057217901,
+        "dv_Loans": -18.554507187503546,
+        "dv_Bonds": -14.958494963916792,
+        "dv_Derivatives": -11.267421776019825,
+        "dv_Equity": -16.529014489678445,
+        "dv_FX": -3.219937887599698
+      },
+      {
+        "scenario": "Credit Event I=9",
+        "class": "Credit Event",
+        "impact": 9,
+        "pnl": -80.27456105863287,
+        "pnl_pct": -0.02456403129762094,
+        "cet1_before": 0.13,
+        "cet1_after": 0.08411464808719574,
+        "var_after": 63.563660962306585,
+        "es_after": 72.82263112253904,
+        "dv_Loans": -26.362404329384063,
+        "dv_Bonds": -17.325612247914222,
+        "dv_Derivatives": -13.021251357759812,
+        "dv_Equity": -19.72312576647019,
+        "dv_FX": -3.8421673571045813
+      },
+      {
+        "scenario": "Credit Event I=10",
+        "class": "Credit Event",
+        "impact": 10,
+        "pnl": -98.46090164556415,
+        "pnl_pct": -0.030129055054527943,
+        "cet1_before": 0.13,
+        "cet1_after": 0.07552577156646874,
+        "var_after": 67.18754194348206,
+        "es_after": 76.97438298718731,
+        "dv_Loans": -36.40789756317142,
+        "dv_Bonds": -19.643782500000015,
+        "dv_Derivatives": -14.809221582392707,
+        "dv_Equity": -23.10000000000001,
+        "dv_FX": -4.5
+      },
+      {
+        "scenario": "Geopolitical I=7",
+        "class": "Geopolitical",
+        "impact": 7,
+        "pnl": -37.098734880979855,
+        "pnl_pct": -0.011352220089411856,
+        "cet1_before": 0.13,
+        "cet1_after": 0.10812858494268902,
+        "var_after": 53.00162380173886,
+        "es_after": 60.72207988930085,
+        "dv_Loans": -6.267202394514257,
+        "dv_Bonds": -8.560211975968997,
+        "dv_Derivatives": -6.177328240087132,
+        "dv_Equity": -10.823034103244794,
+        "dv_FX": -5.270958167164675
+      },
+      {
+        "scenario": "Geopolitical I=8",
+        "class": "Geopolitical",
+        "impact": 8,
+        "pnl": -46.701976114808666,
+        "pnl_pct": -0.014290813774827047,
+        "cet1_before": 0.13,
+        "cet1_after": 0.10246487744944424,
+        "var_after": 56.17725886233661,
+        "es_after": 64.36029230653165,
+        "dv_Loans": -9.473823826452445,
+        "dv_Bonds": -10.317710695410227,
+        "dv_Derivatives": -7.247354226003827,
+        "dv_Equity": -13.223211591742768,
+        "dv_FX": -6.439875775199396
+      },
+      {
+        "scenario": "Geopolitical I=9",
+        "class": "Geopolitical",
+        "impact": 9,
+        "pnl": -57.39054926097888,
+        "pnl_pct": -0.017561519236519513,
+        "cet1_before": 0.13,
+        "cet1_after": 0.09644315321590685,
+        "var_after": 59.403742760840345,
+        "es_after": 68.05676043323193,
+        "dv_Loans": -13.477584694120111,
+        "dv_Bonds": -12.13258738767766,
+        "dv_Derivatives": -8.317541851795795,
+        "dv_Equity": -15.77850061317615,
+        "dv_FX": -7.684334714209163
+      },
+      {
+        "scenario": "Geopolitical I=10",
+        "class": "Geopolitical",
+        "impact": 10,
+        "pnl": -69.3148234767786,
+        "pnl_pct": -0.02121034946586673,
+        "cet1_before": 0.13,
+        "cet1_after": 0.0900746812678597,
+        "var_after": 62.63671846472123,
+        "es_after": 71.76066599102322,
+        "dv_Loans": -18.457904856626982,
+        "dv_Bonds": -13.988280000000174,
+        "dv_Derivatives": -9.388638620151447,
+        "dv_Equity": -18.480000000000004,
+        "dv_FX": -9.0
+      },
+      {
+        "scenario": "Macroeconomic I=7",
+        "class": "Macroeconomic",
+        "impact": 7,
+        "pnl": -84.79058587828553,
+        "pnl_pct": -0.02594593577081707,
+        "cet1_before": 0.13,
+        "cet1_after": 0.0952818628037274,
+        "var_after": 44.45267951649383,
+        "es_after": 50.927857738680636,
+        "dv_Loans": -3.6441948261592927,
+        "dv_Bonds": -115.07970038555177,
+        "dv_Derivatives": 46.46647653090598,
+        "dv_Equity": -9.019195086037314,
+        "dv_FX": -3.5139721114431164
+      },
+      {
+        "scenario": "Macroeconomic I=8",
+        "class": "Macroeconomic",
+        "impact": 8,
+        "pnl": -102.74350585188554,
+        "pnl_pct": -0.03143953277464359,
+        "cet1_before": 0.13,
+        "cet1_after": 0.08766639013548486,
+        "var_after": 46.02975624810626,
+        "es_after": 52.734658595325065,
+        "dv_Loans": -5.748139948191323,
+        "dv_Bonds": -138.65356264152513,
+        "dv_Derivatives": 56.97079024774946,
+        "dv_Equity": -11.019342993118954,
+        "dv_FX": -4.293250516799597
+      },
+      {
+        "scenario": "Macroeconomic I=9",
+        "class": "Macroeconomic",
+        "impact": 9,
+        "pnl": -121.31070238800916,
+        "pnl_pct": -0.03712109852608125,
+        "cet1_before": 0.13,
+        "cet1_after": 0.07992475491622095,
+        "var_after": 47.68048264727998,
+        "es_after": 54.62583726300045,
+        "dv_Loans": -8.285103963121045,
+        "dv_Bonds": -162.97413825079568,
+        "dv_Derivatives": 68.22018014636046,
+        "dv_Equity": -13.148750510980122,
+        "dv_FX": -5.122889809472774
+      },
+      {
+        "scenario": "Macroeconomic I=10",
+        "class": "Macroeconomic",
+        "impact": 10,
+        "pnl": -140.36847111858003,
+        "pnl_pct": -0.042952779464437756,
+        "cet1_before": 0.13,
+        "cet1_after": 0.07213626915133203,
+        "var_after": 49.39360468341963,
+        "es_after": 56.588500398147275,
+        "dv_Loans": -11.333608093648579,
+        "dv_Bonds": -187.81518,
+        "dv_Derivatives": 80.18031697506854,
+        "dv_Equity": -15.399999999999991,
+        "dv_FX": -6.0
+      },
+      {
+        "scenario": "COVID crash, Feb-Mar 2020 (approximate moves)",
+        "class": "preset",
+        "impact": null,
+        "pnl": -191.86966515069307,
+        "pnl_pct": -0.058712154855424394,
+        "cet1_before": 0.13,
+        "cet1_after": 0.042884143339674635,
+        "var_after": 97.35121338723607,
+        "es_after": 111.53183115167474,
+        "reverse_multiple": 0.6757880946352088,
+        "dv_Loans": -60.517669301545624,
+        "dv_Bonds": -45.66283000000007,
+        "dv_Derivatives": -27.32916584914737,
+        "dv_Equity": -52.360000000000014,
+        "dv_FX": -6.0
+      },
+      {
+        "scenario": "SVB / regional-bank run, Mar 2023 (approximate moves)",
+        "class": "preset",
+        "impact": null,
+        "pnl": -15.727142980446136,
+        "pnl_pct": -0.0048125088110001265,
+        "cet1_before": 0.13,
+        "cet1_after": 0.1093256540508996,
+        "var_after": 52.24584201745133,
+        "es_after": 59.8562075142194,
+        "reverse_multiple": 2.132618686371643,
+        "dv_Loans": -20.073644575578584,
+        "dv_Bonds": 31.177904999999924,
+        "dv_Derivatives": -22.13140340486746,
+        "dv_Equity": -7.700000000000017,
+        "dv_FX": 3.0
+      },
+      {
+        "scenario": "June 2022 CPI print and 75 bp hike (approximate moves)",
+        "class": "preset",
+        "impact": null,
+        "pnl": -51.14690845382575,
+        "pnl_pct": -0.015650963935120964,
+        "cet1_before": 0.13,
+        "cet1_after": 0.1078151949243242,
+        "var_after": 46.44386322623369,
+        "es_after": 53.20908626762866,
+        "reverse_multiple": 2.6395129532520514,
+        "dv_Loans": -1.683190415550726,
+        "dv_Bonds": -52.12914250000003,
+        "dv_Derivatives": 16.40542446172501,
+        "dv_Equity": -9.240000000000009,
+        "dv_FX": -4.5
+      }
+    ]
+  },
+  "replay_svb": {
+    "docs": 40,
+    "signals": 46,
+    "dropped": {
+      "no resolvable entity and not market-wide": 3,
+      "duplicate": 1
+    },
+    "entity_rejections": 1,
+    "first_document": "2023-03-08T21:15:00Z",
+    "first_trigger": {
+      "state": "triggered",
+      "reason": "2 independent source(s)",
+      "sources": [
+        "replay:wire-a",
+        "replay:wire-b"
+      ],
+      "label": "Credit Event",
+      "impact": 9,
+      "effective_impact": 9.25,
+      "signal_id": "sig_01M4NEYK1D6VPF4VKSXVN8PJ7M",
+      "ts": "2023-03-08T21:40:00.000Z",
+      "ticker": "SIVB"
+    },
+    "held_at_gate": 13,
+    "triggers": 5,
+    "first_stress": {
+      "label": "Credit Event, impact 9.25",
+      "pnl": -90.28108230405978,
+      "cet1_before": 0.13,
+      "cet1_after": 0.07882790115199441,
+      "var_before": 37.0286966063951,
+      "var_after": 64.47845128199624
+    },
+    "final_active_weights_pp": {
+      "AAPL": -0.08,
+      "MSFT": 0.14,
+      "NVDA": 0.036,
+      "AMZN": -0.034,
+      "GOOGL": 0.017,
+      "META": 0.021,
+      "JPM": -0.208,
+      "BAC": -0.083,
+      "XOM": -0.003,
+      "JNJ": 0.127,
+      "PFE": -0.001,
+      "TSLA": -0.135,
+      "BA": -0.001,
+      "WMT": 0.112,
+      "KO": 0.091
+    }
+  },
+  "replay_covid": {
+    "docs": 24,
+    "signals": 24,
+    "dropped": {
+      "no resolvable entity and not market-wide": 1
+    },
+    "entity_rejections": 1,
+    "first_document": "2020-02-17T22:00:00Z",
+    "first_trigger": {
+      "state": "triggered",
+      "reason": "single source with impact 9",
+      "sources": [
+        "replay:wire-b"
+      ],
+      "label": "Macroeconomic",
+      "impact": 9,
+      "effective_impact": 9.0,
+      "signal_id": "sig_01M4NEYKS4GAF90F76BDFD8CVT",
+      "ts": "2020-02-24T15:00:00.000Z",
+      "ticker": "MARKET"
+    },
+    "held_at_gate": 5,
+    "triggers": 3,
+    "first_stress": {
+      "label": "Macroeconomic, impact 9",
+      "pnl": -121.31070238800916,
+      "cet1_before": 0.13,
+      "cet1_after": 0.07992475491622095,
+      "var_before": 37.0286966063951,
+      "var_after": 47.68048264727998
+    },
+    "final_active_weights_pp": {
+      "AAPL": -0.06,
+      "MSFT": -0.434,
+      "NVDA": 0.511,
+      "AMZN": 0.505,
+      "GOOGL": 0.202,
+      "META": 0.689,
+      "JPM": -0.364,
+      "BAC": 0.009,
+      "XOM": 0.013,
+      "JNJ": -0.87,
+      "PFE": 0.004,
+      "TSLA": 1.249,
+      "BA": 0.198,
+      "WMT": -0.945,
+      "KO": -0.706
+    }
+  },
+  "headline": {
+    "engine_latency_ms_p50": 1.43,
+    "engine_latency_ms_p95": 3.29,
+    "throughput_docs_per_s": 855,
+    "sentiment_macro_f1": 0.65,
+    "sentiment_vader_f1": 0.475,
+    "sentiment_eval_set": "gold_v0",
+    "event_macro_f1": 0.921,
+    "entity_precision": 1.0,
+    "entity_recall": 0.979,
+    "checklist_pass": "58/58",
+    "impact_spearman_oos": 0.201,
+    "backtest_oos_net_ir": 0.95,
+    "backtest_oos_gross_ir": 1.23,
+    "credit9_cet1": [
+      13.0,
+      8.41
+    ],
+    "credit9_pnl_musd": -80.3,
+    "svb_first_trigger": "2023-03-08T21:40:00.000Z",
+    "adversarial_auc": 0.948
+  },
+  "elapsed_s": 45.7
+}

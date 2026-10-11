@@ -1,0 +1,53 @@
+# Module B configuration: trigger rule, shock vectors x^(c), historical presets, capital.
+trigger:
+  classes: [Geopolitical, Macroeconomic, Credit Event]
+  impact_threshold: 7          # I* (strictly greater than)
+  min_confidence: 0.6
+  confirm_sources: 2           # independent sources required ...
+  confirm_window_min: 30       # ... within this window
+  single_source_override: 9    # ... unless I >= this
+  cooldown_min: 720            # same class re-triggers within this window only if impact escalates
+
+severity_gamma: 1.5            # x(I) = x_full * (I/10)^gamma
+
+# Factor units: eq %, rates bp, ig/hy bp, fx % (EUR/USD), vol pts, Z sigma, lgd_add absolute.
+# beta_adj multiplies loan sector loadings; keys are loan sectors or position ids.
+scenarios:
+  Credit Event:   {eq: -15, rates: -75, ig: 130, hy: 420, fx: -1.5, vol: 22, Z: -1.8, lgd_add: 0.06, beta_adj: {Real Estate: 1.25, Banks: 1.2}}
+  Geopolitical:   {eq: -12, rates: -40, ig: 70,  hy: 250, fx: -3.0, vol: 18, Z: -1.4, lgd_add: 0.04, beta_adj: {Energy: 0.6, Industrials: 1.5}}
+  Macroeconomic:  {eq: -10, rates: 200, ig: 50,  hy: 160, fx: -2.0, vol: 8,  Z: -1.0, lgd_add: 0.03, beta_adj: {Real Estate: 1.3}}
+
+presets:
+  covid_2020:
+    label: "COVID crash, Feb-Mar 2020 (approximate moves)"
+    event_class: Macroeconomic
+    shock: {eq: -34, rates: -110, ig: 250, hy: 600, fx: -2, vol: 45, Z: -2.0, lgd_add: 0.06, beta_adj: {Consumer: 1.4, Industrials: 1.4, Energy: 1.3, Real Estate: 1.2}}
+  svb_2023:
+    label: "SVB / regional-bank run, Mar 2023 (approximate moves)"
+    event_class: Credit Event
+    shock: {eq: -5, rates: -60, ig: 35, hy: 90, fx: 1, vol: 10, Z: -1.3, lgd_add: 0.03, beta_adj: {Real Estate: 1.4, Banks: 1.5}}
+  rates_2022:
+    label: "June 2022 CPI print and 75 bp hike (approximate moves)"
+    event_class: Macroeconomic
+    shock: {eq: -6, rates: 45, ig: 20, hy: 70, fx: -1.5, vol: 6, Z: -0.5, lgd_add: 0.01, beta_adj: {}}
+
+capital:
+  cet1_ratio_start: 0.13       # CET1_0 = ratio * RWA_0
+  market_rwa: 1450             # $m, scales with vol shock
+  market_rwa_vol_scale: 150    # RWA_mkt * (1 + max(0, dvol)/scale)
+  vasicek_rho: 0.12
+  ttc_passthrough: 0.35        # share of stressed PD/LGD that flows into IRB RWA (through-the-cycle)
+  minimum: 0.045
+  buffer_line: 0.07            # minimum + conservation buffer
+
+var:
+  factors: [eq, rates, ig, hy, fx]
+  daily_vol: [1.1, 6.0, 2.5, 10.0, 0.55]
+  corr:
+    - [ 1.00,  0.20, -0.50, -0.65,  0.30]
+    - [ 0.20,  1.00, -0.10, -0.20,  0.10]
+    - [-0.50, -0.10,  1.00,  0.75, -0.20]
+    - [-0.65, -0.20,  0.75,  1.00, -0.30]
+    - [ 0.30,  0.10, -0.20, -0.30,  1.00]
+  confidence: 0.99
+  horizon_days: 10

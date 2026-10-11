@@ -1,0 +1,225 @@
+"""Write data/gold/headlines_gold_v0.jsonl: an AUTHORED, FICTIONAL evaluation set.
+
+Every headline below was written for this project. None reports a real event, even when it
+names a real company: real names are needed to test entity resolution. Use this set for
+regression tests and a smoke-level benchmark only. For the numbers you submit, label 300+
+REAL headlines with scripts/label_tool.py (pulled by scripts/fetch_data.py) and evaluate on
+those and on Financial PhraseBank / twitter-financial-news (see docs/SETUP_GUIDE.md).
+
+Fields: text, event (taxonomy class), polarity (pos|neg|neu), tickers (expected entity keys:
+index/watchlist tickers, MARKET, or SECTOR:<name>), hard (hard-case tag or "").
+"""
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+
+G = [
+    # ---- Credit Event
+    ("JPMorgan downgraded two notches as commercial real estate losses mount", "Credit Event", "neg", ["JPM"], ""),
+    ("Rating agency cuts Boeing outlook to negative on rising debt load", "Credit Event", "neg", ["BA"], ""),
+    ("SVB Financial shares collapse as deposit outflows accelerate", "Credit Event", "neg", ["SIVB"], ""),
+    ("First Republic explores emergency sale after deposit flight", "Credit Event", "neg", ["FRC"], ""),
+    ("Credit Suisse credit default swaps hit record as investors flee", "Credit Event", "neg", ["CS"], ""),
+    ("Signature Bank seized by regulators; FDIC appointed receiver", "Credit Event", "neg", ["SBNY"], ""),
+    ("Western Alliance shares sink on fears of a bank run", "Credit Event", "neg", ["WAL"], ""),
+    ("PacWest misses deposit targets, weighs capital raise", "Credit Event", "neg", ["PACW"], ""),
+    ("Bank of America placed on watch negative by rating agency over unrealized losses", "Credit Event", "neg", ["BAC"], ""),
+    ("Tesla bonds downgraded to junk as cash burn accelerates", "Credit Event", "neg", ["TSLA"], ""),
+    ("Boeing upgraded as free cash flow recovers and debt falls", "Credit Event", "pos", ["BA"], ""),
+    ("Charles Schwab says deposit outflows have stabilized, easing liquidity crisis fears", "Credit Event", "pos", ["SCHW"], ""),
+    ("Regional bank stocks plunge as deposit flight spreads across lenders", "Credit Event", "neg", ["SECTOR:Banks"], ""),
+    ("Exxon Mobil denies report it is in default talks with lenders", "Credit Event", "pos", ["XOM"], "rumor-denial"),
+    ("UBS agrees emergency rescue of Credit Suisse to prevent collapse", "Credit Event", "neg", ["UBS", "CS"], "multi-entity"),
+    ("Pfizer misses a coupon payment on a small bond, citing an administrative error", "Credit Event", "neg", ["PFE"], ""),
+    ("Lenders pull credit lines from Walmart suppliers as liquidity crisis deepens", "Credit Event", "neg", ["WMT"], ""),
+    ("Meta's credit rating raised to AA- on strong cash generation", "Credit Event", "pos", ["META"], ""),
+    ("First Republic files for receivership after failed rescue talks", "Credit Event", "neg", ["FRC"], ""),
+    ("SVB Financial Group files for chapter 11 bankruptcy protection", "Credit Event", "neg", ["SIVB"], ""),
+    ("Banks face insolvency fears as unrealized bond losses mount", "Credit Event", "neg", ["SECTOR:Banks"], ""),
+    ("Credit Suisse writedown wipes out bondholders in rescue deal", "Credit Event", "neg", ["CS"], ""),
+    # ---- Geopolitical
+    ("US imposes sweeping sanctions after missile strikes in the Strait of Hormuz; oil spikes 9%", "Geopolitical", "neg", ["MARKET"], ""),
+    ("China announces export controls on rare earths in escalating trade war", "Geopolitical", "neg", ["MARKET"], ""),
+    ("New tariffs of 25% on European imports announced; retaliation expected", "Geopolitical", "neg", ["MARKET"], ""),
+    ("Ceasefire agreed in border conflict, easing supply fears", "Geopolitical", "pos", ["MARKET"], ""),
+    ("Apple shares fall as new tariffs threaten iPhone supply chain in China", "Geopolitical", "neg", ["AAPL"], ""),
+    ("Nvidia hit by tighter export controls on advanced chips", "Geopolitical", "neg", ["NVDA"], ""),
+    ("Exxon Mobil jumps as invasion sends crude prices soaring", "Geopolitical", "pos", ["XOM"], ""),
+    ("Boeing deliveries to China halted amid trade war", "Geopolitical", "neg", ["BA"], ""),
+    ("Military escalation in the Red Sea disrupts shipping routes", "Geopolitical", "neg", ["MARKET"], ""),
+    ("Sanctions on Russian energy expanded as conflict drags on", "Geopolitical", "neg", ["MARKET"], ""),
+    ("Tesla shares slide after retaliatory tariffs on US-made cars", "Geopolitical", "neg", ["TSLA"], ""),
+    ("Troops withdraw from disputed border as talks progress", "Geopolitical", "pos", ["MARKET"], ""),
+    ("Coca-Cola warns tariffs on aluminium will raise can costs", "Geopolitical", "neg", ["KO"], ""),
+    ("Embargo lifted, shipping insurers return to the region", "Geopolitical", "pos", ["MARKET"], ""),
+    ("Airstrikes near major oil field send Brent up 6%", "Geopolitical", "neg", ["MARKET", "SECTOR:Energy"], ""),
+    ("Microsoft says sanctions will force it to exit a key market", "Geopolitical", "neg", ["MSFT"], ""),
+    ("Trade war fears ease after tariff pause announced", "Geopolitical", "pos", ["MARKET"], ""),
+    ("Blockade of key strait raises fears of global supply shock", "Geopolitical", "neg", ["MARKET"], ""),
+    ("Walmart cuts forecast as tariffs squeeze margins", "Geopolitical", "neg", ["WMT"], ""),
+    ("Coup attempt rattles emerging market currencies", "Geopolitical", "neg", ["MARKET"], ""),
+    # ---- Macroeconomic
+    ("Fed signals two more rate hikes as CPI surprises to upside", "Macroeconomic", "neg", ["MARKET"], ""),
+    ("Inflation cools to 2.4%, raising hopes of a rate cut", "Macroeconomic", "pos", ["MARKET"], ""),
+    ("Payrolls collapse by 200k as recession fears grow", "Macroeconomic", "neg", ["MARKET"], ""),
+    ("GDP growth beats expectations at 3.1% annualized", "Macroeconomic", "pos", ["MARKET"], ""),
+    ("Treasury yields spike 25 basis points after hawkish FOMC minutes", "Macroeconomic", "neg", ["MARKET"], ""),
+    ("ECB raises interest rates by 50 basis points", "Macroeconomic", "neg", ["MARKET"], ""),
+    ("Federal Reserve cuts rates to near zero in emergency move", "Macroeconomic", "pos", ["MARKET"], ""),
+    ("Unemployment rises to 4.8%, highest in three years", "Macroeconomic", "neg", ["MARKET"], ""),
+    ("PMI slumps to lowest since 2009 as factories shut", "Macroeconomic", "neg", ["MARKET"], ""),
+    ("JPMorgan says higher interest rates will lift lending margins", "Macroeconomic", "pos", ["JPM"], ""),
+    ("Bank of America economists now expect a recession next year", "Macroeconomic", "neg", ["BAC"], ""),
+    ("Jobs report beats forecasts as hiring rebounds strongly", "Macroeconomic", "pos", ["MARKET"], ""),
+    ("Stagflation fears grow as inflation stays high and growth stalls", "Macroeconomic", "neg", ["MARKET"], ""),
+    ("Central bank launches emergency lending facility to calm markets", "Macroeconomic", "pos", ["MARKET"], ""),
+    ("Hotter-than-expected CPI sends Treasury yields higher", "Macroeconomic", "neg", ["MARKET"], ""),
+    ("Fed holds rates steady and signals patience", "Macroeconomic", "neu", ["MARKET"], ""),
+    ("Quantitative easing restarted as recession risk rises", "Macroeconomic", "neg", ["MARKET"], ""),
+    ("Walmart says inflation is easing for shoppers", "Macroeconomic", "pos", ["WMT"], ""),
+    ("Yields fall sharply as investors price a rate cut", "Macroeconomic", "pos", ["MARKET"], ""),
+    ("Fed chair warns rates may need to stay higher for longer", "Macroeconomic", "neg", ["MARKET"], ""),
+    # ---- Merger/Acquisition
+    ("Microsoft agrees to acquire cybersecurity firm in $18 billion deal", "Merger/Acquisition", "pos", ["MSFT"], ""),
+    ("Pfizer to buy biotech for $43 billion in all-cash deal", "Merger/Acquisition", "pos", ["PFE"], ""),
+    ("Johnson & Johnson takeover bid collapses after regulators object", "Merger/Acquisition", "neg", ["JNJ"], ""),
+    ("Alphabet in talks to acquire cloud software startup", "Merger/Acquisition", "pos", ["GOOGL"], ""),
+    ("Amazon agrees to buy healthcare chain in $4 billion deal", "Merger/Acquisition", "pos", ["AMZN"], ""),
+    ("Exxon Mobil announces merger with shale producer", "Merger/Acquisition", "pos", ["XOM"], ""),
+    ("Walmart bids for online retailer, shares rally 3%", "Merger/Acquisition", "pos", ["WMT"], ""),
+    ("Coca-Cola completes acquisition of sports drink maker", "Merger/Acquisition", "pos", ["KO"], ""),
+    ("Nvidia abandons acquisition after antitrust pushback", "Merger/Acquisition", "neg", ["NVDA"], ""),
+    ("Meta agrees to buy virtual reality studio", "Merger/Acquisition", "pos", ["META"], ""),
+    ("Tender offer for chipmaker launched by Nvidia", "Merger/Acquisition", "pos", ["NVDA"], ""),
+    ("JPMorgan acquires failed lender's deposits and assets", "Merger/Acquisition", "pos", ["JPM"], ""),
+    ("Boeing agrees to acquire key supplier to fix quality problems", "Merger/Acquisition", "pos", ["BA"], ""),
+    ("Apple acquires AI startup to boost Siri", "Merger/Acquisition", "pos", ["AAPL"], ""),
+    ("Shareholders reject Pfizer merger terms", "Merger/Acquisition", "neg", ["PFE"], ""),
+    ("Charles Schwab to merge with online broker in all-stock deal", "Merger/Acquisition", "pos", ["SCHW"], ""),
+    ("Johnson & Johnson buyout of device maker approved", "Merger/Acquisition", "pos", ["JNJ"], ""),
+    ("Microsoft beats Google to acquire gaming studio", "Merger/Acquisition", "pos", ["MSFT", "GOOGL"], "multi-entity"),
+    ("Amazon deal to buy robot vacuum maker called off", "Merger/Acquisition", "neg", ["AMZN"], ""),
+    ("Tesla bid for battery startup rejected", "Merger/Acquisition", "neg", ["TSLA"], ""),
+    # ---- Product Launch
+    ("Nvidia unveils next-gen Blackwell Ultra GPUs, shares jump 6% in premarket", "Product Launch", "pos", ["NVDA"], ""),
+    ("Apple launches new iPhone with satellite messaging", "Product Launch", "pos", ["AAPL"], ""),
+    ("Tesla debuts cheaper model to strong early demand", "Product Launch", "pos", ["TSLA"], ""),
+    ("Microsoft releases new AI assistant across Office", "Product Launch", "pos", ["MSFT"], ""),
+    ("Google introduces new Pixel phones and AI features", "Product Launch", "pos", ["GOOGL"], ""),
+    ("Amazon rolls out drone delivery in two more cities", "Product Launch", "pos", ["AMZN"], ""),
+    ("Meta launches new mixed-reality headset at lower price", "Product Launch", "pos", ["META"], ""),
+    ("Pfizer launches new RSV vaccine after approval", "Product Launch", "pos", ["PFE"], ""),
+    ("Coca-Cola unveils zero-sugar flavor line", "Product Launch", "pos", ["KO"], ""),
+    ("Boeing delays launch of 777X after defects found", "Product Launch", "neg", ["BA"], ""),
+    ("Walmart launches subscription service to rival Prime", "Product Launch", "pos", ["WMT"], ""),
+    ("Apple delays rollout of new AI features, disappointing fans", "Product Launch", "neg", ["AAPL"], ""),
+    ("Johnson & Johnson introduces new surgical robot", "Product Launch", "pos", ["JNJ"], ""),
+    ("Nvidia announces new chip for data centers", "Product Launch", "pos", ["NVDA"], ""),
+    ("Tesla unveils robotaxi but investors are unimpressed", "Product Launch", "neg", ["TSLA"], ""),
+    ("Amazon releases new Kindle lineup", "Product Launch", "neu", ["AMZN"], ""),
+    ("Microsoft debuts new Surface devices", "Product Launch", "neu", ["MSFT"], ""),
+    ("YouTube launches cheaper subscription tier", "Product Launch", "pos", ["GOOGL"], ""),
+    ("Instagram rolls out new teen safety features", "Product Launch", "neu", ["META"], ""),
+    ("Azure launches new AI supercomputing region", "Product Launch", "pos", ["MSFT"], ""),
+    # ---- Earnings
+    ("$AAPL not looking good after iPhone sales miss lol", "Earnings", "neg", ["AAPL"], "social"),
+    ("Pfizer losses narrowed in Q3 and the company raised guidance", "Earnings", "pos", ["PFE"], "delta-phrase"),
+    ("Microsoft beats expectations as Azure revenue surges", "Earnings", "pos", ["MSFT"], ""),
+    ("Tesla misses estimates and cuts guidance; shares fall 9%", "Earnings", "neg", ["TSLA"], ""),
+    ("Nvidia posts record revenue on AI chip demand", "Earnings", "pos", ["NVDA"], ""),
+    ("Meta shares jump after strong ad revenue", "Earnings", "pos", ["META"], ""),
+    ("Amazon quarterly profit below expectations as AWS growth slows", "Earnings", "neg", ["AMZN"], ""),
+    ("JPMorgan profit rises on higher interest income", "Earnings", "pos", ["JPM"], ""),
+    ("Bank of America earnings beat but deposits shrink", "Earnings", "pos", ["BAC"], ""),
+    ("Walmart raises forecast after strong holiday quarter", "Earnings", "pos", ["WMT"], ""),
+    ("Coca-Cola revenue tops estimates on price increases", "Earnings", "pos", ["KO"], ""),
+    ("Johnson & Johnson cuts guidance on weaker drug sales", "Earnings", "neg", ["JNJ"], ""),
+    ("Boeing reports bigger-than-expected loss as deliveries slump", "Earnings", "neg", ["BA"], ""),
+    ("Alphabet earnings beat, buyback expanded by $70 billion", "Earnings", "pos", ["GOOGL"], ""),
+    ("Exxon Mobil profit falls as oil prices weaken", "Earnings", "neg", ["XOM"], ""),
+    ("Apple did not beat expectations this quarter", "Earnings", "neg", ["AAPL"], "negation"),
+    ("Tesla margin squeeze worse than feared", "Earnings", "neg", ["TSLA"], ""),
+    ("great, $NVDA 'record quarter' and the stock is down 8% again", "Earnings", "neg", ["NVDA"], "sarcasm"),
+    ("Boeing loss narrower than expected as deliveries recover", "Earnings", "pos", ["BA"], "delta-phrase"),
+    ("Microsoft results in line with forecasts", "Earnings", "neu", ["MSFT"], ""),
+    ("Amazon beats estimates, shares soar 8% after hours", "Earnings", "pos", ["AMZN"], ""),
+    ("$TSLA earnings tomorrow, no idea what to expect", "Earnings", "neu", ["TSLA"], "social"),
+    # ---- Regulatory/Legal
+    ("Google hit with antitrust lawsuit by regulators", "Regulatory/Legal", "neg", ["GOOGL"], ""),
+    ("Meta fined $1.3 billion over data transfers", "Regulatory/Legal", "neg", ["META"], ""),
+    ("FDA approves Pfizer drug for early Alzheimer's", "Regulatory/Legal", "pos", ["PFE"], ""),
+    ("SEC opens probe into Tesla self-driving claims", "Regulatory/Legal", "neg", ["TSLA"], ""),
+    ("Court dismisses lawsuit against Apple over App Store fees", "Regulatory/Legal", "pos", ["AAPL"], ""),
+    ("Boeing faces FAA investigation after door panel blowout", "Regulatory/Legal", "neg", ["BA"], ""),
+    ("Johnson & Johnson reaches settlement in talc litigation", "Regulatory/Legal", "pos", ["JNJ"], ""),
+    ("Amazon sued by FTC over Prime cancellations", "Regulatory/Legal", "neg", ["AMZN"], ""),
+    ("Microsoft wins regulatory approval for acquisition", "Regulatory/Legal", "pos", ["MSFT"], ""),
+    ("Nvidia faces antitrust investigation in Europe", "Regulatory/Legal", "neg", ["NVDA"], ""),
+    ("Regulators ban Coca-Cola ad campaign", "Regulatory/Legal", "neg", ["KO"], ""),
+    ("JPMorgan fined over record-keeping failures", "Regulatory/Legal", "neg", ["JPM"], ""),
+    ("Bank of America ordered to pay $250 million over junk fees", "Regulatory/Legal", "neg", ["BAC"], ""),
+    ("Walmart settles opioid lawsuit", "Regulatory/Legal", "pos", ["WMT"], ""),
+    ("Exxon Mobil sued by state over climate disclosures", "Regulatory/Legal", "neg", ["XOM"], ""),
+    ("Tesla recalls 2 million vehicles over Autopilot safeguards", "Regulatory/Legal", "neg", ["TSLA"], ""),
+    ("DOJ drops probe into Apple", "Regulatory/Legal", "pos", ["AAPL"], ""),
+    ("Court rules against Google in search monopoly case", "Regulatory/Legal", "neg", ["GOOGL"], ""),
+    ("Pfizer subpoenaed over drug pricing", "Regulatory/Legal", "neg", ["PFE"], ""),
+    ("Meta wins dismissal of shareholder lawsuit", "Regulatory/Legal", "pos", ["META"], ""),
+    # ---- Operational
+    ("Microsoft suffers global outage affecting millions of Azure users", "Operational", "neg", ["MSFT"], ""),
+    ("Cyberattack forces Boeing to halt production at a plant", "Operational", "neg", ["BA"], ""),
+    ("Workers strike at Boeing plants, halting output", "Operational", "neg", ["BA"], ""),
+    ("Amazon restores AWS services after brief outage", "Operational", "pos", ["AMZN"], ""),
+    ("Fire at Tesla gigafactory halts production", "Operational", "neg", ["TSLA"], ""),
+    ("Data breach exposes 30 million Walmart customer records", "Operational", "neg", ["WMT"], ""),
+    ("Meta platforms down for six hours in global outage", "Operational", "neg", ["META"], ""),
+    ("Exxon Mobil refinery explosion shuts unit", "Operational", "neg", ["XOM"], ""),
+    ("Apple supplier shutdown disrupts iPhone production", "Operational", "neg", ["AAPL"], ""),
+    ("JPMorgan systems outage delays payments for hours", "Operational", "neg", ["JPM"], ""),
+    ("Coca-Cola plant closure hits regional supply", "Operational", "neg", ["KO"], ""),
+    ("Pfizer resolves supply chain problems at vaccine plant", "Operational", "pos", ["PFE"], ""),
+    ("Nvidia chip shortage eases as supply chain recovers", "Operational", "pos", ["NVDA"], ""),
+    ("Johnson & Johnson hit by ransomware attack", "Operational", "neg", ["JNJ"], ""),
+    ("Bank of America app outage leaves customers locked out", "Operational", "neg", ["BAC"], ""),
+    ("Google cloud outage hits major customers", "Operational", "neg", ["GOOGL"], ""),
+    ("Walkout at Amazon warehouses during peak season", "Operational", "neg", ["AMZN"], ""),
+    ("Boeing grounded fleet cleared to fly again after fix", "Operational", "pos", ["BA"], ""),
+    # ---- Other / traps
+    ("Just baked an apple pie with my grandmother, best afternoon", "Other", "neu", [], "ambiguous-entity"),
+    ("Meta-analysis shows coffee drinkers live longer", "Other", "neu", [], "ambiguous-entity"),
+    ("Grabbed a coke and watched the game", "Other", "neu", [], "ambiguous-entity"),
+    ("Fifteen years after Lehman, analysts debate lessons from the 2008 crisis", "Other", "neu", ["SECTOR:Banks"], "retrospective"),
+    ("Apple CEO Tim Cook attends charity event", "Other", "neu", ["AAPL"], ""),
+    ("Microsoft names new head of marketing", "Other", "neu", ["MSFT"], ""),
+    ("Nvidia to present at industry conference next week", "Other", "neu", ["NVDA"], ""),
+    ("Walmart opens new store in Texas", "Other", "neu", ["WMT"], ""),
+    ("Tesla holds annual shareholder meeting", "Other", "neu", ["TSLA"], ""),
+    ("Stocks mixed in quiet trading ahead of holiday", "Other", "neu", [], ""),
+    ("Analysts debate whether value stocks will outperform", "Other", "neu", [], ""),
+    ("Boeing employees volunteer at local food bank", "Other", "neu", ["BA"], ""),
+    ("The weather was great for the marathon today", "Other", "neu", [], ""),
+    ("Coca-Cola sponsors youth football tournament", "Other", "neu", ["KO"], ""),
+    ("Amazon founder speaks at space conference", "Other", "neu", ["AMZN"], ""),
+    ("rumor: another big bank is about to fail tomorrow, trust me", "Other", "neg", ["SECTOR:Banks"], "rumor"),
+    ("Johnson & Johnson publishes annual sustainability report", "Other", "neu", ["JNJ"], ""),
+    ("Exxon Mobil to webcast investor day", "Other", "neu", ["XOM"], ""),
+]
+
+
+def main() -> None:
+    out = ROOT / "data" / "gold" / "headlines_gold_v0.jsonl"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with open(out, "w", encoding="utf-8") as fh:
+        for i, (text, ev, pol, tick, hard) in enumerate(G):
+            fh.write(json.dumps({"id": f"g{i:03d}", "text": text, "event": ev, "polarity": pol, "tickers": tick, "hard": hard,
+                                 "provenance": "authored-fictional"}) + "\n")
+    from collections import Counter
+
+    print(f"wrote {out} ({len(G)} items)", dict(Counter(e for _, e, *_ in G)))
+
+
+if __name__ == "__main__":
+    main()

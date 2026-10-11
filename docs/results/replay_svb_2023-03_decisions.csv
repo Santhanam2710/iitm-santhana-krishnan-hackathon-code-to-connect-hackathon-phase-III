@@ -1,0 +1,47 @@
+state,reason,sources,label,impact,signal_id,ts,ticker,effective_impact
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-a'],Credit Event,8,sig_01M4NEYK1CKFM4ZWYA6DB3NQP8,2023-03-08T21:15:00.000Z,SIVB,
+triggered,2 independent source(s),"['replay:wire-a', 'replay:wire-b']",Credit Event,9,sig_01M4NEYK1D6VPF4VKSXVN8PJ7M,2023-03-08T21:40:00.000Z,SIVB,9.25
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-a'],Credit Event,8,sig_01M4NEYK1DYTFE493BCGPGGMZ4,2023-03-08T23:05:00.000Z,SIVB,
+monitored,impact 6 is not above 7,[],Credit Event,6,sig_01M4NEYK1DP16H8JCYH2V1Y7C6,2023-03-09T00:30:00.000Z,SIVB,
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-c'],Credit Event,8,sig_01M4NEYK1EJSBQ5P01SME1GSHZ,2023-03-09T13:10:00.000Z,SIVB,
+triggered,single source with impact 9,['replay:wire-a'],Credit Event,9,sig_01M4NEYK1EMNMC4WJ9YSPXQVP6,2023-03-09T14:45:00.000Z,SIVB,9.0
+cooldown,Credit Event stress already run at 2023-03-09T14:45:00.000Z with effective impact 9,['replay:social'],Credit Event,9,sig_01M4NEYK1E3CGBKY8BMNXWY2QN,2023-03-09T15:20:00.000Z,SIVB,9.0
+monitored,event confidence 0.48 below 0.6,['replay:wire-b'],Credit Event,8,sig_01M4NEYK1ERB0D2XV24YM4JA90,2023-03-09T16:05:00.000Z,SIVB,
+monitored,Other is not a stress class,[],Other,3,sig_01M4NEYK1FKNS8RRBYNH531JW7,2023-03-09T17:30:00.000Z,JPM,
+monitored,Other is not a stress class,[],Other,3,sig_01M4NEYK1FN2B66T4HB38KFXPR,2023-03-09T17:30:00.000Z,BAC,
+monitored,impact 6 is not above 7,[],Credit Event,6,sig_01M4NEYK1F1YTETWQNPTBHRGBT,2023-03-09T19:50:00.000Z,SIVB,
+monitored,impact 7 is not above 7,[],Credit Event,7,sig_01M4NEYK1FH3JEC0TC17PSCZYZ,2023-03-09T21:30:00.000Z,SIVB,
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-b'],Credit Event,8,sig_01M4NEYK1F4DSW8MNRMG36XT4W,2023-03-10T12:40:00.000Z,SIVB,
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-c'],Credit Event,8,sig_01M4NEYK1GJS930PVMB8DX0QES,2023-03-10T13:15:00.000Z,SIVB,
+monitored,retrospective article,[],Credit Event,4,sig_01M4NEYK1GATEH5KSPFFDFG9QC,2023-03-10T16:20:00.000Z,SIVB,
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-b'],Credit Event,8,sig_01M4NEYK1GRVCN6DG1WTGN4CTV,2023-03-10T16:35:00.000Z,SIVB,
+monitored,Other is not a stress class,[],Other,3,sig_01M4NEYK1GBT57ZQ9KJJY4BWQM,2023-03-10T17:10:00.000Z,SIVB,
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-c'],Credit Event,8,sig_01M4NEYK1H6XN4H9AWAEG0VT6V,2023-03-10T19:00:00.000Z,FRC,
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-c'],Credit Event,8,sig_01M4NEYK1HC8BJ8FBAEN5F0JXD,2023-03-10T19:00:00.000Z,WAL,
+monitored,event confidence 0.48 below 0.6,['replay:wire-a'],Credit Event,8,sig_01M4NEYK1HG8T0XDQEQ9GCF06J,2023-03-12T22:20:00.000Z,SBNY,
+monitored,impact 7 is not above 7,[],Macroeconomic,7,sig_01M4NEYK1JMNW44F6KAEB14CS5,2023-03-12T22:30:00.000Z,SIVB,
+monitored,impact 7 is not above 7,[],Macroeconomic,7,sig_01M4NEYK1J17P8FG7ATE3YVNSH,2023-03-12T22:30:00.000Z,SBNY,
+monitored,event confidence 0.50 below 0.6,['replay:wire-c'],Macroeconomic,8,sig_01M4NEYK1JHF38J4YKWSRH2X3Y,2023-03-12T23:00:00.000Z,MARKET,
+monitored,event confidence 0.50 below 0.6,['replay:wire-c'],Macroeconomic,8,sig_01M4NEYK1JS0NT4ZJNCQCXFE3X,2023-03-12T23:00:00.000Z,SECTOR:Banks,
+monitored,Other is not a stress class,[],Other,3,sig_01M4NEYK1J3VWKCZXX8KFSF9FT,2023-03-13T13:45:00.000Z,FRC,
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-b'],Macroeconomic,8,sig_01M4NEYK1JVZA2K7787FT0Q92R,2023-03-13T14:30:00.000Z,MARKET,
+triggered,single source with impact 9,['replay:wire-c'],Credit Event,9,sig_01M4NEYK1KVC4Q71WA8K0D58B8,2023-03-13T15:10:00.000Z,SIVB,9.0
+monitored,Other is not a stress class,[],Other,3,sig_01M4NEYK1KH7SQ22T0WA9X8GF5,2023-03-13T16:00:00.000Z,FRC,
+monitored,Other is not a stress class,[],Other,3,sig_01M4NEYK1KRSY58GGSBVN0JKS9,2023-03-13T18:20:00.000Z,JPM,
+monitored,Other is not a stress class,[],Other,3,sig_01M4NEYK1KHXJV132FVKFYM274,2023-03-13T18:20:00.000Z,BAC,
+triggered,single source with impact 9,['replay:wire-b'],Macroeconomic,9,sig_01M4NEYK1MNTKYATMA0JMPFAHP,2023-03-14T12:30:00.000Z,MARKET,9.0
+cooldown,Macroeconomic stress already run at 2023-03-14T12:30:00.000Z with effective impact 9,['replay:wire-b'],Macroeconomic,9,sig_01M4NEYK1MEEWJWNE97HRX6QVC,2023-03-14T12:30:00.000Z,SECTOR:Banks,9.0
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-c'],Credit Event,8,sig_01M4NEYK1MRDF08AF14FBXFH8V,2023-03-14T14:40:00.000Z,SECTOR:Banks,
+monitored,Other is not a stress class,[],Other,3,sig_01M4NEYK1MCGENM9DCJYKSK0YX,2023-03-15T09:30:00.000Z,CS,
+monitored,event confidence 0.48 below 0.6,['replay:wire-b'],Credit Event,9,sig_01M4NEYK1M4HPYPGHCP5XT0E7R,2023-03-15T10:15:00.000Z,CS,
+monitored,impact 6 is not above 7,[],Credit Event,6,sig_01M4NEYK1M5C5RK8YBSTQJN61N,2023-03-15T11:00:00.000Z,CS,
+monitored,impact 7 is not above 7,[],Credit Event,7,sig_01M4NEYK1N277HKNZ11C6JFEAD,2023-03-15T21:40:00.000Z,CS,
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-a'],Macroeconomic,8,sig_01M4NEYK1NYK395XNKKSE6FVQY,2023-03-16T13:15:00.000Z,MARKET,
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-a'],Macroeconomic,8,sig_01M4NEYK1NKT4N91V6V8J3SW78,2023-03-16T13:15:00.000Z,SECTOR:Banks,
+monitored,Other is not a stress class,[],Other,3,sig_01M4NEYK1NV6J9STHTPE74MA2S,2023-03-16T20:30:00.000Z,JPM,
+monitored,Other is not a stress class,[],Other,3,sig_01M4NEYK1NPHGYJFM3HVZ7T0CQ,2023-03-16T20:30:00.000Z,BAC,
+monitored,Other is not a stress class,[],Other,3,sig_01M4NEYK1N6DN1GNWQY38D30H3,2023-03-16T20:30:00.000Z,FRC,
+triggered,single source with impact 9,['replay:filing'],Credit Event,9,sig_01M4NEYK1PKC23V369M1R37BH8,2023-03-17T12:30:00.000Z,SIVB,9.0
+held,1 source(s); needs 2 within 30 min or impact >= 9,['replay:wire-c'],Credit Event,8,sig_01M4NEYK1PXPYCZT1YKZPJCFRS,2023-03-17T15:00:00.000Z,FRC,
+monitored,event confidence 0.43 below 0.6,['replay:wire-a'],Credit Event,8,sig_01M4NEYK1P8HXHNSQ5FAM6MBHV,2023-03-19T19:30:00.000Z,UBS,
+monitored,event confidence 0.43 below 0.6,['replay:wire-a'],Credit Event,8,sig_01M4NEYK1PD83TY50Q7415HNBC,2023-03-19T19:30:00.000Z,CS,

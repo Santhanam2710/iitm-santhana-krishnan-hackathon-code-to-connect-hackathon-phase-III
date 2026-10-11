@@ -1,0 +1,41 @@
+# TRIDENT universe: 15 index members (Module A) + a credit watchlist (signals only).
+# cap_weight: relative mock market-cap weight used for the benchmark (normalized at load).
+# vol: annualized volatility prior, replaced by EWMA vol from prices when available.
+# ambiguous: alias is a common English word; requires financial context to resolve.
+index:
+  - {ticker: AAPL,  name: "Apple Inc.",          sector: Technology,   cap_weight: 12.0, vol: 0.28, aliases: ["Apple", "iPhone", "Tim Cook", "Apple Inc"], ambiguous: ["Apple"]}
+  - {ticker: MSFT,  name: "Microsoft",           sector: Technology,   cap_weight: 12.0, vol: 0.26, aliases: ["Microsoft", "Azure", "Satya Nadella"]}
+  - {ticker: NVDA,  name: "NVIDIA",              sector: Technology,   cap_weight: 13.0, vol: 0.52, aliases: ["Nvidia", "NVIDIA", "Jensen Huang", "Blackwell"]}
+  - {ticker: AMZN,  name: "Amazon",              sector: Consumer,     cap_weight: 8.0,  vol: 0.33, aliases: ["Amazon", "AWS", "Andy Jassy"]}
+  - {ticker: GOOGL, name: "Alphabet",            sector: Communication, cap_weight: 8.0, vol: 0.30, aliases: ["Alphabet", "Google", "YouTube", "Sundar Pichai"]}
+  - {ticker: META,  name: "Meta Platforms",      sector: Communication, cap_weight: 6.0, vol: 0.38, aliases: ["Meta", "Facebook", "Instagram", "WhatsApp", "Mark Zuckerberg", "Meta Platforms"], ambiguous: ["Meta"]}
+  - {ticker: JPM,   name: "JPMorgan Chase",      sector: Banks,        cap_weight: 5.0,  vol: 0.24, aliases: ["JPMorgan", "JP Morgan", "J.P. Morgan", "JPMorgan Chase", "Jamie Dimon"]}
+  - {ticker: BAC,   name: "Bank of America",     sector: Banks,        cap_weight: 3.0,  vol: 0.29, aliases: ["Bank of America", "BofA", "Brian Moynihan"]}
+  - {ticker: XOM,   name: "Exxon Mobil",         sector: Energy,       cap_weight: 4.0,  vol: 0.27, aliases: ["Exxon", "ExxonMobil", "Exxon Mobil"]}
+  - {ticker: JNJ,   name: "Johnson & Johnson",   sector: Healthcare,   cap_weight: 3.5,  vol: 0.17, aliases: ["Johnson & Johnson", "J&J"]}
+  - {ticker: PFE,   name: "Pfizer",              sector: Healthcare,   cap_weight: 1.5,  vol: 0.25, aliases: ["Pfizer"]}
+  - {ticker: TSLA,  name: "Tesla",               sector: Consumer,     cap_weight: 5.0,  vol: 0.60, aliases: ["Tesla", "Elon Musk"]}
+  - {ticker: BA,    name: "Boeing",              sector: Industrials,  cap_weight: 1.5,  vol: 0.40, aliases: ["Boeing", "737 MAX"]}
+  - {ticker: WMT,   name: "Walmart",             sector: Consumer,     cap_weight: 5.0,  vol: 0.19, aliases: ["Walmart"]}
+  - {ticker: KO,    name: "Coca-Cola",           sector: Consumer,     cap_weight: 2.5,  vol: 0.16, aliases: ["Coca-Cola", "Coca Cola", "Coke"], ambiguous: ["Coke"]}
+
+# Watchlist names produce signals and feed sector contagion, but carry no index weight.
+watchlist:
+  - {ticker: SIVB, name: "SVB Financial Group",  sector: Banks, aliases: ["SVB", "Silicon Valley Bank", "SVB Financial"]}
+  - {ticker: SBNY, name: "Signature Bank",       sector: Banks, aliases: ["Signature Bank"]}
+  - {ticker: FRC,  name: "First Republic Bank",  sector: Banks, aliases: ["First Republic", "First Republic Bank"]}
+  - {ticker: SCHW, name: "Charles Schwab",       sector: Banks, aliases: ["Charles Schwab", "Schwab"]}
+  - {ticker: WAL,  name: "Western Alliance",     sector: Banks, aliases: ["Western Alliance"]}
+  - {ticker: PACW, name: "PacWest Bancorp",      sector: Banks, aliases: ["PacWest"]}
+  - {ticker: CS,   name: "Credit Suisse",        sector: Banks, aliases: ["Credit Suisse"]}
+  - {ticker: UBS,  name: "UBS Group",            sector: Banks, aliases: ["UBS"]}
+
+# Sector correlation used for contagion (Module A spillover, Module B second-order PD shocks).
+sector_links:
+  Banks:        {Banks: 1.0, Industrials: 0.35, Consumer: 0.25, Technology: 0.2, Energy: 0.2, Healthcare: 0.1, Communication: 0.15}
+  Technology:   {Technology: 1.0, Communication: 0.6, Consumer: 0.4}
+  Energy:       {Energy: 1.0, Industrials: 0.4}
+  Industrials:  {Industrials: 1.0, Energy: 0.3, Consumer: 0.3}
+  Consumer:     {Consumer: 1.0, Technology: 0.3}
+  Healthcare:   {Healthcare: 1.0}
+  Communication: {Communication: 1.0, Technology: 0.6}
